@@ -64,6 +64,9 @@ for (const ui of ['ru', 'de', 'en'] as const) for (const theme of ['light', 'dar
     await expect(page.locator('h1')).toHaveText(`${t.levelsSetupLead} ${t.levelsSetupAccent}`);
     await page.getByRole('button', { name: t.levelsContinue, exact: true }).click();
     // A saved level resumes directly; changing it remains an explicit action.
+    // count() is immediate: wait for the destination before inspecting which
+    // of the two valid paths Continue selected from the saved course state.
+    await expect(page.locator('.level-modules-hero').or(page.getByRole('link', { name: t.levelsChoose, exact: true }))).toBeVisible();
     if (await page.locator('.level-modules-hero').count()) await page.goto(root + '/placement');
     await expect(page.locator('.level-audio-check')).toHaveCount(0);
     await page.getByRole('link', { name: t.levelsChoose, exact: true }).click();

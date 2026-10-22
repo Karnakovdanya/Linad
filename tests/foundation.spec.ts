@@ -54,12 +54,14 @@ for (const width of widths) {
           await expect(page.locator('.language-select select').locator('option')).toHaveText(['RU', 'DE', 'EN']);
           for (const lazyImage of await page.locator('img[loading="lazy"]').all()) {
             await lazyImage.scrollIntoViewIfNeeded();
-            await lazyImage.evaluate(node => (node as HTMLImageElement).decode());
+            await expect.poll(() => lazyImage.evaluate(node => node instanceof HTMLImageElement && node.complete && node.naturalWidth > 0 && node.naturalHeight > 0)).toBe(true);
           }
           await page.evaluate(() => scrollTo(0, 0));
-          await page.locator('img').evaluateAll(async (images) => {
-            await Promise.all(images.map((img) => img instanceof HTMLImageElement ? img.decode() : Promise.resolve()));
-          });
+          // Re-read the live images until loading finishes; a missing/corrupt
+          // asset fails with its URL instead of an opaque decode() exception.
+          await expect.poll(() => page.locator('img').evaluateAll(images => images
+            .filter(img => !img.complete || img.naturalWidth === 0 || img.naturalHeight === 0)
+            .map(img => img.currentSrc || img.src)), { timeout: 15_000 }).toEqual([]);
           await assertNoOverflow(page);
           const containers = await page.locator('.container').evaluateAll((nodes) => nodes.map((node) => {
             const box = node.getBoundingClientRect();

@@ -36,6 +36,18 @@ jobs:
       - run: npm run build
       - name: Install test browser
         run: npx playwright install chrome
+      - name: Provision sockets for the complete browser suite
+        shell: pwsh
+        run: |
+          # Hundreds of isolated contexts create many localhost connections.
+          # Hosted Windows otherwise can return net::ERR_NO_BUFFER_SPACE.
+          # This changes only the disposable CI VM, never a developer machine.
+          netsh int ipv4 set dynamicport tcp start=1025 num=64511
+          if ($LASTEXITCODE -ne 0) { throw 'Could not provision IPv4 client ports' }
+          netsh int ipv6 set dynamicport tcp start=1025 num=64511
+          if ($LASTEXITCODE -ne 0) { throw 'Could not provision IPv6 client ports' }
+          netsh int ipv4 show dynamicport tcp
+          netsh int ipv6 show dynamicport tcp
       - name: Run the complete test suite
         run: npm test
       - name: Retain test report
