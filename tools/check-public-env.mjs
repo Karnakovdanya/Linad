@@ -9,7 +9,8 @@ if (!address) issues.push('VITE_SUPABASE_URL is required.');
 else {
   try {
     const url = new URL(address);
-    if (url.protocol !== 'https:' || url.username || url.password || url.search || url.hash || url.pathname !== '/') throw new Error();
+    if (url.protocol !== 'https:' || url.username || url.password || url.search || url.hash) throw new Error();
+    if (url.pathname !== '/') issues.push('VITE_SUPABASE_URL must be the project origin. Remove API paths such as /rest/v1/ or /auth/v1/ from the GitHub Actions repository variable.');
   } catch { issues.push('VITE_SUPABASE_URL must be an HTTPS project origin without credentials or query parameters.'); }
 }
 if (!key) issues.push('VITE_SUPABASE_PUBLISHABLE_KEY is required.');

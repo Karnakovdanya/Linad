@@ -41,6 +41,13 @@ test('build preflight accepts only public configuration and never logs rejected 
     expect(result.stderr + result.stdout).not.toContain(publicKey);
     expect(result.stderr + result.stdout).not.toContain('user:password');
   }
+  for (const apiPath of ['/rest/v1/', '/auth/v1/']) {
+    const result = run({ VITE_SUPABASE_URL: `https://project.supabase.co${apiPath}` });
+    expect(result.status).toBe(1);
+    expect(result.stderr).toContain('Remove API paths');
+    expect(result.stderr).toContain('GitHub Actions repository variable');
+    expect(result.stderr + result.stdout).not.toContain(publicKey);
+  }
 });
 
 test('production artifacts contain every public resource and no environment files or private keys', () => {
