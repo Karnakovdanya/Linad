@@ -60,6 +60,7 @@ for (const width of widths) {
           // Re-read the live images until loading finishes; a missing/corrupt
           // asset fails with its URL instead of an opaque decode() exception.
           await expect.poll(() => page.locator('img').evaluateAll(images => images
+            .filter((img): img is HTMLImageElement => img instanceof HTMLImageElement)
             .filter(img => !img.complete || img.naturalWidth === 0 || img.naturalHeight === 0)
             .map(img => img.currentSrc || img.src)), { timeout: 15_000 }).toEqual([]);
           await assertNoOverflow(page);
