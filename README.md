@@ -1,138 +1,368 @@
-# LINAD
+# LINAD — Language Learning & Tutoring
 
-Актуальная инструкция публикации: [PUBLISH_GITHUB_PAGES.md](PUBLISH_GITHUB_PAGES.md). Подготовлены GitHub Actions, безопасная передача публичных переменных Supabase и проверки production-сборки. Deploy выключен до отдельного решения владельца (`PAGES_PUBLISH_ENABLED=true`). Репозиторий и сайт автоматически не создавались.
+### An Educational Web Platform for Learning German and English
 
-Подключены Supabase Auth, личный кабинет, обучение, помощник и административная панель. Перед публичным использованием проверьте Email Auth/Redirect URLs, SMTP, RLS и роль владельца по инструкции публикации и [TRIAL_ADMIN_SETUP.md](TRIAL_ADMIN_SETUP.md). Настройки рабочей базы в рамках подготовки публикации не менялись. Более раннее описание фаз ниже сохранено как история проекта и не является актуальным перечнем готовых функций.
+**LINAD is my personal IT project, which I developed from the initial idea into a functional web application using modern technologies and artificial intelligence.**
 
-Локальный frontend для изучения немецкого и английского. Интерфейс: русский, немецкий и английский (RU/DE/EN). **Главная реализована по утверждённому макету, фаза B**. Остальные страницы пока являются каркасом, с рабочими настройками и контактами.
+The project combines independent language learning, practical real-life situations, interactive exercises, progress tracking, and the possibility of connecting with tutors.
 
-Исходные утверждённые документы и изображения находятся в `LINAD/` и не изменялись. Актуальное дополнение пользователя RU/DE/EN и контакты зафиксировано в [CURRENT_REQUIREMENTS.md](CURRENT_REQUIREMENTS.md) и перекрывает прежнее ограничение RU/DE. Остальные решения — `LATEST_DECISIONS.md` и последнее обновление `CODEX_START_HERE.md`. План следующих этапов: [IMPLEMENTATION_PLAN.md](IMPLEMENTATION_PLAN.md).
+**Project creator, concept and design planning, development coordination:** Danil Karnakov
 
-Последняя доработка: типографика единого Footer — desktop-ссылки 20 px / 500, Daniil 18 px / 600, подпись и copyright 16 px / 400, адаптивные размеры на мобильных экранах. Hover, фотография, структура и Header сохранены. Подробности — [FOOTER_TYPOGRAPHY_UPDATE.md](FOOTER_TYPOGRAPHY_UPDATE.md). История градиента карточек 70% и Footer — [FOOTER_CARDS_UPDATE.md](FOOTER_CARDS_UPDATE.md); общей типографики — [TYPOGRAPHY_MENU_UPDATE.md](TYPOGRAPHY_MENU_UPDATE.md); мобильной доработки — [HOME_RESPONSIVE_FIXES.md](HOME_RESPONSIVE_FIXES.md); контейнеров 90vw — [LAYOUT_UPDATE.md](LAYOUT_UPDATE.md).
+**Development:** October 2026  
+**Status:** Live web application — educational content is still under development.
 
-## Запуск на Windows PowerShell
+🌐 **[Explore LINAD — Live Website](https://karnakovdanya.github.io/Linad/#/)**
 
-Установите Node.js 24 LTS или новее. Откройте PowerShell в корне проекта — там, где этот README и package.json:
+---
 
-```powershell
-cd "C:\Users\danil\Desktop\LINAD_CODEX_FINAL_RU_DE_RESPONSIVE"
-npm.cmd ci
-npm.cmd run dev
-```
+## 1. How the Idea for LINAD Started
 
-Откройте `http://127.0.0.1:5173/`. Для остановки сервера — Ctrl+C. `npm.cmd` позволяет запускать команды без изменения PowerShell ExecutionPolicy. Если 5173 занят, остановите предыдущий сервер или явно выберите другой порт:
+The idea for LINAD came from my personal experience of learning foreign languages and adapting to life in Switzerland.
 
-```powershell
-npm.cmd run dev -- --port 5174
-```
+While learning German, I encountered a challenge familiar to many people living abroad: even when you understand grammar and know individual words, using the language confidently in real-life situations can still be difficult.
 
-При намеренном обновлении зависимостей используйте `npm.cmd install`, затем сохраните package-lock.json. Для воспроизводимого запуска существующей версии используйте `npm.cmd ci`.
+Speaking with a doctor, attending a job interview, handling official documents, communicating at work, or understanding local dialects requires more than theoretical knowledge. It requires practical preparation.
 
-## Команды проверки и сборки
+Language barriers are also often connected to the fear of making mistakes, a lack of confidence, and limited opportunities for meaningful practice.
 
-```powershell
-npm.cmd run typecheck
-npm.cmd run lint
-npm.cmd run build
-npm.cmd run preview
-```
+This inspired me to create a platform that combines structured language learning with preparation for everyday situations.
 
-Сборка создаёт `dist/`, preview открывается по `http://127.0.0.1:4173/`. Не открывайте `dist/index.html` двойным щелчком через file:// — нужен HTTP-сервер.
+That is how the concept of **LINAD — Language Learning & Tutoring** was born.
 
-Браузерные проверки запускаются после сборки:
+## 2. What Problem Does LINAD Solve?
 
-```powershell
-npm.cmd test
-```
+Traditional approaches to independent language learning do not always make it easy to combine theory, practical exercises, and progress tracking.
 
-На Windows тесты используют установленный Google Chrome. При его отсутствии установите браузер Playwright и выберите Chromium:
+Learners often need to switch between different applications, dictionaries, textbooks, and websites.
 
-```powershell
-npx.cmd playwright install chromium
-$env:PLAYWRIGHT_CHANNEL = "chromium"
-npm.cmd test
-Remove-Item Env:\PLAYWRIGHT_CHANNEL
-```
+LINAD is being developed as a unified learning environment where users can:
 
-На Linux тесты по умолчанию используют установленный через Playwright Chromium. Тесты сами поднимают preview на 4173 и останавливают свой сервер. Не запускайте их против устаревшего вручную открытого preview: при изменении исходников сначала пересоберите `dist/`.
+- Learn German and English.
+- Choose between structured learning levels and practical real-life topics.
+- Practice vocabulary, useful phrases, and dialogues.
+- Test their knowledge through interactive exercises.
+- Track their individual learning progress.
+- Explore information about language tutors.
+- Access the platform from a computer or smartphone.
 
-HTML-отчёт последнего прогона — `playwright-report/index.html`; трассы ошибок — `test-results/`. Они не включаются в Git. Актуальное исправление общего футера и мобильного первого экрана — [FOOTER_MOBILE_FIX.md](FOOTER_MOBILE_FIX.md), реальные снимки — `qa/footer-mobile/`. Предыдущая доработка по эталону — [HOME_REFINEMENT.md](HOME_REFINEMENT.md), источники — [HOME_IMPLEMENTATION.md](HOME_IMPLEMENTATION.md), общие проверки — [RESPONSIVE_QA.md](RESPONSIVE_QA.md).
+**The main goal of LINAD is not simply to help people memorize foreign words, but to help them use languages confidently in everyday life.**
 
-## Что работает
+## 3. Learning Concept
 
-- Vite + React + TypeScript; установленный и зафиксированный lockfile; команды dev/build/preview/lint/typecheck/test.
-- Общие шапка и футер, навигация и активная страница, мобильное раскрывающееся меню, клавиатура/Escape/skip-link, перевод фокуса после переходов, страница 404.
-- RU/DE/EN для всего UI текущего каркаса, включая названия вкладок, пояснения, альтернативный текст, настройки и ошибки. Выбор языка не меняет языки обучения: немецкий и английский. Три полных перевода обязательны и для всех последующих фаз, включая формы и регистрацию.
-- Две точные утверждённые темы. Общая геометрия сохраняется; выбор темы и языка переживает перезагрузку. Обрабатываются недоступное и повреждённое localStorage; изменения синхронизируются между вкладками одного браузера.
-- Утверждённые варианты логотипа для двух тем и портрет; аватар общего футера на всех страницах ведёт на автора. Логотип автоматически меняется с темой: прозрачные SVG без runtime-фильтров. Подготовлены и PNG 3860×1092. Исходники и подготовка — `design/brand/README.md`.
-- Главная: исходное фото hero, две CTA, три отдельных фото карточек, шесть шагов обучения, два Telegram-блока и компактный футер. Все переходы и внешние контакты работают; фото скопированы без регенерации/ретуши.
-- Единая интерактивность: синие CTA #365FAD/#5680D2/#294B8B в обеих темах, аккуратные контурные кнопки, действия 1.025×/0.98× с 220 ms ease-out. Header: прозрачная панель, меню 600/20–26 px, hover текста 1.05× с 280 ms cubic-bezier(0.22, 1, 0.36, 1), единый активный индикатор 3 px. Нет подчёркивания на кнопках; сохранены обычные ссылки, keyboard focus, touch и reduced motion. Отчёты — [INTERACTIONS.md](INTERACTIONS.md), [HEADER_REFINEMENT.md](HEADER_REFINEMENT.md).
-- Заготовки обучения, репетиторов, локального профиля и автора. Telegram и контактные области уже функциональны. Функции будущих этапов явно обозначены как ещё недоступные.
+During the planning stage, I designed two separate learning paths.
 
-## Что ещё не реализовано
+### Learning for Real Life
 
-Фаза C: полная страница автора и точный текст истории. Фазы D–F: уроки, TTS, тесты, словарь, прогресс, каталог/подбор/анкета преподавателя, полный локальный кабинет. Фаза G: сценарный помощник с пятью утверждёнными пунктами, без AI/API. Эти функции не заменены фиктивными результатами или демо-счётчиками. Шесть шагов главной описывают согласованный учебный процесс и не являются заявлением о готовности движка уроков.
+This section is designed for people who need language skills for specific everyday situations, regardless of their current proficiency level.
 
-В фазе A нет demo-уроков или demo-преподавателей. В следующих фазах небольшое учебное demo-наполнение и демонстрационные анкеты будут явно помечены. Нет регистрации, серверных заявок, облачного аккаунта, платежей и межустройственной синхронизации. Не вводите реальные учётные данные: формы авторизации отсутствуют.
+I defined eight main learning categories:
 
-## Материалы и контакты
+1. Work and Job Interviews.
+2. Doctors and Healthcare.
+3. Travel.
+4. Documents and Administration.
+5. Everyday Communication.
+6. Shopping.
+7. Housing.
+8. Banking and Finance.
 
-[ASSET_REGISTER.md](ASSET_REGISTER.md) перечисляет материалы, [OPEN_QUESTIONS.md](OPEN_QUESTIONS.md) — вопросы для следующих фаз. Чистый hero и три фото карточек найдены в `LINAD_CODEX_ASSETS_UPDATE/assets/home/` и подключены. Заглушек фотографий на главной нет. Скриншоты макетов не загружаются как фон; отклонённые изображения не используются.
+For these categories, I also worked on the visual direction, thematic images, and organization of learning materials.
 
-Подтверждённые ссылки задаются **только в `src/config/contacts.ts`**:
+### Learning by Level — A1 to C1
 
-| Ключ | Назначение | Формат |
-| --- | --- | --- |
-| `projectTelegram` | Telegram-канал LINAD | подтверждённая HTTPS-ссылка или `null` |
-| `authorTelegram` | личный Telegram автора | подтверждённая HTTPS-ссылка или `null` |
-| `instagram` | Instagram | подтверждённая HTTPS-ссылка или `null` |
-| `github` | GitHub | подтверждённая HTTPS-ссылка или `null` |
-| `behance` | Behance | подтверждённая HTTPS-ссылка или `null` |
-| `email` | обратная связь | адрес email без `mailto:` или `null` |
-| `linkedin` | LinkedIn | подтверждённая HTTPS-ссылка или `null` |
+The second learning path focuses on structured language learning according to the Common European Framework of Reference for Languages (CEFR):
 
-Telegram проекта/автора, GitHub, Behance, LinkedIn и email подключены по адресам, предоставленным пользователем. Только Instagram остаётся `null` и скрыт. Для будущей активации достаточно заменить его `null` подтверждённым адресом в кавычках. Неверные/пустые значения остаются неактивными. Компонент `ContactLink` читает адреса из этого файла, добавляет `mailto:` для email и `target="_blank" rel="noopener noreferrer"` для внешних web-ссылок. Его нужно использовать для контактов во всех последующих разделах. Внутренний пункт меню Telegram ведёт на страницу Telegram LINAD; её кнопка «Перейти в Telegram» открывает подтверждённый канал.
+**A1 → A2 → B1 → B2 → C1**
 
-На всех страницах один Footer: круглый портрет/Daniil, три текстовые ссылки «Об авторе», Telegram-канал, «Профиль» и копирайт. Социальных иконок в футере нет. Страница автора содержит отдельный блок Telegram/GitHub/Behance/LinkedIn/email с прежними иконками. В разделе репетиторов доступны Telegram автора и email с заготовкой письма на RU/DE/EN. Прямой email использует `mailto:karnakovdaniel@gmail.com`. Он открывает почтовый клиент; отправку пользователь выполняет самостоятельно.
+I planned a learning structure specifically for LINAD rather than simply copying existing Goethe or telc courses.
 
-Для будущей формы компонент принимает `emailDraft={{ subject, body }}`. Передавайте туда строку с реально заполненными полями формы; `getContactHref` кодирует тему/тело и переносы строк. В текущем каркасе формы ещё нет: заготовка содержит подписи полей для заполнения в почтовом приложении. Серверной отправки, автоматического сохранения заявок и сообщения о состоявшейся отправке нет.
+The core lesson concept follows this structure:
 
-SVG-иконки Telegram/GitHub/Behance/LinkedIn/email/Instagram включены локально из Bootstrap Icons 1.13.1. Лицензия MIT сохранена в `public/assets/contact-icons/LICENSE.txt`; CDN для них не нужен.
+**Useful Phrases → Dialogue → Flashcards → Practical Exercises → Test → Results**
 
-## Структура
+The planned learning system includes:
 
-```text
-LINAD/                 исходная документация, макеты и материалы
-src/app/               оболочка, маршруты, контекст настроек
-src/components/        общие компоненты
-src/pages/             честные заготовки разделов фазы A
-src/styles/            утверждённые токены и адаптивная вёрстка
-src/i18n/              типизированные RU/DE/EN-строки
-src/domain/            отдельные типы UI-языка, учебного языка и хранения
-src/storage/           версионированный адаптер локальных настроек
-src/config/            пути assets и конфигурация контактов
-public/assets/         фотографии, портрет, brand/ с двумя вариантами логотипа
-tests/                 браузерная матрица и проверки поведения
-qa/phase-a/            контрольные скриншоты
-```
+- Thematic learning modules.
+- Interactive exercises.
+- Feedback on correct and incorrect answers.
+- Opportunities to repeat exercises.
+- Progress and result tracking.
+- Flexible navigation between learning materials.
 
-Настройки хранятся в `linad.preferences.v1`: `{version: 1, uiLanguage: 'ru' | 'de' | 'en', theme: 'light' | 'dark'}`. Ранее выбранные RU/DE и тема сохраняются: версия схемы и ключ не изменены. Секреты, пароли, email пользователя и учебный прогресс в фазе A не записываются. Ручная очистка данных сайта браузера сбрасывает настройки. Это локальное хранение, не резервная копия и не аккаунт. Разные порты dev/preview являются разными origin и имеют отдельное localStorage.
+An 80% passing threshold is planned for the final assessment of each module.
 
-## Подготовка к GitHub
+### Current Development Status
 
-Репозиторий и публикация пока не создавались. В корне есть .gitignore; node_modules, dist, .env, временные файлы и отчёты исключены. package-lock.json и исходные материалы нужно хранить в репозитории. Перед публичным размещением подтвердите права на изображения и замените отсутствующие материалы/контакты.
+**The A1–C1 learning materials are still actively being developed and improved.**
 
-После создания пользователем нужного пустого репозитория можно выполнить в этой папке, подставив его настоящий адрес:
+The overall educational architecture has been planned around 80 modules and 400 learning topics. As part of the initial implementation, the first German A1 module was developed in greater detail, including five lessons and a final assessment.
 
-```powershell
-git init
-git add .
-git commit -m "Initialize LINAD phase A"
-git branch -M main
-git remote add origin <подтверждённый-URL-репозитория>
-git push -u origin main
-```
+The remaining lessons, exercises, and educational materials are being developed, reviewed, and expanded progressively.
 
-Это инструкция на будущее, команды Git не выполнялись автоматически. Не добавляйте ключи и пароли в исходники или .env, попадающий в Git.
+LINAD is therefore already accessible as a web application, but its complete educational program is not yet finished.
 
-Для GitHub Pages уже предусмотрены `base: './'` и HashRouter. Будущие ссылки будут вида `/имя-репозитория/#/learn`; обновление страницы не требует серверного SPA-fallback. Публикуется содержимое `dist/`, не весь каталог с исходниками. Workflow публикации и адрес репозитория будут оформлены на финальном этапе. GitHub Pages не обеспечивает серверную регистрацию, хранение заявок и синхронизацию.
+---
+
+## 4. Design and User Experience
+
+One of my main goals was to create a platform that is not only functional but also visually appealing, intuitive, and accessible.
+
+I personally defined the interface concept and made decisions about the design throughout the development process.
+
+### What I Planned
+
+- Overall website structure and page organization.
+- Navigation and user flows.
+- Homepage layout and composition.
+- LINAD brand identity and visual direction.
+- Logo concept and visual branding.
+- Color palette.
+- Light and dark themes.
+- Learning category cards.
+- User profiles and personal dashboard layouts.
+- Responsive design for desktop and mobile devices.
+
+I also paid particular attention to visual content.
+
+For the homepage and learning sections, I developed a visual direction focused on realistic photography, natural lighting, believable materials, and an authentic atmosphere of independent learning.
+
+My goal was to create an experience that feels like a modern educational product rather than a collection of unrelated technical pages.
+
+### Multilingual Interface
+
+LINAD supports three interface languages:
+
+- English.
+- German.
+- Russian.
+
+The languages offered for learning are German and English.
+
+---
+
+## 5. LINAD Interactive Assistant
+
+During development, I introduced the idea of an interactive assistant called **Lin**.
+
+Its purpose is to help new users navigate the platform and find the information or learning sections they need.
+
+I defined the main principles of its functionality:
+
+- A floating assistant button within the interface.
+- Predefined questions and answers.
+- Navigation to relevant pages.
+- Support for multiple interface languages.
+- Responsive behavior on mobile devices.
+
+The assistant uses predefined interaction scenarios and JavaScript rather than a separate paid generative AI API.
+
+This approach made it possible to create a useful navigation feature without additional AI service costs.
+
+## 6. Tutors and Telegram Integration
+
+From the beginning, I envisioned LINAD not only as a self-learning platform but also as a space connecting learners and language tutors.
+
+For this purpose, I planned the **Tutors** section.
+
+The initial version includes:
+
+- A tutor directory.
+- Individual tutor profiles.
+- Information about available tutors.
+- Contact and inquiry options.
+- Ways for users to express interest in lessons.
+
+The initial implementation uses demonstration tutor profiles.
+
+A complete booking system, online payments, and a larger tutor network are potential areas for future development.
+
+### Telegram as Part of the Ecosystem
+
+I also created a Telegram channel and bot connected to my language-learning concept.
+
+Telegram is intended to serve as an additional communication channel for educational content, community development, and engagement around LINAD.
+
+The platform includes relevant links and informational sections.
+
+**Web3Forms** is used to process contact inquiries and form submissions.
+
+---
+
+## 7. User Accounts and Supabase
+
+Another important development stage was the implementation of user accounts.
+
+I wanted LINAD to evolve from a basic informational website into a web application capable of managing personalized user information.
+
+For this purpose, I selected **Supabase**.
+
+### Technical Foundation
+
+The application includes:
+
+- User registration and authentication.
+- Personal user profiles.
+- Learning progress storage.
+- Data structures for learning results.
+- Profile image storage.
+- Learning goal settings.
+- An administrative section.
+
+I participated in configuring Supabase, executing SQL queries, and connecting the required components step by step.
+
+During development, database migrations were applied for seven core tables related to user accounts and learning progress, along with additional changes supporting profiles, avatars, and learning goals.
+
+### Data Security — Row Level Security
+
+A separate stage involved configuring **Row Level Security (RLS)** in Supabase.
+
+RLS is a PostgreSQL security mechanism that controls access to individual database rows.
+
+Its purpose within LINAD is to restrict access to user information according to defined security policies.
+
+To support this, SQL migrations were applied and access policies were configured.
+
+Administrative access was also prepared, and an `/admin` section was implemented.
+
+**Important:** Configuring security mechanisms does not replace comprehensive testing of registration, access permissions, and cross-device data synchronization. These remain part of the project's ongoing development and quality assurance.
+
+---
+
+## 8. How I Developed LINAD Using Artificial Intelligence
+
+LINAD is an example of a project developed through **AI-assisted development**, also commonly referred to as *Vibe Coding*.
+
+For technical implementation, I used **OpenAI Codex**. I also used ChatGPT for discussing ideas, preparing requirements, and planning development stages.
+
+I do not present this project as an application whose entire source code I wrote manually.
+
+My role was to guide and coordinate the development process, from the original idea to the working product.
+
+### My Development Process
+
+**Stage 1 — Identifying the Problem**
+
+I defined the target audience, analyzed common difficulties in learning foreign languages, and identified the main problems the platform should address.
+
+**Stage 2 — Product Concept**
+
+I developed the project concept, selected its name, defined the brand direction, planned the educational model, and determined the core functionality.
+
+**Stage 3 — Interface Planning**
+
+I planned the website structure, navigation, visual identity, themes, learning cards, and user interactions.
+
+**Stage 4 — Requirements and Task Definition**
+
+I translated my ideas into specific development instructions, describing how features should behave, what should happen after user interactions, and what results I expected.
+
+**Stage 5 — AI-Assisted Implementation**
+
+Based on these requirements, OpenAI Codex generated and modified the application's source code.
+
+**Stage 6 — Testing and Iteration**
+
+I reviewed the application, tested functionality, identified problems, refined requirements, and requested improvements.
+
+**Stage 7 — External Services and Backend Configuration**
+
+I participated in configuring Supabase, database structures, SQL migrations, authentication, contact forms, and administrative functionality.
+
+**Stage 8 — Deployment**
+
+I prepared the GitHub repository and configured the application's deployment through GitHub Pages.
+
+This process allowed me to experience the main stages of digital product development, from identifying a problem to implementation, testing, and deployment.
+
+---
+
+## 9. Technologies Used
+
+| Technology | Purpose |
+|---|---|
+| React | Building the user interface |
+| TypeScript | Application development with static type checking |
+| Vite | Development tooling and production builds |
+| React Router | Navigation between application sections |
+| Supabase | Authentication, database, and data storage |
+| PostgreSQL / SQL | Database structure, queries, and access policies |
+| Row Level Security | Database access control |
+| Web3Forms | Contact and inquiry form processing |
+| JavaScript | Interactive functionality |
+| Git / GitHub | Version control and source code management |
+| GitHub Actions | Automated builds, testing, and deployment |
+| GitHub Pages | Web application hosting |
+| Playwright | Automated browser testing |
+| OpenAI Codex | AI-assisted code generation and development |
+
+## 10. Testing and Quality Assurance
+
+During development, I encountered practical challenges related to testing and maintaining a web application.
+
+Automated checks were configured for LINAD to cover different user scenarios.
+
+These included:
+
+- Navigation between pages.
+- Responsive behavior across devices.
+- Interface language switching.
+- Light and dark themes.
+- Learning exercises.
+- Speech and pronunciation features.
+- Error handling.
+- Production builds.
+
+During preparation for GitHub Pages deployment, a complete automated test run was executed, with **458 out of 458 tests passing**.
+
+This stage helped me gain practical exposure to automated testing, debugging, and continuous integration.
+
+## 11. Current Status and Future Development
+
+**LINAD is an ongoing project, not a fully completed commercial product.**
+
+The web application has been published and is available for exploration.
+
+The main priorities for further development include:
+
+- Completing German learning materials for levels A1–C1.
+- Developing and expanding the English learning program.
+- Adding more practical exercises and dialogues.
+- Improving the overall user experience.
+- Further testing registration and progress synchronization.
+- Expanding the tutor directory.
+- Continuing to improve the mobile experience.
+- Developing additional personalized learning features.
+
+I see LINAD as a long-term project that can be continuously improved, expanded, and refined.
+
+---
+
+## 12. Why I Created This Project
+
+LINAD became more than an opportunity to develop an educational platform. It was also my introduction to the practical process of building software.
+
+Before starting this project, I did not have formal professional training in programming.
+
+However, I wanted to understand how modern web applications are created, how user interfaces and databases work, and how authentication, testing, and deployment fit together.
+
+Using artificial intelligence allowed me to begin implementing my own idea and gain practical experience with modern development tools.
+
+At the same time, I understand the difference between coordinating AI-assisted development and independently writing production-quality software.
+
+For this reason, I see LINAD as the beginning of my journey into IT, rather than proof that I have already reached the level of an experienced software developer.
+
+**My goal is to pursue a professional apprenticeship as an Informatiker EFZ, specializing in Application Development (Applikationsentwicklung), strengthen my technical foundations, and learn to develop reliable software independently.**
+
+LINAD demonstrates my initiative, ability to plan and coordinate a project, willingness to learn new technologies, approach to solving technical problems, and determination to turn an idea into a practical result.
+
+---
+
+### Project Creator
+
+**Danil Karnakov**
+
+Product Idea · Concept Development · UI/UX Planning · Development Coordination · AI-Assisted Development · Testing · Deployment
+
+**[Explore LINAD — Live Website](https://karnakovdanya.github.io/Linad/#/)**
+
+*LINAD — transforming personal language-learning experiences into a digital educational product.*
