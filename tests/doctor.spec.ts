@@ -8,6 +8,7 @@ import { doctorMaterials } from '../src/pages/learning/practice/data/doctor-mate
 import { practiceSpeechLocale, selectPracticeVoice, waitForPracticeVoices } from '../src/pages/learning/practice/speech';
 import { messages } from '../src/i18n/messages';
 import { currentProtectedSources } from './protected-source';
+import { expectNativeSpeechOutcome } from './native-speech-outcome';
 
 mkdirSync('qa/doctor', { recursive: true });
 const situations = [
@@ -198,7 +199,7 @@ test('canceling a pending voice request prevents late playback and stale missing
   await expect(page.locator('.practice-status').filter({ hasText: messages.ru.practiceVoiceMissing })).toHaveCount(0);
 });
 
-test('native browser speech or a clear missing-voice result is verified for RU/DE/EN in all three blocks', async ({ page }) => {
+test('native speech verifies playback or an explicit recoverable voice failure for RU/DE/EN in all three blocks', async ({ page }) => {
   test.setTimeout(90_000);
   await page.goto(route('describe-symptoms'));
   const voices = await page.evaluate(async () => {
@@ -229,9 +230,10 @@ test('native browser speech or a clear missing-voice result is verified for RU/D
         await expect(button).toHaveAttribute('aria-pressed', 'false');
         await expect(page.getByRole('status').filter({ hasText: messages.ru.practiceVoiceMissing })).toBeVisible();
       }
+      // Wait for every same-language fallback attempt, not just its first error.
+      await expect(button).toHaveAttribute('aria-pressed', 'false');
       const events = await page.evaluate(() => (window as unknown as { __nativeDoctor: { events: string[] } }).__nativeDoctor.events);
-      if (available) { expect(events).toContain('start'); expect(events).toContain('end'); }
-      else expect(events).toEqual([]);
+      await expectNativeSpeechOutcome(page, events, available);
       results.push({ language, block, events, voiceAvailable: available });
     }
   }

@@ -8,6 +8,7 @@ import { symptomsMaterial } from '../src/pages/learning/practice/data/symptoms';
 import { messages } from '../src/i18n/messages';
 import type { UiLanguage } from '../src/domain/types';
 import { approvedTutorSources, assertApprovedInventory } from './protected-source';
+import { expectNativeSpeechOutcome } from './native-speech-outcome';
 
 mkdirSync('qa/practice-speech', { recursive: true });
 const route = '/#/learn/de/situations/doctor/describe-symptoms';
@@ -159,6 +160,25 @@ test('delayed DE voices load, RU-only inventory gives installation help, and bro
   await page.locator('.practice-phrase-row').first().locator('.practice-listen').first().click(); await expect(page.locator('.practice-status').filter({ hasText: 'заблокировал' })).toBeVisible(); await expect(page.locator('.practice-listen[aria-pressed="true"]')).toHaveCount(0);
 });
 
+test('advertised voices may all fail synthesis; fallback is bounded, the error is visible and retry recovers', async ({ page }) => {
+  await mockSpeech(page); await page.goto(route);
+  await page.evaluate(() => { (window as unknown as { __speechQA: { error: string } }).__speechQA.error = 'synthesis-failed'; });
+  const button = page.locator('.practice-phrases .practice-listen').first();
+  await button.click();
+  await expect(page.locator('.practice-status').filter({ hasText: messages.ru.practiceSpeechError })).toBeVisible();
+  await expect(button).toHaveAttribute('aria-pressed', 'false');
+  await expect(page.locator('.practice-listen[aria-busy="true"]')).toHaveCount(0);
+  const failed = await page.evaluate(() => (window as unknown as { __speechQA: { spoken: { lang: string }[]; maxConcurrent: number } }).__speechQA);
+  expect(failed.spoken).toHaveLength(3);
+  expect(failed.spoken.every(call => call.lang === 'ru-RU')).toBe(true);
+  expect(failed.maxConcurrent).toBe(1);
+  await page.evaluate(() => { (window as unknown as { __speechQA: { error: string } }).__speechQA.error = ''; });
+  await button.click();
+  await expect(button).toHaveAttribute('aria-pressed', 'false');
+  await expect(page.locator('.practice-status').filter({ hasText: messages.ru.practiceSpeechError })).toHaveCount(0);
+  expect(await page.evaluate(() => (window as unknown as { __speechQA: { spoken: unknown[] } }).__speechQA.spoken.length)).toBe(4);
+});
+
 test('voice settings fit mobile/tablet/desktop and both themes without changing the three panels', async ({ page }) => {
   await mockSpeech(page); const errors: string[] = []; page.on('pageerror', error => errors.push(error.message));
   for (const theme of ['dark', 'light']) for (const width of [320, 768, 1440]) {
@@ -170,7 +190,7 @@ test('voice settings fit mobile/tablet/desktop and both themes without changing 
   expect(errors).toEqual([]);
 });
 
-test('native Chrome: inventory and actual start/end events, with honest missing-voice outcomes for DE/EN', async ({ page }) => {
+test('native Chrome: actual playback or honest recoverable synthesis failures with language-safe calls', async ({ page }) => {
   test.setTimeout(90_000); await page.goto(route); const voices = await page.evaluate(async () => { speechSynthesis.getVoices(); await new Promise(resolve => setTimeout(resolve, 1500)); return speechSynthesis.getVoices().map(v => ({ name: v.name, lang: v.lang, localService: v.localService })); });
   await page.evaluate(() => {
     const state = { events: [] as string[], calls: [] as { text: string; lang: string; voice: string }[] }; Object.defineProperty(window, '__nativeSpeechQA', { value: state }); const nativeSpeak = speechSynthesis.speak.bind(speechSynthesis);
@@ -186,8 +206,9 @@ test('native Chrome: inventory and actual start/end events, with honest missing-
       else await expect(page.locator('.practice-status').filter({ hasText: messages.ru.practiceVoiceMissing })).toBeVisible({ timeout: 6000 });
       await expect(button).toHaveAttribute('aria-pressed', 'false');
       const recorded = await page.evaluate(() => (window as unknown as { __nativeSpeechQA: { events: string[]; calls: { lang: string }[] } }).__nativeSpeechQA);
-      if (available) { expect(recorded.events).toContain('start'); expect(recorded.events).toContain('end'); expect(recorded.calls.every(call => call.lang.startsWith(language))).toBe(true); }
-      else { expect(recorded.calls).toHaveLength(0); expect(recorded.events).toEqual([]); }
+      await expectNativeSpeechOutcome(page, recorded.events, available);
+      if (available) { expect(recorded.calls.length).toBeGreaterThan(0); expect(recorded.calls.every(call => call.lang.startsWith(language))).toBe(true); }
+      else expect(recorded.calls).toHaveLength(0);
       outcomes.push({ language, block, voiceAvailable: available, ...recorded });
     }
   }
@@ -197,9 +218,10 @@ test('native Chrome: inventory and actual start/end events, with honest missing-
     const id = await page.locator('#practice-voice-ru option').filter({ hasText: pavel.name }).last().getAttribute('value'); await page.locator('#practice-voice-ru').selectOption(id!);
     await page.evaluate(() => { const state = (window as unknown as { __nativeSpeechQA: { events: string[]; calls: unknown[] } }).__nativeSpeechQA; state.events = []; state.calls = []; });
     await page.locator('.practice-words .practice-listen').first().click();
-    await expect.poll(() => page.evaluate(() => (window as unknown as { __nativeSpeechQA: { events: string[] } }).__nativeSpeechQA.events.includes('end')), { timeout: 20000 }).toBe(true);
+    await expect.poll(() => page.evaluate(() => (window as unknown as { __nativeSpeechQA: { events: string[] } }).__nativeSpeechQA.events.some(event => event === 'end' || event.startsWith('error:'))), { timeout: 20000 }).toBe(true);
+    await expect(page.locator('.practice-words .practice-listen').first()).toHaveAttribute('aria-pressed', 'false');
     const recorded = await page.evaluate(() => (window as unknown as { __nativeSpeechQA: { events: string[]; calls: { voice: string }[] } }).__nativeSpeechQA);
-    expect(recorded.calls[0]?.voice).toBe(pavel.name); expect(recorded.events).toContain('start'); outcomes.push({ language: 'ru', block: 'manual-Pavel-word', voiceAvailable: true, ...recorded });
+    expect(recorded.calls[0]?.voice).toBe(pavel.name); await expectNativeSpeechOutcome(page, recorded.events, true); outcomes.push({ language: 'ru', block: 'manual-Pavel-word', voiceAvailable: true, ...recorded });
   }
   writeFileSync('qa/practice-speech/native-playback.json', JSON.stringify({ browser: 'automated Chrome, separate profile', voices, outcomes, subjectiveAudioQualityChecked: false }, null, 2));
 });
