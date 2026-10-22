@@ -1,0 +1,16 @@
+{
+  "changed": [
+    "src/pages/AuthorContent.tsx",
+    "src/i18n/messages.ts",
+    "src/styles/author.css",
+    "src/components/ContactIcon.tsx",
+    "src/i18n/author-messages.ts",
+    "src/config/contacts.ts"
+  ],
+  "added": [
+    "src/pages/AuthorContacts.tsx",
+    "public/assets/contact-icons/whatsapp.svg"
+  ],
+  "unchanged": 188,
+  "scope": "src, Supabase SQL, existing author images and contact icons"
+}

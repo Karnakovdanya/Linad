@@ -1,0 +1,49 @@
+node_modules/
+dist/
+*.local
+.env
+.env.*
+!.env.example
+*.tsbuildinfo
+playwright-report/
+test-results/
+qa/audit/
+# Generated QA media and traces; keep JSON/text fixtures and provenance.
+/qa/**/*.png
+/qa/**/*.jpg
+/qa/**/*.jpeg
+/qa/**/*.webp
+/qa/**/*.mp4
+/qa/**/*.webm
+/qa/**/*.zip
+/qa/**/*.html
+/qa/pages-preparation-*.json
+# Generated test reports and state; baseline fixtures above remain available.
+/qa/**/protected-audit.json
+/qa/**/*-artifacts/
+/qa/**/.last-run.json
+/qa/**/results.json
+/qa/**/*-results.json
+/qa/**/final-regression.json
+/qa/typography-menu/after-*.json
+# Original delivery packs are duplicated in public/assets. Tests retain their hashes.
+/LINAD/
+/LINAD_CODEX_ASSETS_UPDATE/
+/*.zip
+/*.7z
+/*.rar
+/*.tar
+/*.tar.gz
+# Local credentials and private keys must never be committed.
+*.pem
+*.p12
+*.pfx
+*.key
+id_rsa
+id_ed25519
+.aws/
+credentials.json
+service-account*.json
+.DS_Store
+Thumbs.db
+*.log

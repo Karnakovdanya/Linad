@@ -1,0 +1,10 @@
+{
+  "src/pages/HomePage.tsx": {
+    "before": "4f1cd14878286edd6cd47f6719565464561617caa7af3cc5229b2267a2204c0c",
+    "after": "59ab6d7e9677db62de4d5f16a3414d83bbf04265cdd52f88e6530e6048c44de6"
+  },
+  "src/assistant/lin.css": {
+    "before": "3b885483cf5f17eea22d0c346d7648ea41084ad9a85b1d20cee6e32ffdd2815d",
+    "after": "5984c9e8e4f49ec301cb93c8862bc7cae5e93d854b577f10500cb6914524ff78"
+  }
+}

@@ -1,0 +1,15 @@
+[
+  "src/account/Account.tsx",
+  "src/account/actions.tsx",
+  "src/account/auth-context.ts",
+  "src/account/AuthPage.tsx",
+  "src/account/AuthProvider.tsx",
+  "src/account/client.ts",
+  "src/account/collection.ts",
+  "src/account/copy.ts",
+  "src/account/document.ts",
+  "src/account/storage.ts",
+  "src/account/sync.ts",
+  "src/account/useAccountData.ts",
+  "src/styles/account.css"
+]

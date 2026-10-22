@@ -1,0 +1,32 @@
+[
+  {
+    "language": "de",
+    "voices": [
+      {
+        "name": "Microsoft Irina - Russian (Russia)",
+        "lang": "ru-RU"
+      },
+      {
+        "name": "Microsoft Pavel - Russian (Russia)",
+        "lang": "ru-RU"
+      }
+    ],
+    "listeningAvailable": false,
+    "events": []
+  },
+  {
+    "language": "en",
+    "voices": [
+      {
+        "name": "Microsoft Irina - Russian (Russia)",
+        "lang": "ru-RU"
+      },
+      {
+        "name": "Microsoft Pavel - Russian (Russia)",
+        "lang": "ru-RU"
+      }
+    ],
+    "listeningAvailable": false,
+    "events": []
+  }
+]

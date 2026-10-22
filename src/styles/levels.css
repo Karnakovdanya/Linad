@@ -1,0 +1,226 @@
+.level-learning { display: grid; gap: 24px; padding-block: 24px 48px; }
+.level-learning *, .level-learning > * { min-width: 0; }
+.level-learning .level-topbar, .level-learning .level-actions { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 14px; }
+.level-learning .level-heading { display: grid; gap: 14px; }
+.level-learning .level-heading p { max-width: 70ch; color: var(--muted); }
+.level-learning p { line-height: 1.55; }
+.level-learning h3 { margin: 0; font-size: var(--font-card-title); line-height: 1.35; }
+.level-learning .level-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 28px; box-shadow: var(--shadow); }
+.level-learning .level-card > h2, .level-learning .level-card > .level-heading { margin-bottom: 18px; }
+.level-learning .level-muted, .level-learning small, .level-learning .level-local-note { color: var(--muted); font-size: var(--font-compact-step); }
+.level-learning .level-hero { position: relative; isolation: isolate; min-height: 500px; padding: 40px; overflow: hidden; border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); }
+.level-learning .level-hero > img { position: absolute; z-index: -2; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 65% 18%; }
+.level-learning .level-hero::after { content: ''; position: absolute; z-index: -1; inset: 0; background: linear-gradient(90deg, color-mix(in srgb, var(--surface) 90%, transparent) 0%, color-mix(in srgb, var(--surface) 90%, transparent) 27%, color-mix(in srgb, var(--surface) 80%, transparent) 52%, color-mix(in srgb, var(--surface) 60%, transparent) 76%, transparent 100%); }
+:root[data-theme='light'] .level-learning .level-hero::after { background: linear-gradient(90deg, color-mix(in srgb, var(--surface) 95%, transparent) 0%, color-mix(in srgb, var(--surface) 95%, transparent) 27%, color-mix(in srgb, var(--surface) 85%, transparent) 52%, color-mix(in srgb, var(--surface) 70%, transparent) 76%, color-mix(in srgb, var(--surface) 10%, transparent) 100%); }
+.level-learning .level-hero .level-heading { max-width: 650px; }
+.level-learning .level-hero p { color: var(--text); }
+.level-learning .level-entry-content { position: relative; display: grid; gap: 26px; width: min(100%, 560px); }
+.level-learning .level-entry h1 > span { color: var(--focus); }
+:root[data-theme='light'] .level-learning .level-entry h1 > span { color: var(--cta-background); }
+.level-learning fieldset { margin: 0; padding: 0; border: 0; }
+.level-learning legend { width: 100%; font-size: var(--font-card-title); font-weight: var(--weight-heading); margin-bottom: 18px; line-height: 1.4; }
+.level-learning .level-target-options { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.level-learning .level-target-options button { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px; min-height: 140px; padding: 16px; border: 1px solid var(--border); border-radius: 12px; background: var(--surface); font-size: var(--font-button); cursor: pointer; }
+.level-learning .learning-language-flag { width: 44px; height: 44px; flex: 0 0 44px; }
+.level-learning :is(.level-target-options, .level-support-options) button[aria-pressed='true'] { border-color: var(--cta-background); background: var(--secondary-hover-fill); box-shadow: inset 0 0 0 1px var(--cta-background); }
+.level-learning .level-entry-bottom { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; align-items: end; }
+.level-learning .level-support-field { grid-column: 1 / -1; }
+.level-learning .level-support-field legend { margin-bottom: 10px; font-size: var(--font-card-description); font-weight: var(--weight-body); }
+.level-learning .level-support-options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.level-learning .level-support-options button { display: flex; align-items: center; gap: 12px; min-height: 48px; padding: 10px 14px; border: 1px solid var(--border); border-radius: 12px; background: var(--surface); font-size: var(--font-button); text-align: left; cursor: pointer; }
+.level-learning .level-support-options .learning-language-flag { width: 24px; height: 24px; flex-basis: 24px; }
+.level-learning .level-support-options button > span:last-child { margin-left: auto; }
+.level-learning .level-continue { grid-column: 1; width: 100%; margin: 0; }
+.level-learning .level-steps ol { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; list-style: none; margin: 0; padding: 0; }
+.level-learning .level-steps li { position: relative; text-align: center; }
+.level-learning .level-steps li:not(:last-child)::after { content: ''; position: absolute; top: 16px; left: calc(50% + 26px); width: calc(100% - 36px); height: 1px; background: var(--border); }
+.level-learning .level-step-label { display: inline-flex; flex-direction: column; align-items: center; gap: 8px; color: var(--muted); font-size: var(--font-compact-step); line-height: 1.3; }
+.level-learning .level-steps .level-step-number { display: flex; align-items: center; justify-content: center; width: 32px; height: 32px; border: 1px solid var(--border); border-radius: 50%; background: var(--surface); color: var(--text); }
+.level-learning .level-step-short { display: none; }
+.level-learning .level-steps [aria-current='step'] .level-step-label { font-weight: var(--weight-button); color: var(--text); }
+.level-learning .level-steps [aria-current='step'] .level-step-number { background: var(--cta-background); color: var(--cta-text); border-color: var(--cta-background); }
+.level-learning .level-placement-grid, .level-learning .level-result-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+.level-learning .level-placement-card { display: flex; flex-direction: column; align-items: stretch; gap: 18px; }
+.level-learning .level-placement-card h2 { text-align: center; margin: 0; }
+.level-learning .level-placement-card > .button:last-child { margin-top: auto; }
+.level-learning .level-placement-card ul { padding-left: 22px; margin: 0; display: grid; gap: 12px; font-size: var(--font-card-description); }
+.level-learning .level-large-icon, .level-learning .level-module-icon { display: inline-flex; align-items: center; justify-content: center; width: 64px; height: 64px; border-radius: 16px; background: var(--soft); color: var(--focus); }
+.level-learning .level-large-icon { align-self: center; }
+.level-learning .level-large-icon > svg { width: 36px; height: 36px; }
+.level-learning .level-audio-check { display: grid; gap: 12px; margin-top: auto; }
+.level-learning .level-audio-check label { display: flex; align-items: flex-start; gap: 10px; font-size: var(--font-card-description); }
+.level-learning input { accent-color: var(--cta-background); }
+.level-learning .level-audio-check p { color: var(--muted); font-size: var(--font-compact-step); }
+.level-learning .level-test-card { width: 100%; max-width: 980px; margin-inline: auto; display: grid; gap: 22px; }
+.level-learning .level-test-meta { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; font-size: var(--font-card-description); }
+.level-learning .level-progress { display: grid; gap: 8px; margin-block: 18px; }
+.level-learning .level-progress > div { display: flex; align-items: center; justify-content: space-between; gap: 16px; font-size: var(--font-compact-step); }
+.level-learning progress { display: block; width: 100%; height: 9px; border: 0; border-radius: 20px; background: var(--soft); color: var(--cta-background); accent-color: var(--cta-background); overflow: hidden; }
+.level-learning progress::-webkit-progress-bar { background: var(--soft); border-radius: 20px; }
+.level-learning progress::-webkit-progress-value { background: var(--cta-background); border-radius: 20px; }
+.level-learning progress::-moz-progress-bar { background: var(--cta-background); border-radius: 20px; }
+.level-learning .level-question legend { display: grid; gap: 14px; }
+.level-learning .level-question legend > span { color: var(--muted); font-size: var(--font-card-description); font-weight: var(--weight-body); }
+.level-learning .level-options { display: grid; gap: 12px; }
+.level-learning .level-options label { display: flex; align-items: flex-start; gap: 12px; min-height: 52px; padding: 14px; border: 1px solid var(--border); border-radius: 10px; font-size: var(--font-body); cursor: pointer; overflow-wrap: anywhere; }
+.level-learning .level-options input { width: 18px; height: 18px; flex: 0 0 18px; margin: 4px 0 0; }
+.level-learning .level-options .is-selected { background: var(--secondary-hover-fill); border-color: var(--cta-background); }
+.level-learning .level-options label:has(input:focus-visible) { outline: 3px solid var(--focus); outline-offset: 2px; }
+.level-learning .level-reading-passage { background: var(--soft); padding: 20px; border-radius: 12px; line-height: 1.7; }
+.level-learning .level-listening-task { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; }
+.level-learning .level-result-summary { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 20px; }
+.level-learning .level-result-badge { display: flex; align-items: center; justify-content: center; width: 150px; height: 150px; border-radius: 50%; background: var(--soft); color: var(--focus); font-size: var(--font-page-title); }
+.level-learning .level-answer-review { display: grid; gap: 20px; padding-left: 28px; margin-bottom: 0; }
+.level-learning .level-answer-review li { padding: 12px 0; border-bottom: 1px solid var(--border); }
+.level-learning .level-answer-review p { margin-top: 8px; }
+.level-learning details summary { cursor: pointer; font-weight: var(--weight-button); min-height: 44px; }
+.level-learning .level-band-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 14px; }
+.level-learning .level-band-grid button { display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 8px; min-height: 106px; padding: 16px 10px; border: 1px solid var(--border); border-radius: 12px; background: var(--surface); text-align: center; font-size: var(--font-card-description); cursor: pointer; }
+.level-learning .level-band-grid strong { font-size: var(--font-card-title); }
+.level-learning .level-band-grid .is-recommended { border-color: var(--cta-background); box-shadow: inset 0 0 0 1px var(--cta-background); background: var(--secondary-hover-fill); }
+.level-learning .level-module-list, .level-learning .level-curriculum { display: grid; gap: 16px; }
+.level-learning .level-module-row { display: grid; grid-template-columns: 44px minmax(0, 1fr) minmax(130px, 180px) 24px auto; align-items: center; gap: 16px; padding: 14px 16px; box-shadow: none; }
+.level-learning .level-module-row > .button { grid-column: 5; grid-row: 1; min-width: 132px; }
+.level-learning .level-module-row p { margin-top: 5px; font-size: var(--font-card-description); color: var(--muted); }
+.level-learning .level-module-row small { display: block; margin-top: 10px; }
+.level-learning .level-lesson-row { display: grid; grid-template-columns: 44px minmax(0, 1fr) auto; gap: 20px; align-items: center; }
+.level-learning .level-lesson-row p { margin-block: 8px; }
+.level-learning .level-round-number { display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; background: var(--soft); }
+.level-learning .level-lesson-tabs { display: flex; flex-direction: column; gap: 4px; padding: 6px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); align-self: start; }
+.level-learning .level-lesson-tabs button { display: flex; align-items: center; gap: 14px; width: 100%; min-height: 48px; padding: 12px 16px; border: 1px solid transparent; border-radius: 10px; background: transparent; font-size: var(--font-button); text-align: left; cursor: pointer; }
+.level-learning .level-lesson-tabs svg { width: 22px; height: 22px; flex: 0 0 22px; }
+.level-learning .level-lesson-tabs [aria-current='step'] { background: var(--cta-background); color: var(--cta-text); border-color: var(--cta-background); }
+.level-learning .level-lesson-content { display: grid; gap: 22px; }
+.level-learning .level-theory { display: grid; gap: 14px; }
+.level-learning .level-example, .level-learning .level-example-pair { background: var(--soft); padding: 16px 20px; border-radius: 10px; }
+.level-learning .level-example-pair p + p { margin-top: 10px; color: var(--muted); }
+.level-learning .level-vocabulary { margin: 0; }
+.level-learning .level-vocabulary > div { display: grid; grid-template-columns: 1fr 1fr auto; align-items: center; gap: 16px; padding-block: 16px; border-bottom: 1px solid var(--border); }
+.level-learning .level-vocabulary dt { font-weight: var(--weight-button); }
+.level-learning .level-vocabulary dd { margin: 0; }
+.level-learning .level-exercise { display: grid; gap: 16px; padding-block: 18px; border-bottom: 1px solid var(--border); }
+.level-learning .level-exercise > .button { justify-self: start; }
+.level-learning .level-exercise-list { display: grid; gap: 36px; }
+.level-learning .level-explanation { margin-top: 16px; padding: 14px; border-left: 3px solid var(--cta-background); background: var(--soft); }
+.level-learning .level-result-score { font-size: var(--font-page-title); }
+.level-learning :is(.level-target-options button, .level-support-options button, .level-band-grid a, .level-lesson-tabs button) { transition: transform var(--action-duration) var(--action-easing), background-color var(--action-duration) var(--action-easing), border-color var(--action-duration) var(--action-easing); }
+.level-learning :is(.level-target-options button, .level-support-options button, .level-band-grid a, .level-lesson-tabs button):active { transform: scale(var(--action-active-scale)); }
+.level-learning .button:disabled { opacity: .55; transform: none; }
+.level-learning .level-breadcrumbs ol { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; padding: 0; margin: 0; list-style: none; font-size: var(--font-card-description); }
+.level-learning .level-breadcrumbs li { display: inline-flex; align-items: center; gap: 16px; }
+.level-learning .level-breadcrumbs a { color: var(--focus); text-decoration: underline; text-underline-offset: 4px; }
+.level-learning .level-modules-hero { position: relative; isolation: isolate; display: grid; grid-template-columns: minmax(0, 1fr) 290px; align-items: end; gap: 32px; min-height: 260px; padding: 32px; overflow: hidden; background: var(--soft); border: 1px solid var(--border); border-radius: var(--radius); }
+.level-learning .level-modules-hero > img { position: absolute; inset: 0; z-index: -2; width: 100%; height: 100%; object-fit: cover; object-position: 65% 35%; }
+.level-learning .level-modules-hero::after { content: ''; position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, color-mix(in srgb, var(--surface) 95%, transparent), color-mix(in srgb, var(--surface) 80%, transparent) 45%, color-mix(in srgb, var(--surface) 20%, transparent)); }
+.level-learning .level-modules-hero-copy { display: grid; justify-items: start; gap: 24px; max-width: 720px; }
+.level-learning .level-modules-hero .level-heading p { color: var(--text); }
+.level-learning .level-level-progress { padding: 20px; }
+.level-learning .level-level-progress h2 { font-size: var(--font-card-description); margin-bottom: 6px; }
+.level-learning .level-level-progress .level-progress { margin-bottom: 0; }
+.level-learning .level-module-number { width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; border-radius: 10px; background: var(--soft); font-weight: var(--weight-heading); font-size: var(--font-card-title); }
+.level-learning .level-module-list { gap: 10px; }
+.level-learning .level-module-row h3 { font-size: var(--font-body); }
+.level-learning .level-module-row.is-active { border-color: var(--cta-background); background: color-mix(in srgb, var(--cta-background) 8%, var(--surface)); }
+.level-learning .level-module-row.is-active .level-module-number { background: var(--cta-background); color: var(--cta-text); }
+.level-learning .level-module-progress .level-progress { margin: 0; }
+.level-learning .level-completed-mark { grid-column: 4; grid-row: 1; color: var(--focus); font-size: var(--font-card-title); }
+.level-learning .level-lesson-heading { display: flex; justify-content: space-between; align-items: end; gap: 24px; }
+.level-learning .level-lesson-heading h1 { margin-top: 10px; font-size: var(--font-card-title); line-height: 1.4; letter-spacing: 0; }
+.level-learning .level-neighbour-links { display: flex; gap: 12px; flex-shrink: 0; }
+.level-learning .level-lesson-layout { display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 24px; align-items: start; }
+.level-learning .level-lesson-layout .level-lesson-content { padding: 28px; }
+.level-learning .level-featured-example { background: var(--soft); padding: 22px; border: 1px solid var(--border); border-radius: 12px; display: grid; gap: 10px; }
+.level-learning .level-featured-example > div { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.level-learning .level-featured-example > div > .button { flex: 0 0 44px; width: 44px; min-width: 44px; min-height: 44px; padding: 10px; }
+.level-learning .level-featured-example svg { width: 22px; height: 22px; }
+.level-learning .level-featured-example > p { color: var(--muted); }
+.level-learning .level-grammar-table { display: grid; gap: 14px; }
+.level-learning .level-grammar-table table { border-collapse: separate; border-spacing: 0; width: 100%; table-layout: fixed; border: 1px solid var(--border); border-radius: 10px; overflow: hidden; font-size: var(--font-card-description); }
+.level-learning .level-grammar-table :is(th, td) { padding: 12px; text-align: left; border-bottom: 1px solid var(--border); overflow-wrap: anywhere; }
+.level-learning .level-grammar-table th { background: var(--soft); }
+.level-learning .level-grammar-table tr:last-child td { border-bottom: 0; }
+.level-learning .level-important { border: 1px solid var(--border); border-radius: 12px; padding: 20px; display: grid; gap: 10px; }
+.level-learning .level-dialogue { display: grid; gap: 16px; }
+.level-learning .level-dialogue > div { padding: 18px; background: var(--soft); border-radius: 12px; display: grid; gap: 8px; }
+.level-learning .level-recommendation { display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+@media (min-width: 768px) {
+  .level-learning .level-hero h1 { font-size: clamp(2.375rem, 3.1vw, 2.875rem); }
+  .level-learning .level-hero p { font-size: 1.375rem; }
+}
+@media (hover: hover) and (pointer: fine) {
+  .level-learning :is(.level-target-options button, .level-support-options button, .level-band-grid button, .level-lesson-tabs button):hover { border-color: var(--secondary-hover-border); transform: scale(var(--action-hover-scale)); }
+}
+@media (max-width: 1023px) {
+  .level-learning .level-module-row { grid-template-columns: 44px minmax(0, 1fr) auto; gap: 14px; }
+  .level-learning .level-module-icon { width: 52px; height: 52px; }
+  .level-learning .level-module-row > .button { grid-column: 3; grid-row: 1; }
+  .level-learning .level-module-progress { grid-column: 2; }
+  .level-learning .level-completed-mark { grid-column: 1; grid-row: 2; justify-self: center; }
+  .level-learning .level-lesson-heading { flex-wrap: wrap; }
+  .level-learning .level-lesson-layout { grid-template-columns: 185px minmax(0, 1fr); gap: 16px; }
+}
+@media (max-width: 767px) {
+  .level-learning { gap: 18px; padding-block: 20px 32px; }
+  .level-learning .level-card { padding: 20px; }
+  .level-learning .level-hero { min-height: 0; padding: 28px 20px; }
+  .level-learning .level-hero > img { object-position: 60% center; }
+  .level-learning .level-placement-grid, .level-learning .level-result-grid { grid-template-columns: minmax(0, 1fr); gap: 24px; }
+  .level-learning .level-target-options { gap: 12px; }
+  .level-learning .level-target-options button { min-height: 124px; padding: 12px; }
+  .level-learning .level-steps ol { gap: 8px; }
+  .level-learning .level-step-name { display: none; }
+  .level-learning .level-step-short { display: inline; }
+  .level-learning .level-band-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+  .level-learning .level-band-grid button { min-height: 96px; }
+  .level-learning .level-module-row { grid-template-columns: 44px minmax(0, 1fr); gap: 14px; }
+  .level-learning .level-module-icon { width: 44px; height: 44px; }
+  .level-learning .level-module-row > .button { grid-column: 2; grid-row: auto; justify-self: start; }
+  .level-learning .level-module-progress { grid-column: 2; }
+  .level-learning .level-modules-hero { grid-template-columns: minmax(0, 1fr); padding: 22px; gap: 24px; }
+  .level-learning .level-level-progress { width: 100%; }
+  .level-learning .level-lesson-layout { grid-template-columns: minmax(0, 1fr); }
+  .level-learning .level-lesson-tabs { flex-direction: row; overflow-x: auto; max-width: 100%; padding: 6px; }
+  .level-learning .level-lesson-tabs button { flex: 0 0 auto; width: auto; white-space: nowrap; }
+  .level-learning .level-lesson-layout .level-lesson-content { padding: 20px; }
+  .level-learning .level-neighbour-links { flex-wrap: wrap; width: 100%; }
+  .level-learning .level-neighbour-links > * { flex: 1 1 140px; }
+  .level-learning .level-grammar-table :is(th, td) { padding: 8px; }
+  .level-learning .level-recommendation { flex-direction: column; align-items: start; }
+  .level-learning .level-lesson-row { grid-template-columns: 32px minmax(0, 1fr); gap: 12px; }
+  .level-learning .level-round-number { width: 30px; height: 30px; }
+  .level-learning .level-lesson-row > .button { grid-column: 2; justify-self: start; }
+  .level-learning .level-actions { align-items: stretch; }
+  .level-learning .level-actions > .button { flex: 1 1 140px; }
+  .level-learning .level-vocabulary > div { grid-template-columns: 1fr 1fr; }
+  .level-learning .level-vocabulary dd:last-child { grid-column: 1 / -1; }
+  .level-learning .level-reading-passage { padding: 16px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .level-learning :is(.level-target-options button, .level-support-options button, .level-band-grid button, .level-lesson-tabs button) { transition: none; transform: none !important; }
+}
+@media (max-width: 599px) {
+  .level-learning .level-entry-bottom { grid-template-columns: minmax(0, 1fr); }
+  .level-learning .level-support-options { gap: 12px; }
+  .level-learning .level-support-options button { gap: 6px; padding-inline: 8px; }
+  .level-learning .level-support-options .learning-language-flag { width: 20px; height: 20px; flex-basis: 20px; }
+}
+.level-learning .level-completion-note { color: var(--muted); margin-block: 12px 24px; }
+.level-learning .level-completion-note span, .level-learning .level-word-grammar { display: block; margin-top: 6px; }
+.level-learning .level-input-task input { width: 100%; max-width: 36rem; min-height: 44px; padding: 10px 12px; border: 1px solid var(--border); border-radius: 8px; background: var(--surface); color: var(--text); font: inherit; }
+.level-learning .level-token-list { display: flex; flex-wrap: wrap; gap: 8px; }
+.level-learning .level-order-task > p { min-height: 44px; padding: 12px; border: 1px solid var(--border); border-radius: 8px; overflow-wrap: anywhere; }
+.level-learning .level-match-task { display: grid; gap: 12px; }
+.level-learning .level-match-task label { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: center; gap: 12px; }
+.level-learning .level-match-task select { min-width: 0; width: 100%; padding: 10px; border: 1px solid var(--border); border-radius: 8px; background: var(--surface); color: var(--text); font: inherit; }
+.level-learning .level-exam-page { max-width: 1000px; margin-inline: auto; }
+.level-learning .level-exam-page details { margin-block: 24px; }
+.level-learning .level-exam-result, .level-learning .level-program-complete { padding: 24px; border-radius: 12px; background: var(--secondary-hover-fill); }
+.level-learning .level-final-row { border-color: var(--primary); }
+.level-learning .level-vocabulary p { margin-block: 8px 4px; }
+.level-learning .level-word-grammar { color: var(--muted); }
+.level-learning .level-planned-syllabus li { padding-block: 8px; }
+@media (max-width: 560px) {
+  .level-learning .level-match-task label { grid-template-columns: 1fr; gap: 6px; }
+  .level-learning .level-input-task input { max-width: 100%; }
+}
+

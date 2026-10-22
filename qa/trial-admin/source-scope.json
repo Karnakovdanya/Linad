@@ -1,0 +1,31 @@
+{
+  "changed": [
+    "src/app/App.tsx",
+    "src/account/client.ts",
+    "src/pages/learning/levels/LevelLearning.tsx",
+    "src/account/AuthPage.tsx",
+    "src/pages/learning/practice/PracticeWorkspace.tsx",
+    "src/account/AuthProvider.tsx",
+    "src/account/Account.tsx",
+    "src/pages/learning/levels/useLevelsStore.ts"
+  ],
+  "added": [
+    "src/account/CourseTrial.tsx",
+    "src/account/trial-copy.ts",
+    "src/account/trial.ts",
+    "src/admin/activity.ts",
+    "src/admin/admin.css",
+    "src/admin/AdminLink.tsx",
+    "src/admin/AdminPage.tsx",
+    "src/admin/copy.ts",
+    "src/admin/role.ts",
+    "src/admin/types.ts",
+    "src/styles/course-trial.css",
+    "supabase/CHECK_TRIAL_ADMIN.sql",
+    "supabase/GRANT_LINAD_OWNER.sql",
+    "supabase/migrations/202610210003_trial_admin.sql",
+    "supabase/VERIFY_TRIAL_ADMIN.sql"
+  ],
+  "unchanged_existing": 160,
+  "dependencies_changed": false
+}

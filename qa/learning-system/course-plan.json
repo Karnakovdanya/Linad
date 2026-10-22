@@ -1,0 +1,5918 @@
+[
+  {
+    "id": "introductions",
+    "language": "de",
+    "level": "A1",
+    "number": 1,
+    "lessons": [
+      {
+        "id": "first-introductions",
+        "number": 1,
+        "title": "Hallo, ich bin …",
+        "focus": "sein; personal pronouns; greetings",
+        "outcome": "Introduce yourself and recognise who is new in a class.",
+        "prerequisiteIds": [],
+        "status": "published"
+      },
+      {
+        "id": "introduction-questions",
+        "number": 2,
+        "title": "Wie heisst du?",
+        "focus": "W-questions; yes/no questions; du/Sie",
+        "outcome": "Ask and answer simple identity questions politely.",
+        "prerequisiteIds": [
+          "first-introductions"
+        ],
+        "status": "published"
+      },
+      {
+        "id": "a1-introductions-3",
+        "number": 3,
+        "title": "Woher kommst du?",
+        "focus": "kommen/wohnen in the singular; aus/in with cities and countries",
+        "outcome": "Distinguish origin from current residence in a short exchange.",
+        "prerequisiteIds": [
+          "introduction-questions"
+        ],
+        "status": "published"
+      },
+      {
+        "id": "a1-introductions-4",
+        "number": 4,
+        "title": "Meine Kontaktdaten",
+        "focus": "numbers 0–20; spelling; heissen; formal questions",
+        "outcome": "Read and complete a basic name and contact form.",
+        "prerequisiteIds": [
+          "a1-introductions-3"
+        ],
+        "status": "published"
+      },
+      {
+        "id": "a1-introductions-5",
+        "number": 5,
+        "title": "Ein kurzes Profil",
+        "focus": "simple clauses with und; pronoun reference; introductory message",
+        "outcome": "Read a class profile and assemble a short coherent introduction.",
+        "prerequisiteIds": [
+          "a1-introductions-4"
+        ],
+        "status": "published"
+      }
+    ],
+    "finalTest": {
+      "id": "de-A1-introductions-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "first-introductions",
+        "introduction-questions",
+        "a1-introductions-3",
+        "a1-introductions-4",
+        "a1-introductions-5"
+      ]
+    }
+  },
+  {
+    "id": "nouns",
+    "language": "de",
+    "level": "A1",
+    "number": 2,
+    "lessons": [
+      {
+        "id": "a1-nouns-1",
+        "number": 1,
+        "title": "Dinge im Kursraum",
+        "focus": "der/die/das; noun capitalisation; nominative",
+        "outcome": "Identify classroom objects using a noun and its article.",
+        "prerequisiteIds": [
+          "a1-introductions-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-nouns-2",
+        "number": 2,
+        "title": "Ein Stift, kein Stift",
+        "focus": "ein/eine; kein/keine in the nominative",
+        "outcome": "State what an object is and correct an identification.",
+        "prerequisiteIds": [
+          "a1-nouns-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-nouns-3",
+        "number": 3,
+        "title": "Ein Buch, zwei Bücher",
+        "focus": "common plural patterns; dictionary entries",
+        "outcome": "Interpret a classroom equipment list with singular and plural nouns.",
+        "prerequisiteIds": [
+          "a1-nouns-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-nouns-4",
+        "number": 4,
+        "title": "Wer ist das?",
+        "focus": "personal pronouns er/sie/es; people and occupations",
+        "outcome": "Introduce another person without dropping the subject.",
+        "prerequisiteIds": [
+          "a1-nouns-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-nouns-5",
+        "number": 5,
+        "title": "Unser Kursraum",
+        "focus": "nominative noun phrases; das ist/das sind",
+        "outcome": "Describe a simple illustrated room inventory in connected statements.",
+        "prerequisiteIds": [
+          "a1-nouns-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "de-A1-nouns-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "a1-nouns-1",
+        "a1-nouns-2",
+        "a1-nouns-3",
+        "a1-nouns-4",
+        "a1-nouns-5"
+      ]
+    }
+  },
+  {
+    "id": "word-order",
+    "language": "de",
+    "level": "A1",
+    "number": 3,
+    "lessons": [
+      {
+        "id": "a1-word-order-1",
+        "number": 1,
+        "title": "Was machst du?",
+        "focus": "regular present singular; verb-second statements",
+        "outcome": "Exchange basic information about work and study.",
+        "prerequisiteIds": [
+          "a1-nouns-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-word-order-2",
+        "number": 2,
+        "title": "Fragen im Alltag",
+        "focus": "wer/was/wo/wann/wie; verb position",
+        "outcome": "Choose an appropriate question for missing personal information.",
+        "prerequisiteIds": [
+          "a1-word-order-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-word-order-3",
+        "number": 3,
+        "title": "Ja, gern. Nein, heute nicht.",
+        "focus": "yes/no questions; short replies",
+        "outcome": "Accept or decline a simple invitation in a text dialogue.",
+        "prerequisiteIds": [
+          "a1-word-order-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-word-order-4",
+        "number": 4,
+        "title": "Heute lerne ich Deutsch",
+        "focus": "fronted time phrase; subject–verb inversion",
+        "outcome": "Reorder statements without treating second position as second word.",
+        "prerequisiteIds": [
+          "a1-word-order-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-word-order-5",
+        "number": 5,
+        "title": "Ein Gespräch ordnen",
+        "focus": "question–answer cohesion; question marks",
+        "outcome": "Restore a coherent short conversation at a language school.",
+        "prerequisiteIds": [
+          "a1-word-order-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "de-A1-word-order-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "a1-word-order-1",
+        "a1-word-order-2",
+        "a1-word-order-3",
+        "a1-word-order-4",
+        "a1-word-order-5"
+      ]
+    }
+  },
+  {
+    "id": "daily-verbs",
+    "language": "de",
+    "level": "A1",
+    "number": 4,
+    "lessons": [
+      {
+        "id": "a1-daily-verbs-1",
+        "number": 1,
+        "title": "Mein Morgen",
+        "focus": "regular present plural; common daily verbs",
+        "outcome": "Read a routine and distinguish one person from a group.",
+        "prerequisiteIds": [
+          "a1-word-order-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-daily-verbs-2",
+        "number": 2,
+        "title": "Ich habe Zeit",
+        "focus": "haben; common stem-changing verbs essen/fahren",
+        "outcome": "Describe simple daily needs and travel habits.",
+        "prerequisiteIds": [
+          "a1-daily-verbs-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-daily-verbs-3",
+        "number": 3,
+        "title": "Ich stehe um sieben auf",
+        "focus": "separable verbs; sentence bracket",
+        "outcome": "Read and construct a basic morning schedule.",
+        "prerequisiteIds": [
+          "a1-daily-verbs-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-daily-verbs-4",
+        "number": 4,
+        "title": "Nicht oder kein?",
+        "focus": "sentence negation and noun negation; scope at A1",
+        "outcome": "Correct false information about a daily routine.",
+        "prerequisiteIds": [
+          "a1-daily-verbs-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-daily-verbs-5",
+        "number": 5,
+        "title": "Mein Tag zu Hause",
+        "focus": "time sequence zuerst/dann; short routine message",
+        "outcome": "Combine present-tense statements into a simple daily account.",
+        "prerequisiteIds": [
+          "a1-daily-verbs-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "de-A1-daily-verbs-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "a1-daily-verbs-1",
+        "a1-daily-verbs-2",
+        "a1-daily-verbs-3",
+        "a1-daily-verbs-4",
+        "a1-daily-verbs-5"
+      ]
+    }
+  },
+  {
+    "id": "numbers",
+    "language": "de",
+    "level": "A1",
+    "number": 5,
+    "lessons": [
+      {
+        "id": "a1-numbers-1",
+        "number": 1,
+        "title": "Zahlen und Preise",
+        "focus": "numbers 21–1000; decimal prices",
+        "outcome": "Read a price list and state a total without an arithmetic language trap.",
+        "prerequisiteIds": [
+          "a1-daily-verbs-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-numbers-2",
+        "number": 2,
+        "title": "Wie spät ist es?",
+        "focus": "official and common clock times; um",
+        "outcome": "Understand a timetable and propose a meeting time.",
+        "prerequisiteIds": [
+          "a1-numbers-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-numbers-3",
+        "number": 3,
+        "title": "Am Montag",
+        "focus": "weekdays; am/um; days of the week",
+        "outcome": "Match availability to a weekly calendar.",
+        "prerequisiteIds": [
+          "a1-numbers-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-numbers-4",
+        "number": 4,
+        "title": "Geburtstag und Datum",
+        "focus": "ordinal dates as chunks; months",
+        "outcome": "Find dates in a short invitation and enter them in a calendar.",
+        "prerequisiteIds": [
+          "a1-numbers-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-numbers-5",
+        "number": 5,
+        "title": "Treffen wir uns?",
+        "focus": "von/bis; opening times; simple appointment notes",
+        "outcome": "Agree a place and time from two schedules.",
+        "prerequisiteIds": [
+          "a1-numbers-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "de-A1-numbers-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "a1-numbers-1",
+        "a1-numbers-2",
+        "a1-numbers-3",
+        "a1-numbers-4",
+        "a1-numbers-5"
+      ]
+    }
+  },
+  {
+    "id": "everyday-requests",
+    "language": "de",
+    "level": "A1",
+    "number": 6,
+    "lessons": [
+      {
+        "id": "a1-everyday-requests-1",
+        "number": 1,
+        "title": "Im Café bestellen",
+        "focus": "möchten as a polite chunk; drinks and food",
+        "outcome": "Order a drink and understand a simple follow-up question.",
+        "prerequisiteIds": [
+          "a1-numbers-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-everyday-requests-2",
+        "number": 2,
+        "title": "Was brauchen wir?",
+        "focus": "accusative introduction; einen/eine/ein",
+        "outcome": "Write a short shopping list and say what is needed.",
+        "prerequisiteIds": [
+          "a1-everyday-requests-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-everyday-requests-3",
+        "number": 3,
+        "title": "Wie viel kostet das?",
+        "focus": "quantity units; amounts; haben in requests",
+        "outcome": "Compare a small menu with a shopping budget.",
+        "prerequisiteIds": [
+          "a1-everyday-requests-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-everyday-requests-4",
+        "number": 4,
+        "title": "Können Sie helfen?",
+        "focus": "können; infinitive bracket; polite request",
+        "outcome": "Ask for simple practical help at a counter.",
+        "prerequisiteIds": [
+          "a1-everyday-requests-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-everyday-requests-5",
+        "number": 5,
+        "title": "Die Rechnung, bitte",
+        "focus": "payment; request and response conventions",
+        "outcome": "Complete a natural service dialogue from order to payment.",
+        "prerequisiteIds": [
+          "a1-everyday-requests-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "de-A1-everyday-requests-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "a1-everyday-requests-1",
+        "a1-everyday-requests-2",
+        "a1-everyday-requests-3",
+        "a1-everyday-requests-4",
+        "a1-everyday-requests-5"
+      ]
+    }
+  },
+  {
+    "id": "family",
+    "language": "de",
+    "level": "A1",
+    "number": 7,
+    "lessons": [
+      {
+        "id": "a1-family-1",
+        "number": 1,
+        "title": "Meine Familie",
+        "focus": "mein/dein/sein/ihr in nominative",
+        "outcome": "Describe who belongs to a small family.",
+        "prerequisiteIds": [
+          "a1-everyday-requests-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-family-2",
+        "number": 2,
+        "title": "Das ist meine Schwester",
+        "focus": "possessive articles; family and relationships",
+        "outcome": "Read a family profile and identify relationships.",
+        "prerequisiteIds": [
+          "a1-family-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-family-3",
+        "number": 3,
+        "title": "Wem gehört das?",
+        "focus": "possessives in accusative; personal belongings",
+        "outcome": "Identify an owner using a simple lost-property message.",
+        "prerequisiteIds": [
+          "a1-family-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-family-4",
+        "number": 4,
+        "title": "Wie ist sie?",
+        "focus": "predicative adjectives; sehr/auch",
+        "outcome": "Describe a person in simple neutral terms.",
+        "prerequisiteIds": [
+          "a1-family-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-family-5",
+        "number": 5,
+        "title": "Eine Nachricht an Freunde",
+        "focus": "greeting/closing; simple sentence linking",
+        "outcome": "Assemble a short invitation mentioning family and belongings.",
+        "prerequisiteIds": [
+          "a1-family-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "de-A1-family-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "a1-family-1",
+        "a1-family-2",
+        "a1-family-3",
+        "a1-family-4",
+        "a1-family-5"
+      ]
+    }
+  },
+  {
+    "id": "review",
+    "language": "de",
+    "level": "A1",
+    "number": 8,
+    "lessons": [
+      {
+        "id": "a1-review-1",
+        "number": 1,
+        "title": "Eine Wohnung beschreiben",
+        "focus": "es gibt plus accusative; rooms and furniture",
+        "outcome": "Extract basic facts from a simple housing advertisement.",
+        "prerequisiteIds": [
+          "a1-family-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-review-2",
+        "number": 2,
+        "title": "Unterwegs in der Stadt",
+        "focus": "nach/in/zu as destination chunks; links/rechts",
+        "outcome": "Follow a short written route to a meeting point.",
+        "prerequisiteIds": [
+          "a1-review-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-review-3",
+        "number": 3,
+        "title": "Freizeit planen",
+        "focus": "wollen; gern/lieber; modal bracket",
+        "outcome": "Agree a leisure plan in a short text exchange.",
+        "prerequisiteIds": [
+          "a1-review-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-review-4",
+        "number": 4,
+        "title": "Ein Wochenende erzählen",
+        "focus": "present narrative; common war/hatte chunks",
+        "outcome": "Understand a short everyday account without requiring Perfekt mastery.",
+        "prerequisiteIds": [
+          "a1-review-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-review-5",
+        "number": 5,
+        "title": "Mein A1-Alltag",
+        "focus": "integrated forms, schedules, messages and introductions",
+        "outcome": "Complete a practical sequence of reading and constrained writing tasks.",
+        "prerequisiteIds": [
+          "a1-review-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "de-A1-review-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "a1-review-1",
+        "a1-review-2",
+        "a1-review-3",
+        "a1-review-4",
+        "a1-review-5"
+      ]
+    }
+  },
+  {
+    "id": "past",
+    "language": "de",
+    "level": "A2",
+    "number": 1,
+    "lessons": [
+      {
+        "id": "a2-past-1",
+        "number": 1,
+        "title": "Was hast du gemacht?",
+        "focus": "Perfekt with haben; regular participles",
+        "outcome": "Report completed weekend activities.",
+        "prerequisiteIds": [
+          "a1-review-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-past-2",
+        "number": 2,
+        "title": "Wir sind nach Bern gefahren",
+        "focus": "Perfekt with sein; movement and common irregular participles",
+        "outcome": "Distinguish a journey from activities at the destination.",
+        "prerequisiteIds": [
+          "a2-past-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-past-3",
+        "number": 3,
+        "title": "Gestern war ich krank",
+        "focus": "war/hatte and frequent modal Präteritum",
+        "outcome": "Explain a simple past absence.",
+        "prerequisiteIds": [
+          "a2-past-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-past-4",
+        "number": 4,
+        "title": "Ein Erlebnis ordnen",
+        "focus": "time expressions; Perfekt sentence bracket",
+        "outcome": "Sequence events in a short travel account.",
+        "prerequisiteIds": [
+          "a2-past-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-past-5",
+        "number": 5,
+        "title": "Eine Nachricht aus den Ferien",
+        "focus": "past-tense selection in everyday correspondence",
+        "outcome": "Write a constrained holiday update with clear event order.",
+        "prerequisiteIds": [
+          "a2-past-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "de-A2-past-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "a2-past-1",
+        "a2-past-2",
+        "a2-past-3",
+        "a2-past-4",
+        "a2-past-5"
+      ]
+    }
+  },
+  {
+    "id": "cases",
+    "language": "de",
+    "level": "A2",
+    "number": 2,
+    "lessons": [
+      {
+        "id": "a2-cases-1",
+        "number": 1,
+        "title": "Ich kaufe einen Tisch",
+        "focus": "accusative articles and pronouns",
+        "outcome": "Discuss objects needed for a new room.",
+        "prerequisiteIds": [
+          "a2-past-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-cases-2",
+        "number": 2,
+        "title": "Ich helfe meiner Nachbarin",
+        "focus": "dative articles; helfen/danken/gefallen",
+        "outcome": "Understand who receives help or thanks.",
+        "prerequisiteIds": [
+          "a2-cases-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-cases-3",
+        "number": 3,
+        "title": "Mit dem Bus zur Arbeit",
+        "focus": "mit/nach/bei/von/zu/aus; dative",
+        "outcome": "Read practical transport and destination instructions.",
+        "prerequisiteIds": [
+          "a2-cases-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-cases-4",
+        "number": 4,
+        "title": "Wo steht der Tisch?",
+        "focus": "two-way prepositions; position versus movement",
+        "outcome": "Describe placing and locating household objects.",
+        "prerequisiteIds": [
+          "a2-cases-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-cases-5",
+        "number": 5,
+        "title": "Ein Zimmer einrichten",
+        "focus": "accusative/dative contrast in context",
+        "outcome": "Follow and correct a written furniture arrangement.",
+        "prerequisiteIds": [
+          "a2-cases-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "de-A2-cases-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "a2-cases-1",
+        "a2-cases-2",
+        "a2-cases-3",
+        "a2-cases-4",
+        "a2-cases-5"
+      ]
+    }
+  },
+  {
+    "id": "modals",
+    "language": "de",
+    "level": "A2",
+    "number": 3,
+    "lessons": [
+      {
+        "id": "a2-modals-1",
+        "number": 1,
+        "title": "Was darf ich hier?",
+        "focus": "dürfen/können; permission versus ability",
+        "outcome": "Interpret everyday notices and permissions.",
+        "prerequisiteIds": [
+          "a2-cases-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-modals-2",
+        "number": 2,
+        "title": "Ich muss heute arbeiten",
+        "focus": "müssen/sollen; nicht müssen/nicht dürfen",
+        "outcome": "Distinguish obligation, advice and prohibition.",
+        "prerequisiteIds": [
+          "a2-modals-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-modals-3",
+        "number": 3,
+        "title": "Bitte nehmen Sie Platz",
+        "focus": "du/ihr/Sie imperative; common irregular forms",
+        "outcome": "Follow simple health and service instructions.",
+        "prerequisiteIds": [
+          "a2-modals-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-modals-4",
+        "number": 4,
+        "title": "Könnten Sie bitte …?",
+        "focus": "könnten as polite request; request responses",
+        "outcome": "Ask for assistance without using an inappropriate command.",
+        "prerequisiteIds": [
+          "a2-modals-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-modals-5",
+        "number": 5,
+        "title": "Regeln im Wohnhaus",
+        "focus": "modal meanings; house rules",
+        "outcome": "Resolve a simple rules misunderstanding in a written exchange.",
+        "prerequisiteIds": [
+          "a2-modals-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "de-A2-modals-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "a2-modals-1",
+        "a2-modals-2",
+        "a2-modals-3",
+        "a2-modals-4",
+        "a2-modals-5"
+      ]
+    }
+  },
+  {
+    "id": "subclauses",
+    "language": "de",
+    "level": "A2",
+    "number": 4,
+    "lessons": [
+      {
+        "id": "a2-subclauses-1",
+        "number": 1,
+        "title": "Ich bleibe zu Hause, weil …",
+        "focus": "weil; verb-final clauses",
+        "outcome": "Give a clear everyday reason.",
+        "prerequisiteIds": [
+          "a2-modals-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-subclauses-2",
+        "number": 2,
+        "title": "Ich glaube, dass …",
+        "focus": "dass clauses; reporting opinions",
+        "outcome": "Relay simple information from a colleague.",
+        "prerequisiteIds": [
+          "a2-subclauses-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-subclauses-3",
+        "number": 3,
+        "title": "Wenn ich Zeit habe",
+        "focus": "wenn for recurring conditions; main-clause inversion",
+        "outcome": "Describe a routine dependent on time or weather.",
+        "prerequisiteIds": [
+          "a2-subclauses-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-subclauses-4",
+        "number": 4,
+        "title": "Ich lerne, um … zu …",
+        "focus": "zu infinitive; um … zu for same subject",
+        "outcome": "Explain a practical learning or work goal.",
+        "prerequisiteIds": [
+          "a2-subclauses-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-subclauses-5",
+        "number": 5,
+        "title": "Eine Absage begründen",
+        "focus": "weil/dass/wenn; cohesive short email",
+        "outcome": "Decline and propose an alternative with a reason.",
+        "prerequisiteIds": [
+          "a2-subclauses-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "de-A2-subclauses-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "a2-subclauses-1",
+        "a2-subclauses-2",
+        "a2-subclauses-3",
+        "a2-subclauses-4",
+        "a2-subclauses-5"
+      ]
+    }
+  },
+  {
+    "id": "comparison",
+    "language": "de",
+    "level": "A2",
+    "number": 5,
+    "lessons": [
+      {
+        "id": "a2-comparison-1",
+        "number": 1,
+        "title": "Diese Wohnung ist grösser",
+        "focus": "comparative; als",
+        "outcome": "Compare two everyday options using relevant facts.",
+        "prerequisiteIds": [
+          "a2-subclauses-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-comparison-2",
+        "number": 2,
+        "title": "Am günstigsten",
+        "focus": "superlative; so … wie",
+        "outcome": "Choose accommodation from a small comparison table.",
+        "prerequisiteIds": [
+          "a2-comparison-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-comparison-3",
+        "number": 3,
+        "title": "Eine helle Wohnung",
+        "focus": "adjective endings after indefinite articles in basic cases",
+        "outcome": "Understand key features in advertisements.",
+        "prerequisiteIds": [
+          "a2-comparison-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-comparison-4",
+        "number": 4,
+        "title": "Der neue Arbeitsweg",
+        "focus": "adjective endings after definite articles",
+        "outcome": "Describe a changed route or neighbourhood.",
+        "prerequisiteIds": [
+          "a2-comparison-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-comparison-5",
+        "number": 5,
+        "title": "Was passt besser?",
+        "focus": "comparison; preferences and reasons",
+        "outcome": "Recommend a product using a short review and specifications.",
+        "prerequisiteIds": [
+          "a2-comparison-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "de-A2-comparison-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "a2-comparison-1",
+        "a2-comparison-2",
+        "a2-comparison-3",
+        "a2-comparison-4",
+        "a2-comparison-5"
+      ]
+    }
+  },
+  {
+    "id": "appointments",
+    "language": "de",
+    "level": "A2",
+    "number": 6,
+    "lessons": [
+      {
+        "id": "a2-appointments-1",
+        "number": 1,
+        "title": "Einen Termin vereinbaren",
+        "focus": "time prepositions seit/vor/in; appointments",
+        "outcome": "Propose and confirm a suitable appointment.",
+        "prerequisiteIds": [
+          "a2-comparison-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-appointments-2",
+        "number": 2,
+        "title": "Den Termin verschieben",
+        "focus": "polite request; alternative dates",
+        "outcome": "Reschedule without confusing the old and new date.",
+        "prerequisiteIds": [
+          "a2-appointments-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-appointments-3",
+        "number": 3,
+        "title": "Beim Arzt",
+        "focus": "reflexive sich fühlen; body and symptoms",
+        "outcome": "Read and complete a basic symptom description.",
+        "prerequisiteIds": [
+          "a2-appointments-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-appointments-4",
+        "number": 4,
+        "title": "Auf dem Amt",
+        "focus": "indirect questions with ob and question words",
+        "outcome": "Ask a polite procedural question at an office.",
+        "prerequisiteIds": [
+          "a2-appointments-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-appointments-5",
+        "number": 5,
+        "title": "Eine formelle E-Mail",
+        "focus": "salutation, request, reason and closing",
+        "outcome": "Compose a short administrative request from given facts.",
+        "prerequisiteIds": [
+          "a2-appointments-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "de-A2-appointments-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "a2-appointments-1",
+        "a2-appointments-2",
+        "a2-appointments-3",
+        "a2-appointments-4",
+        "a2-appointments-5"
+      ]
+    }
+  },
+  {
+    "id": "work",
+    "language": "de",
+    "level": "A2",
+    "number": 7,
+    "lessons": [
+      {
+        "id": "a2-work-1",
+        "number": 1,
+        "title": "Mein Beruf",
+        "focus": "job tasks; frequency and present/past contrast",
+        "outcome": "Describe present duties and previous experience.",
+        "prerequisiteIds": [
+          "a2-appointments-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-work-2",
+        "number": 2,
+        "title": "Ein neuer Arbeitsplatz",
+        "focus": "reflexive verbs; sich freuen/interessieren",
+        "outcome": "Understand a simple first-day message.",
+        "prerequisiteIds": [
+          "a2-work-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-work-3",
+        "number": 3,
+        "title": "Mit Kollegen planen",
+        "focus": "dative/accusative pronouns; object order",
+        "outcome": "Clarify who sends which document to whom.",
+        "prerequisiteIds": [
+          "a2-work-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-work-4",
+        "number": 4,
+        "title": "Eine Stelle suchen",
+        "focus": "advertisement vocabulary; connectors denn/deshalb",
+        "outcome": "Match a basic job advertisement to a profile.",
+        "prerequisiteIds": [
+          "a2-work-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-work-5",
+        "number": 5,
+        "title": "Eine kurze Bewerbung",
+        "focus": "skills, experience, availability",
+        "outcome": "Write a guided application without unsupported qualifications.",
+        "prerequisiteIds": [
+          "a2-work-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "de-A2-work-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "a2-work-1",
+        "a2-work-2",
+        "a2-work-3",
+        "a2-work-4",
+        "a2-work-5"
+      ]
+    }
+  },
+  {
+    "id": "review",
+    "language": "de",
+    "level": "A2",
+    "number": 8,
+    "lessons": [
+      {
+        "id": "a2-review-1",
+        "number": 1,
+        "title": "Eine Reise organisieren",
+        "focus": "directions; prepositions; past/future context",
+        "outcome": "Combine timetables, accommodation and an enquiry.",
+        "prerequisiteIds": [
+          "a2-work-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-review-2",
+        "number": 2,
+        "title": "Ein kleines Problem lösen",
+        "focus": "accusative/dative; polite requests",
+        "outcome": "Report a repair problem and understand the proposed action.",
+        "prerequisiteIds": [
+          "a2-review-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-review-3",
+        "number": 3,
+        "title": "Erfahrungen vergleichen",
+        "focus": "Perfekt; comparisons; reasons",
+        "outcome": "Compare two personal experiences coherently.",
+        "prerequisiteIds": [
+          "a2-review-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-review-4",
+        "number": 4,
+        "title": "Eine Einladung beantworten",
+        "focus": "conditions; scheduling; email conventions",
+        "outcome": "Accept or decline with a practical alternative.",
+        "prerequisiteIds": [
+          "a2-review-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-review-5",
+        "number": 5,
+        "title": "Mein A2-Projekt",
+        "focus": "integrated everyday reading and guided writing",
+        "outcome": "Plan a move or course registration from several short sources.",
+        "prerequisiteIds": [
+          "a2-review-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "de-A2-review-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "a2-review-1",
+        "a2-review-2",
+        "a2-review-3",
+        "a2-review-4",
+        "a2-review-5"
+      ]
+    }
+  },
+  {
+    "id": "relative",
+    "language": "de",
+    "level": "B1",
+    "number": 1,
+    "lessons": [
+      {
+        "id": "b1-relative-1",
+        "number": 1,
+        "title": "Menschen genauer beschreiben",
+        "focus": "relative pronouns nominative/accusative",
+        "outcome": "Identify people from descriptions without ambiguous reference.",
+        "prerequisiteIds": [
+          "a2-review-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-relative-2",
+        "number": 2,
+        "title": "Der Ort, an dem …",
+        "focus": "dative and prepositional relative clauses",
+        "outcome": "Describe places relevant to an experience.",
+        "prerequisiteIds": [
+          "b1-relative-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-relative-3",
+        "number": 3,
+        "title": "Als ich neu war",
+        "focus": "als/wenn; one event versus repeated events",
+        "outcome": "Tell a past experience with accurate time relationships.",
+        "prerequisiteIds": [
+          "b1-relative-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-relative-4",
+        "number": 4,
+        "title": "Bevor und nachdem",
+        "focus": "temporal clauses; basic Plusquamperfekt",
+        "outcome": "Explain what happened before and after a turning point.",
+        "prerequisiteIds": [
+          "b1-relative-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-relative-5",
+        "number": 5,
+        "title": "Eine persönliche Geschichte",
+        "focus": "relative reference; time cohesion",
+        "outcome": "Edit a connected account with an identifiable sequence.",
+        "prerequisiteIds": [
+          "b1-relative-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "de-B1-relative-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "b1-relative-1",
+        "b1-relative-2",
+        "b1-relative-3",
+        "b1-relative-4",
+        "b1-relative-5"
+      ]
+    }
+  },
+  {
+    "id": "conditional",
+    "language": "de",
+    "level": "B1",
+    "number": 2,
+    "lessons": [
+      {
+        "id": "b1-conditional-1",
+        "number": 1,
+        "title": "Ich hätte gern mehr Zeit",
+        "focus": "hätte/wäre; unreal wishes",
+        "outcome": "Express a current unreal wish and its reason.",
+        "prerequisiteIds": [
+          "b1-relative-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-conditional-2",
+        "number": 2,
+        "title": "Was würdest du tun?",
+        "focus": "würde plus infinitive; wenn clauses",
+        "outcome": "Discuss realistic hypothetical choices.",
+        "prerequisiteIds": [
+          "b1-conditional-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-conditional-3",
+        "number": 3,
+        "title": "Du solltest …",
+        "focus": "sollte/könnte; advice with reasons",
+        "outcome": "Offer tactful advice suited to a specific problem.",
+        "prerequisiteIds": [
+          "b1-conditional-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-conditional-4",
+        "number": 4,
+        "title": "Eine höfliche Bitte",
+        "focus": "Konjunktiv II request forms",
+        "outcome": "Negotiate a favour with an appropriate register.",
+        "prerequisiteIds": [
+          "b1-conditional-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-conditional-5",
+        "number": 5,
+        "title": "Eine Entscheidung abwägen",
+        "focus": "conditions, advice and alternatives",
+        "outcome": "Compare solutions in a written advice exchange.",
+        "prerequisiteIds": [
+          "b1-conditional-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "de-B1-conditional-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "b1-conditional-1",
+        "b1-conditional-2",
+        "b1-conditional-3",
+        "b1-conditional-4",
+        "b1-conditional-5"
+      ]
+    }
+  },
+  {
+    "id": "passive",
+    "language": "de",
+    "level": "B1",
+    "number": 3,
+    "lessons": [
+      {
+        "id": "b1-passive-1",
+        "number": 1,
+        "title": "Wie wird das gemacht?",
+        "focus": "werden plus participle; present passive",
+        "outcome": "Describe a simple production process.",
+        "prerequisiteIds": [
+          "b1-conditional-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-passive-2",
+        "number": 2,
+        "title": "Was wurde geändert?",
+        "focus": "Präteritum passive",
+        "outcome": "Summarise changes described in a notice.",
+        "prerequisiteIds": [
+          "b1-passive-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-passive-3",
+        "number": 3,
+        "title": "Was muss erledigt werden?",
+        "focus": "passive with modal verbs",
+        "outcome": "Interpret responsibilities in written procedures.",
+        "prerequisiteIds": [
+          "b1-passive-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-passive-4",
+        "number": 4,
+        "title": "Wer handelt?",
+        "focus": "active/passive; von agents",
+        "outcome": "Choose whether actor or process is relevant.",
+        "prerequisiteIds": [
+          "b1-passive-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-passive-5",
+        "number": 5,
+        "title": "Eine Anleitung verstehen",
+        "focus": "process connectors; passive in context",
+        "outcome": "Order and explain the steps of a familiar procedure.",
+        "prerequisiteIds": [
+          "b1-passive-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "de-B1-passive-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "b1-passive-1",
+        "b1-passive-2",
+        "b1-passive-3",
+        "b1-passive-4",
+        "b1-passive-5"
+      ]
+    }
+  },
+  {
+    "id": "writing",
+    "language": "de",
+    "level": "B1",
+    "number": 4,
+    "lessons": [
+      {
+        "id": "b1-writing-1",
+        "number": 1,
+        "title": "Eine E-Mail planen",
+        "focus": "paragraph purpose; greeting and register",
+        "outcome": "Organise a practical email around all required points.",
+        "prerequisiteIds": [
+          "b1-passive-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-writing-2",
+        "number": 2,
+        "title": "Eine Meinung begründen",
+        "focus": "weil/denn/deshalb; evidence and opinion",
+        "outcome": "Support a familiar-topic opinion with concrete reasons.",
+        "prerequisiteIds": [
+          "b1-writing-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-writing-3",
+        "number": 3,
+        "title": "Einwände berücksichtigen",
+        "focus": "obwohl/trotzdem; concession",
+        "outcome": "Respond to another view without contradicting the main argument.",
+        "prerequisiteIds": [
+          "b1-writing-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-writing-4",
+        "number": 4,
+        "title": "Eine Beschwerde schreiben",
+        "focus": "facts, impact, requested remedy",
+        "outcome": "Produce a structured guided complaint.",
+        "prerequisiteIds": [
+          "b1-writing-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-writing-5",
+        "number": 5,
+        "title": "Einen Text überarbeiten",
+        "focus": "reference, repetition and paragraph cohesion",
+        "outcome": "Improve clarity using an explicit editing checklist.",
+        "prerequisiteIds": [
+          "b1-writing-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "de-B1-writing-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "b1-writing-1",
+        "b1-writing-2",
+        "b1-writing-3",
+        "b1-writing-4",
+        "b1-writing-5"
+      ]
+    }
+  },
+  {
+    "id": "work-society",
+    "language": "de",
+    "level": "B1",
+    "number": 5,
+    "lessons": [
+      {
+        "id": "b1-work-society-1",
+        "number": 1,
+        "title": "Erfahrungen im Beruf",
+        "focus": "Präteritum/Perfekt in biographies",
+        "outcome": "Read a work profile and identify relevant experience.",
+        "prerequisiteIds": [
+          "b1-writing-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-work-society-2",
+        "number": 2,
+        "title": "Aufgaben vereinbaren",
+        "focus": "infinitive clauses; commitments and deadlines",
+        "outcome": "Confirm responsibilities in a team message.",
+        "prerequisiteIds": [
+          "b1-work-society-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-work-society-3",
+        "number": 3,
+        "title": "Lernen und Weiterbildung",
+        "focus": "damit versus um … zu",
+        "outcome": "Explain different people’s learning goals.",
+        "prerequisiteIds": [
+          "b1-work-society-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-work-society-4",
+        "number": 4,
+        "title": "Zusammenleben",
+        "focus": "reciprocal/reflexive verbs; community vocabulary",
+        "outcome": "Compare everyday community arrangements.",
+        "prerequisiteIds": [
+          "b1-work-society-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-work-society-5",
+        "number": 5,
+        "title": "Ein Vorschlag für das Team",
+        "focus": "problem, proposal, benefit",
+        "outcome": "Write a practical suggestion supported by reasons.",
+        "prerequisiteIds": [
+          "b1-work-society-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "de-B1-work-society-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "b1-work-society-1",
+        "b1-work-society-2",
+        "b1-work-society-3",
+        "b1-work-society-4",
+        "b1-work-society-5"
+      ]
+    }
+  },
+  {
+    "id": "problem-solving",
+    "language": "de",
+    "level": "B1",
+    "number": 6,
+    "lessons": [
+      {
+        "id": "b1-problem-solving-1",
+        "number": 1,
+        "title": "Ein Problem schildern",
+        "focus": "seit/seitdem; duration and effects",
+        "outcome": "Describe a continuing service problem precisely.",
+        "prerequisiteIds": [
+          "b1-work-society-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-problem-solving-2",
+        "number": 2,
+        "title": "Informationen klären",
+        "focus": "indirect questions; clarification strategies",
+        "outcome": "Resolve ambiguity in a service exchange.",
+        "prerequisiteIds": [
+          "b1-problem-solving-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-problem-solving-3",
+        "number": 3,
+        "title": "Eine Lösung vorschlagen",
+        "focus": "Konjunktiv II; alternatives",
+        "outcome": "Offer a feasible remedy with conditions.",
+        "prerequisiteIds": [
+          "b1-problem-solving-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-problem-solving-4",
+        "number": 4,
+        "title": "Einen Kompromiss finden",
+        "focus": "zwar … aber; agreement and disagreement",
+        "outcome": "Negotiate an acceptable arrangement in text.",
+        "prerequisiteIds": [
+          "b1-problem-solving-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-problem-solving-5",
+        "number": 5,
+        "title": "Eine Vereinbarung bestätigen",
+        "focus": "summary of dates, duties and conditions",
+        "outcome": "Write a confirmation that prevents further misunderstanding.",
+        "prerequisiteIds": [
+          "b1-problem-solving-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "de-B1-problem-solving-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "b1-problem-solving-1",
+        "b1-problem-solving-2",
+        "b1-problem-solving-3",
+        "b1-problem-solving-4",
+        "b1-problem-solving-5"
+      ]
+    }
+  },
+  {
+    "id": "presentations",
+    "language": "de",
+    "level": "B1",
+    "number": 7,
+    "lessons": [
+      {
+        "id": "b1-presentations-1",
+        "number": 1,
+        "title": "Ein Thema strukturieren",
+        "focus": "opening, sequencing and closing expressions",
+        "outcome": "Build an outline for a short written presentation script.",
+        "prerequisiteIds": [
+          "b1-problem-solving-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-presentations-2",
+        "number": 2,
+        "title": "Eine Grafik beschreiben",
+        "focus": "quantities; comparison language",
+        "outcome": "Describe only information supported by a simple chart.",
+        "prerequisiteIds": [
+          "b1-presentations-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-presentations-3",
+        "number": 3,
+        "title": "Gemeinsam planen",
+        "focus": "suggestion, response and allocation of tasks",
+        "outcome": "Complete a collaborative planning dialogue.",
+        "prerequisiteIds": [
+          "b1-presentations-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-presentations-4",
+        "number": 4,
+        "title": "Auf Fragen reagieren",
+        "focus": "clarification and paraphrase",
+        "outcome": "Answer relevant written follow-up questions coherently.",
+        "prerequisiteIds": [
+          "b1-presentations-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-presentations-5",
+        "number": 5,
+        "title": "Ein Projekt vorstellen",
+        "focus": "script plus written discussion",
+        "outcome": "Connect a proposal, evidence and feasible next steps.",
+        "prerequisiteIds": [
+          "b1-presentations-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "de-B1-presentations-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "b1-presentations-1",
+        "b1-presentations-2",
+        "b1-presentations-3",
+        "b1-presentations-4",
+        "b1-presentations-5"
+      ]
+    }
+  },
+  {
+    "id": "review",
+    "language": "de",
+    "level": "B1",
+    "number": 8,
+    "lessons": [
+      {
+        "id": "b1-review-1",
+        "number": 1,
+        "title": "Reise und Reklamation",
+        "focus": "narrative, complaint and proposed remedy",
+        "outcome": "Use several travel documents to resolve a problem.",
+        "prerequisiteIds": [
+          "b1-presentations-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-review-2",
+        "number": 2,
+        "title": "Arbeit und Weiterbildung",
+        "focus": "experience, goals and formal enquiry",
+        "outcome": "Select and justify a suitable course.",
+        "prerequisiteIds": [
+          "b1-review-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-review-3",
+        "number": 3,
+        "title": "Alltag und Umwelt",
+        "focus": "reason, concession and personal examples",
+        "outcome": "Compare practical environmental choices.",
+        "prerequisiteIds": [
+          "b1-review-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-review-4",
+        "number": 4,
+        "title": "Ein begründeter Standpunkt",
+        "focus": "connected B1 argument and reply",
+        "outcome": "Write a guided forum contribution with a reasoned response.",
+        "prerequisiteIds": [
+          "b1-review-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-review-5",
+        "number": 5,
+        "title": "Mein B1-Dossier",
+        "focus": "integrated reading, editing and text interaction",
+        "outcome": "Demonstrate independent handling of familiar written situations.",
+        "prerequisiteIds": [
+          "b1-review-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "de-B1-review-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "b1-review-1",
+        "b1-review-2",
+        "b1-review-3",
+        "b1-review-4",
+        "b1-review-5"
+      ]
+    }
+  },
+  {
+    "id": "connectors",
+    "language": "de",
+    "level": "B2",
+    "number": 1,
+    "lessons": [
+      {
+        "id": "b2-connectors-1",
+        "number": 1,
+        "title": "Ursachen differenzieren",
+        "focus": "da/zumal; aufgrund/wegen",
+        "outcome": "Distinguish the stated cause from additional justification.",
+        "prerequisiteIds": [
+          "b1-review-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-connectors-2",
+        "number": 2,
+        "title": "Gegensätze abwägen",
+        "focus": "obwohl/während; dennoch",
+        "outcome": "Compare conflicting claims without flattening their meanings.",
+        "prerequisiteIds": [
+          "b2-connectors-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-connectors-3",
+        "number": 3,
+        "title": "Zusammenhänge steigern",
+        "focus": "je … desto; comparative clauses",
+        "outcome": "Describe a supported relationship in data.",
+        "prerequisiteIds": [
+          "b2-connectors-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-connectors-4",
+        "number": 4,
+        "title": "Alternativen verbinden",
+        "focus": "sowohl … als auch; weder … noch; entweder … oder",
+        "outcome": "Present balanced alternatives accurately.",
+        "prerequisiteIds": [
+          "b2-connectors-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-connectors-5",
+        "number": 5,
+        "title": "Argumente verknüpfen",
+        "focus": "connector selection and clause punctuation",
+        "outcome": "Edit a coherent discussion of a public issue.",
+        "prerequisiteIds": [
+          "b2-connectors-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "de-B2-connectors-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "b2-connectors-1",
+        "b2-connectors-2",
+        "b2-connectors-3",
+        "b2-connectors-4",
+        "b2-connectors-5"
+      ]
+    }
+  },
+  {
+    "id": "passive-forms",
+    "language": "de",
+    "level": "B2",
+    "number": 2,
+    "lessons": [
+      {
+        "id": "b2-passive-forms-1",
+        "number": 1,
+        "title": "Prozess oder Zustand?",
+        "focus": "Vorgangspassiv versus Zustandspassiv",
+        "outcome": "Distinguish an ongoing action from its resulting state.",
+        "prerequisiteIds": [
+          "b2-connectors-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-passive-forms-2",
+        "number": 2,
+        "title": "Vergangene Abläufe",
+        "focus": "passive perfect and past perfect",
+        "outcome": "Reconstruct the sequence in a procedural report.",
+        "prerequisiteIds": [
+          "b2-passive-forms-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-passive-forms-3",
+        "number": 3,
+        "title": "Was ist zu beachten?",
+        "focus": "sein plus zu; necessity and possibility",
+        "outcome": "Interpret institutional instructions and constraints.",
+        "prerequisiteIds": [
+          "b2-passive-forms-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-passive-forms-4",
+        "number": 4,
+        "title": "Das lässt sich lösen",
+        "focus": "sich lassen; -bar adjectives; passive alternatives",
+        "outcome": "Rephrase feasibility claims with the same meaning.",
+        "prerequisiteIds": [
+          "b2-passive-forms-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-passive-forms-5",
+        "number": 5,
+        "title": "Verfahren dokumentieren",
+        "focus": "passive register and agent relevance",
+        "outcome": "Summarise a process clearly for a non-specialist.",
+        "prerequisiteIds": [
+          "b2-passive-forms-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "de-B2-passive-forms-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "b2-passive-forms-1",
+        "b2-passive-forms-2",
+        "b2-passive-forms-3",
+        "b2-passive-forms-4",
+        "b2-passive-forms-5"
+      ]
+    }
+  },
+  {
+    "id": "nominal",
+    "language": "de",
+    "level": "B2",
+    "number": 3,
+    "lessons": [
+      {
+        "id": "b2-nominal-1",
+        "number": 1,
+        "title": "Vom Verb zum Nomen",
+        "focus": "nominalisation; article and case",
+        "outcome": "Read dense administrative phrases by expanding them.",
+        "prerequisiteIds": [
+          "b2-passive-forms-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-nominal-2",
+        "number": 2,
+        "title": "Gründe kompakt ausdrücken",
+        "focus": "causal prepositional phrases; genitive",
+        "outcome": "Convert between nominal and clause-based reasons.",
+        "prerequisiteIds": [
+          "b2-nominal-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-nominal-3",
+        "number": 3,
+        "title": "Ziele und Bedingungen",
+        "focus": "zwecks/bei; purpose and condition clauses",
+        "outcome": "Interpret conditions without confusing them with purposes.",
+        "prerequisiteIds": [
+          "b2-nominal-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-nominal-4",
+        "number": 4,
+        "title": "Informationen entpacken",
+        "focus": "extended noun phrases; reference",
+        "outcome": "Paraphrase a dense notice in accessible language.",
+        "prerequisiteIds": [
+          "b2-nominal-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-nominal-5",
+        "number": 5,
+        "title": "Klar statt bürokratisch",
+        "focus": "nominal/verbal style by audience",
+        "outcome": "Revise an institutional message for public understanding.",
+        "prerequisiteIds": [
+          "b2-nominal-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "de-B2-nominal-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "b2-nominal-1",
+        "b2-nominal-2",
+        "b2-nominal-3",
+        "b2-nominal-4",
+        "b2-nominal-5"
+      ]
+    }
+  },
+  {
+    "id": "argument",
+    "language": "de",
+    "level": "B2",
+    "number": 4,
+    "lessons": [
+      {
+        "id": "b2-argument-1",
+        "number": 1,
+        "title": "Eine These prüfen",
+        "focus": "claim, evidence and assumption",
+        "outcome": "Identify unsupported conclusions in an opinion text.",
+        "prerequisiteIds": [
+          "b2-nominal-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-argument-2",
+        "number": 2,
+        "title": "Positionen einschränken",
+        "focus": "zwar; insofern; modal particles in context",
+        "outcome": "Qualify a claim without withdrawing it.",
+        "prerequisiteIds": [
+          "b2-argument-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-argument-3",
+        "number": 3,
+        "title": "Vermutungen formulieren",
+        "focus": "dürfte/müsste/könnte; epistemic meaning",
+        "outcome": "Express justified uncertainty in a written analysis.",
+        "prerequisiteIds": [
+          "b2-argument-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-argument-4",
+        "number": 4,
+        "title": "Ein Gegenargument aufgreifen",
+        "focus": "concession and rebuttal",
+        "outcome": "Respond to the strongest relevant objection.",
+        "prerequisiteIds": [
+          "b2-argument-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-argument-5",
+        "number": 5,
+        "title": "Eine Stellungnahme schreiben",
+        "focus": "thesis, support, counterpoint and conclusion",
+        "outcome": "Construct a coherent balanced position using given evidence.",
+        "prerequisiteIds": [
+          "b2-argument-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "de-B2-argument-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "b2-argument-1",
+        "b2-argument-2",
+        "b2-argument-3",
+        "b2-argument-4",
+        "b2-argument-5"
+      ]
+    }
+  },
+  {
+    "id": "professional",
+    "language": "de",
+    "level": "B2",
+    "number": 5,
+    "lessons": [
+      {
+        "id": "b2-professional-1",
+        "number": 1,
+        "title": "Ein Projekt abstimmen",
+        "focus": "deadlines, responsibilities and requirements",
+        "outcome": "Clarify a multi-step work brief.",
+        "prerequisiteIds": [
+          "b2-argument-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-professional-2",
+        "number": 2,
+        "title": "Eine Anfrage präzisieren",
+        "focus": "formal indirectness; relevant detail",
+        "outcome": "Request missing information without ambiguity.",
+        "prerequisiteIds": [
+          "b2-professional-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-professional-3",
+        "number": 3,
+        "title": "Ein Angebot vergleichen",
+        "focus": "conditions, exclusions and cost vocabulary",
+        "outcome": "Compare proposals on equivalent criteria.",
+        "prerequisiteIds": [
+          "b2-professional-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-professional-4",
+        "number": 4,
+        "title": "Ein Problem eskalieren",
+        "focus": "neutral incident language; action requests",
+        "outcome": "Write a factual escalation message.",
+        "prerequisiteIds": [
+          "b2-professional-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-professional-5",
+        "number": 5,
+        "title": "Eine Entscheidung dokumentieren",
+        "focus": "reasoned recommendation; minutes",
+        "outcome": "Record a decision and its practical consequences.",
+        "prerequisiteIds": [
+          "b2-professional-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "de-B2-professional-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "b2-professional-1",
+        "b2-professional-2",
+        "b2-professional-3",
+        "b2-professional-4",
+        "b2-professional-5"
+      ]
+    }
+  },
+  {
+    "id": "media",
+    "language": "de",
+    "level": "B2",
+    "number": 6,
+    "lessons": [
+      {
+        "id": "b2-media-1",
+        "number": 1,
+        "title": "Nachricht oder Kommentar?",
+        "focus": "fact, interpretation and stance markers",
+        "outcome": "Distinguish reporting from evaluation.",
+        "prerequisiteIds": [
+          "b2-professional-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-media-2",
+        "number": 2,
+        "title": "Quellen vergleichen",
+        "focus": "attribution; reliability indicators",
+        "outcome": "Compare how two accounts frame the same event.",
+        "prerequisiteIds": [
+          "b2-media-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-media-3",
+        "number": 3,
+        "title": "Zahlen kritisch lesen",
+        "focus": "proportion, baseline and trend vocabulary",
+        "outcome": "Avoid drawing unsupported conclusions from figures.",
+        "prerequisiteIds": [
+          "b2-media-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-media-4",
+        "number": 4,
+        "title": "Implizite Wertungen",
+        "focus": "word choice; framing; rhetorical questions",
+        "outcome": "Infer a viewpoint with textual evidence.",
+        "prerequisiteIds": [
+          "b2-media-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-media-5",
+        "number": 5,
+        "title": "Eine faire Zusammenfassung",
+        "focus": "paraphrase and attribution",
+        "outcome": "Summarise competing accounts without adopting their claims.",
+        "prerequisiteIds": [
+          "b2-media-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "de-B2-media-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "b2-media-1",
+        "b2-media-2",
+        "b2-media-3",
+        "b2-media-4",
+        "b2-media-5"
+      ]
+    }
+  },
+  {
+    "id": "discussion",
+    "language": "de",
+    "level": "B2",
+    "number": 7,
+    "lessons": [
+      {
+        "id": "b2-discussion-1",
+        "number": 1,
+        "title": "Eine Position klären",
+        "focus": "reformulation and distinction",
+        "outcome": "Remove ambiguity before responding to a proposal.",
+        "prerequisiteIds": [
+          "b2-media-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-discussion-2",
+        "number": 2,
+        "title": "Höflich widersprechen",
+        "focus": "concession and register",
+        "outcome": "Disagree directly enough to be clear and politely enough for context.",
+        "prerequisiteIds": [
+          "b2-discussion-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-discussion-3",
+        "number": 3,
+        "title": "Bedingungen aushandeln",
+        "focus": "sofern/falls; limits and concessions",
+        "outcome": "Negotiate a conditional agreement.",
+        "prerequisiteIds": [
+          "b2-discussion-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-discussion-4",
+        "number": 4,
+        "title": "Optionen gewichten",
+        "focus": "comparative evaluation; criteria",
+        "outcome": "Rank solutions against explicit constraints.",
+        "prerequisiteIds": [
+          "b2-discussion-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-discussion-5",
+        "number": 5,
+        "title": "Ein gemeinsamer Vorschlag",
+        "focus": "synthesis and precise commitments",
+        "outcome": "Produce a compromise preserving essential requirements.",
+        "prerequisiteIds": [
+          "b2-discussion-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "de-B2-discussion-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "b2-discussion-1",
+        "b2-discussion-2",
+        "b2-discussion-3",
+        "b2-discussion-4",
+        "b2-discussion-5"
+      ]
+    }
+  },
+  {
+    "id": "review",
+    "language": "de",
+    "level": "B2",
+    "number": 8,
+    "lessons": [
+      {
+        "id": "b2-review-1",
+        "number": 1,
+        "title": "Ein gesellschaftliches Dossier",
+        "focus": "multi-source reading and evidence",
+        "outcome": "Extract a balanced account from contrasting texts.",
+        "prerequisiteIds": [
+          "b2-discussion-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-review-2",
+        "number": 2,
+        "title": "Ein Verfahren verbessern",
+        "focus": "passive alternatives; nominal/verbal style",
+        "outcome": "Explain a process problem and a feasible improvement.",
+        "prerequisiteIds": [
+          "b2-review-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-review-3",
+        "number": 3,
+        "title": "Eine formelle Stellungnahme",
+        "focus": "register, cohesion and modal nuance",
+        "outcome": "Write a supported response for a specified audience.",
+        "prerequisiteIds": [
+          "b2-review-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-review-4",
+        "number": 4,
+        "title": "Eine Kontroverse bearbeiten",
+        "focus": "counterargument, qualification and synthesis",
+        "outcome": "Resolve contradictions using the provided evidence.",
+        "prerequisiteIds": [
+          "b2-review-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-review-5",
+        "number": 5,
+        "title": "Mein B2-Portfolio",
+        "focus": "integrated critical reading and constrained writing",
+        "outcome": "Demonstrate coherent text handling across familiar and abstract topics.",
+        "prerequisiteIds": [
+          "b2-review-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "de-B2-review-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "b2-review-1",
+        "b2-review-2",
+        "b2-review-3",
+        "b2-review-4",
+        "b2-review-5"
+      ]
+    }
+  },
+  {
+    "id": "reported",
+    "language": "de",
+    "level": "C1",
+    "number": 1,
+    "lessons": [
+      {
+        "id": "c1-reported-1",
+        "number": 1,
+        "title": "Aussagen zuordnen",
+        "focus": "Konjunktiv I; source attribution",
+        "outcome": "Separate author assertions from reported positions.",
+        "prerequisiteIds": [
+          "b2-review-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-reported-2",
+        "number": 2,
+        "title": "Uneindeutige Formen ersetzen",
+        "focus": "Konjunktiv II substitutes; würde forms",
+        "outcome": "Avoid ambiguity between reported speech and assertion.",
+        "prerequisiteIds": [
+          "c1-reported-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-reported-3",
+        "number": 3,
+        "title": "Distanz und Bewertung",
+        "focus": "reporting verbs; evidential distance",
+        "outcome": "Convey a source’s stance without strengthening it.",
+        "prerequisiteIds": [
+          "c1-reported-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-reported-4",
+        "number": 4,
+        "title": "Berichte vergleichen",
+        "focus": "tense relations in indirect speech",
+        "outcome": "Reconcile divergent reports with accurate chronology.",
+        "prerequisiteIds": [
+          "c1-reported-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-reported-5",
+        "number": 5,
+        "title": "Ein Quellenreferat",
+        "focus": "quotation, paraphrase and attribution",
+        "outcome": "Synthesize original statements without plagiarism or false certainty.",
+        "prerequisiteIds": [
+          "c1-reported-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "de-C1-reported-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "c1-reported-1",
+        "c1-reported-2",
+        "c1-reported-3",
+        "c1-reported-4",
+        "c1-reported-5"
+      ]
+    }
+  },
+  {
+    "id": "participles",
+    "language": "de",
+    "level": "C1",
+    "number": 2,
+    "lessons": [
+      {
+        "id": "c1-participles-1",
+        "number": 1,
+        "title": "Handelnd oder betroffen?",
+        "focus": "Partizip I/II attributes",
+        "outcome": "Recover agent and patient relations from compressed descriptions.",
+        "prerequisiteIds": [
+          "c1-reported-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-participles-2",
+        "number": 2,
+        "title": "Erweiterte Attribute",
+        "focus": "case endings and modifier scope",
+        "outcome": "Parse a long noun phrase accurately.",
+        "prerequisiteIds": [
+          "c1-participles-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-participles-3",
+        "number": 3,
+        "title": "Attribute auflösen",
+        "focus": "relative-clause transformations",
+        "outcome": "Expand condensed information without changing time or agency.",
+        "prerequisiteIds": [
+          "c1-participles-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-participles-4",
+        "number": 4,
+        "title": "Gleichzeitigkeit und Folge",
+        "focus": "participial adjuncts; logical subject",
+        "outcome": "Detect dangling or misleading reductions.",
+        "prerequisiteIds": [
+          "c1-participles-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-participles-5",
+        "number": 5,
+        "title": "Dichte und Lesbarkeit",
+        "focus": "editorial use of compression",
+        "outcome": "Choose an appropriate balance of precision and accessibility.",
+        "prerequisiteIds": [
+          "c1-participles-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "de-C1-participles-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "c1-participles-1",
+        "c1-participles-2",
+        "c1-participles-3",
+        "c1-participles-4",
+        "c1-participles-5"
+      ]
+    }
+  },
+  {
+    "id": "academic",
+    "language": "de",
+    "level": "C1",
+    "number": 3,
+    "lessons": [
+      {
+        "id": "c1-academic-1",
+        "number": 1,
+        "title": "Eine Fragestellung schärfen",
+        "focus": "scope, definition and operational terms",
+        "outcome": "Formulate a bounded analytical question.",
+        "prerequisiteIds": [
+          "c1-participles-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-academic-2",
+        "number": 2,
+        "title": "Quellen synthetisieren",
+        "focus": "agreement, divergence and attribution",
+        "outcome": "Integrate two sources rather than summarising them sequentially.",
+        "prerequisiteIds": [
+          "c1-academic-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-academic-3",
+        "number": 3,
+        "title": "Vorsichtig schlussfolgern",
+        "focus": "hedging; limitations and causality",
+        "outcome": "Match a conclusion’s strength to the evidence.",
+        "prerequisiteIds": [
+          "c1-academic-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-academic-4",
+        "number": 4,
+        "title": "Argumentation aufbauen",
+        "focus": "paragraph progression and counterevidence",
+        "outcome": "Develop a sustained analytical argument.",
+        "prerequisiteIds": [
+          "c1-academic-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-academic-5",
+        "number": 5,
+        "title": "Ein Abstract verfassen",
+        "focus": "purpose, method, result and limitation",
+        "outcome": "Condense a provided analysis into a faithful abstract.",
+        "prerequisiteIds": [
+          "c1-academic-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "de-C1-academic-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "c1-academic-1",
+        "c1-academic-2",
+        "c1-academic-3",
+        "c1-academic-4",
+        "c1-academic-5"
+      ]
+    }
+  },
+  {
+    "id": "register",
+    "language": "de",
+    "level": "C1",
+    "number": 4,
+    "lessons": [
+      {
+        "id": "c1-register-1",
+        "number": 1,
+        "title": "Adressaten und Absichten",
+        "focus": "pragmatic force; distance and politeness",
+        "outcome": "Infer the purpose of an indirect message.",
+        "prerequisiteIds": [
+          "c1-academic-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-register-2",
+        "number": 2,
+        "title": "Präzise statt pauschal",
+        "focus": "lexical nuance and collocation",
+        "outcome": "Replace vague wording with context-appropriate precision.",
+        "prerequisiteIds": [
+          "c1-register-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-register-3",
+        "number": 3,
+        "title": "Kritik diplomatisch formulieren",
+        "focus": "mitigation without loss of content",
+        "outcome": "Revise critical feedback for a professional recipient.",
+        "prerequisiteIds": [
+          "c1-register-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-register-4",
+        "number": 4,
+        "title": "Stil wechseln",
+        "focus": "formal, public-facing and collegial registers",
+        "outcome": "Recast the same content for different audiences.",
+        "prerequisiteIds": [
+          "c1-register-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-register-5",
+        "number": 5,
+        "title": "Wirkung eines Textes",
+        "focus": "tone, implication and rhetorical choice",
+        "outcome": "Explain how linguistic choices shape a reader’s interpretation.",
+        "prerequisiteIds": [
+          "c1-register-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "de-C1-register-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "c1-register-1",
+        "c1-register-2",
+        "c1-register-3",
+        "c1-register-4",
+        "c1-register-5"
+      ]
+    }
+  },
+  {
+    "id": "discourse",
+    "language": "de",
+    "level": "C1",
+    "number": 5,
+    "lessons": [
+      {
+        "id": "c1-discourse-1",
+        "number": 1,
+        "title": "Referenzen verfolgen",
+        "focus": "anaphora; demonstratives; abstract reference",
+        "outcome": "Track ideas across a dense argumentative text.",
+        "prerequisiteIds": [
+          "c1-register-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-discourse-2",
+        "number": 2,
+        "title": "Information gewichten",
+        "focus": "topic progression; emphasis and sentence focus",
+        "outcome": "Reorder information without distorting the argument.",
+        "prerequisiteIds": [
+          "c1-discourse-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-discourse-3",
+        "number": 3,
+        "title": "Implizite Verbindungen",
+        "focus": "ellipsis; unstated logical relations",
+        "outcome": "Recover coherence from context and evidence.",
+        "prerequisiteIds": [
+          "c1-discourse-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-discourse-4",
+        "number": 4,
+        "title": "Absätze verzahnen",
+        "focus": "thematic progression and transitions",
+        "outcome": "Repair discontinuities in a long text.",
+        "prerequisiteIds": [
+          "c1-discourse-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-discourse-5",
+        "number": 5,
+        "title": "Ein kohärentes Ganzes",
+        "focus": "macrostructure and revision",
+        "outcome": "Edit a multi-section analysis for sustained clarity.",
+        "prerequisiteIds": [
+          "c1-discourse-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "de-C1-discourse-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "c1-discourse-1",
+        "c1-discourse-2",
+        "c1-discourse-3",
+        "c1-discourse-4",
+        "c1-discourse-5"
+      ]
+    }
+  },
+  {
+    "id": "professional",
+    "language": "de",
+    "level": "C1",
+    "number": 6,
+    "lessons": [
+      {
+        "id": "c1-professional-1",
+        "number": 1,
+        "title": "Interessen hinter Positionen",
+        "focus": "negotiation vocabulary; inference",
+        "outcome": "Identify underlying interests in a written negotiation.",
+        "prerequisiteIds": [
+          "c1-discourse-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-professional-2",
+        "number": 2,
+        "title": "Bedingungen präzisieren",
+        "focus": "unless/provided equivalents; sofern/es sei denn",
+        "outcome": "State exceptions and conditions without loopholes.",
+        "prerequisiteIds": [
+          "c1-professional-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-professional-3",
+        "number": 3,
+        "title": "Einwände bearbeiten",
+        "focus": "concession, qualification and redirection",
+        "outcome": "Answer a substantive objection while preserving room for agreement.",
+        "prerequisiteIds": [
+          "c1-professional-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-professional-4",
+        "number": 4,
+        "title": "Ein Ergebnis absichern",
+        "focus": "scope, responsibilities and contingencies",
+        "outcome": "Draft an unambiguous memorandum of agreement.",
+        "prerequisiteIds": [
+          "c1-professional-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-professional-5",
+        "number": 5,
+        "title": "Eine schwierige Entscheidung",
+        "focus": "trade-offs and recommendation",
+        "outcome": "Justify a negotiated outcome and its limitations.",
+        "prerequisiteIds": [
+          "c1-professional-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "de-C1-professional-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "c1-professional-1",
+        "c1-professional-2",
+        "c1-professional-3",
+        "c1-professional-4",
+        "c1-professional-5"
+      ]
+    }
+  },
+  {
+    "id": "idioms",
+    "language": "de",
+    "level": "C1",
+    "number": 7,
+    "lessons": [
+      {
+        "id": "c1-idioms-1",
+        "number": 1,
+        "title": "Kollokationen im Kontext",
+        "focus": "verb–noun combinations; register",
+        "outcome": "Choose natural combinations in professional prose.",
+        "prerequisiteIds": [
+          "c1-professional-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-idioms-2",
+        "number": 2,
+        "title": "Feste Wendungen verstehen",
+        "focus": "figurative versus literal meaning",
+        "outcome": "Interpret idiomatic language using contextual evidence.",
+        "prerequisiteIds": [
+          "c1-idioms-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-idioms-3",
+        "number": 3,
+        "title": "Nuancen unterscheiden",
+        "focus": "near-synonyms and semantic prosody",
+        "outcome": "Choose wording consistent with intended evaluation.",
+        "prerequisiteIds": [
+          "c1-idioms-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-idioms-4",
+        "number": 4,
+        "title": "Ironie und Mehrdeutigkeit",
+        "focus": "pragmatic clues; cautious inference",
+        "outcome": "Explain competing readings without assuming certainty.",
+        "prerequisiteIds": [
+          "c1-idioms-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-idioms-5",
+        "number": 5,
+        "title": "Treffend formulieren",
+        "focus": "idioms, collocation and audience",
+        "outcome": "Revise a text for naturalness without ornamental idiom overload.",
+        "prerequisiteIds": [
+          "c1-idioms-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "de-C1-idioms-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "c1-idioms-1",
+        "c1-idioms-2",
+        "c1-idioms-3",
+        "c1-idioms-4",
+        "c1-idioms-5"
+      ]
+    }
+  },
+  {
+    "id": "review",
+    "language": "de",
+    "level": "C1",
+    "number": 8,
+    "lessons": [
+      {
+        "id": "c1-review-1",
+        "number": 1,
+        "title": "Ein komplexes Dossier erschliessen",
+        "focus": "critical reading across genres",
+        "outcome": "Identify arguments, assumptions and source limitations.",
+        "prerequisiteIds": [
+          "c1-idioms-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-review-2",
+        "number": 2,
+        "title": "Eine Analyse verdichten",
+        "focus": "nominal style, attributes and abstract",
+        "outcome": "Produce a concise faithful synthesis.",
+        "prerequisiteIds": [
+          "c1-review-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-review-3",
+        "number": 3,
+        "title": "Einen Konflikt vermitteln",
+        "focus": "register, qualification and conditions",
+        "outcome": "Draft an agreement reflecting competing interests.",
+        "prerequisiteIds": [
+          "c1-review-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-review-4",
+        "number": 4,
+        "title": "Eine Position verteidigen",
+        "focus": "counterevidence and calibrated conclusions",
+        "outcome": "Sustain a nuanced written argument.",
+        "prerequisiteIds": [
+          "c1-review-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-review-5",
+        "number": 5,
+        "title": "Mein C1-Abschlussprojekt",
+        "focus": "integrated analysis, editing and written interaction",
+        "outcome": "Create and self-evaluate a portfolio using explicit criteria.",
+        "prerequisiteIds": [
+          "c1-review-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "de-C1-review-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "c1-review-1",
+        "c1-review-2",
+        "c1-review-3",
+        "c1-review-4",
+        "c1-review-5"
+      ]
+    }
+  },
+  {
+    "id": "introductions",
+    "language": "en",
+    "level": "A1",
+    "number": 1,
+    "lessons": [
+      {
+        "id": "first-introductions",
+        "number": 1,
+        "title": "Hello, I am …",
+        "focus": "subject pronouns; am/is/are; contractions",
+        "outcome": "Introduce yourself and recognise basic personal information.",
+        "prerequisiteIds": [],
+        "status": "sample"
+      },
+      {
+        "id": "introduction-questions",
+        "number": 2,
+        "title": "What is your name?",
+        "focus": "be questions; question words; short answers",
+        "outcome": "Ask and answer simple identity and origin questions.",
+        "prerequisiteIds": [
+          "first-introductions"
+        ],
+        "status": "sample"
+      },
+      {
+        "id": "a1-introductions-3",
+        "number": 3,
+        "title": "I am not from London",
+        "focus": "be negatives; from/in; countries and nationalities",
+        "outcome": "Correct a mistaken introduction politely.",
+        "prerequisiteIds": [
+          "introduction-questions"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-introductions-4",
+        "number": 4,
+        "title": "My contact details",
+        "focus": "alphabet; numbers; your/my; spelling requests",
+        "outcome": "Read and complete a simple contact form.",
+        "prerequisiteIds": [
+          "a1-introductions-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-introductions-5",
+        "number": 5,
+        "title": "A new classmate",
+        "focus": "simple clauses; and/but; profile conventions",
+        "outcome": "Read a short profile and write a guided introduction.",
+        "prerequisiteIds": [
+          "a1-introductions-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "en-A1-introductions-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "first-introductions",
+        "introduction-questions",
+        "a1-introductions-3",
+        "a1-introductions-4",
+        "a1-introductions-5"
+      ]
+    }
+  },
+  {
+    "id": "articles",
+    "language": "en",
+    "level": "A1",
+    "number": 2,
+    "lessons": [
+      {
+        "id": "a1-articles-1",
+        "number": 1,
+        "title": "What is this?",
+        "focus": "a/an; singular countable nouns",
+        "outcome": "Identify everyday classroom objects.",
+        "prerequisiteIds": [
+          "a1-introductions-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-articles-2",
+        "number": 2,
+        "title": "One book, two books",
+        "focus": "regular and frequent irregular plurals",
+        "outcome": "Read a simple equipment list.",
+        "prerequisiteIds": [
+          "a1-articles-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-articles-3",
+        "number": 3,
+        "title": "This bag, those bags",
+        "focus": "this/that/these/those",
+        "outcome": "Distinguish nearby and distant objects in a shop exchange.",
+        "prerequisiteIds": [
+          "a1-articles-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-articles-4",
+        "number": 4,
+        "title": "A key or the key?",
+        "focus": "first mention and shared reference; the",
+        "outcome": "Track a specific object through a short message.",
+        "prerequisiteIds": [
+          "a1-articles-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-articles-5",
+        "number": 5,
+        "title": "A small blue notebook",
+        "focus": "adjective position; basic adjective order",
+        "outcome": "Describe a lost object clearly enough to identify it.",
+        "prerequisiteIds": [
+          "a1-articles-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "en-A1-articles-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "a1-articles-1",
+        "a1-articles-2",
+        "a1-articles-3",
+        "a1-articles-4",
+        "a1-articles-5"
+      ]
+    }
+  },
+  {
+    "id": "routines",
+    "language": "en",
+    "level": "A1",
+    "number": 3,
+    "lessons": [
+      {
+        "id": "a1-routines-1",
+        "number": 1,
+        "title": "I work in a café",
+        "focus": "present simple affirmative; common verbs",
+        "outcome": "Describe a basic daily routine.",
+        "prerequisiteIds": [
+          "a1-articles-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-routines-2",
+        "number": 2,
+        "title": "She starts at eight",
+        "focus": "third-person -s; spelling patterns",
+        "outcome": "Read another person’s routine accurately.",
+        "prerequisiteIds": [
+          "a1-routines-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-routines-3",
+        "number": 3,
+        "title": "Do you work here?",
+        "focus": "do/does questions; short answers",
+        "outcome": "Ask about work and study habits.",
+        "prerequisiteIds": [
+          "a1-routines-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-routines-4",
+        "number": 4,
+        "title": "I do not work on Sundays",
+        "focus": "do not/does not; base verb",
+        "outcome": "Correct information about a weekly routine.",
+        "prerequisiteIds": [
+          "a1-routines-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-routines-5",
+        "number": 5,
+        "title": "How often?",
+        "focus": "frequency adverbs; every; time expressions",
+        "outcome": "Compare two weekly routines in a short exchange.",
+        "prerequisiteIds": [
+          "a1-routines-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "en-A1-routines-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "a1-routines-1",
+        "a1-routines-2",
+        "a1-routines-3",
+        "a1-routines-4",
+        "a1-routines-5"
+      ]
+    }
+  },
+  {
+    "id": "places",
+    "language": "en",
+    "level": "A1",
+    "number": 4,
+    "lessons": [
+      {
+        "id": "a1-places-1",
+        "number": 1,
+        "title": "There is a station",
+        "focus": "there is/are; singular/plural",
+        "outcome": "Identify facilities in a neighbourhood description.",
+        "prerequisiteIds": [
+          "a1-routines-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-places-2",
+        "number": 2,
+        "title": "Where is the café?",
+        "focus": "in/on/under/next to/opposite",
+        "outcome": "Locate places and objects on a simple map.",
+        "prerequisiteIds": [
+          "a1-places-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-places-3",
+        "number": 3,
+        "title": "Is there a bank nearby?",
+        "focus": "there is/are questions and negatives",
+        "outcome": "Ask about local facilities.",
+        "prerequisiteIds": [
+          "a1-places-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-places-4",
+        "number": 4,
+        "title": "Turn left at the corner",
+        "focus": "imperatives; directions; movement chunks",
+        "outcome": "Follow a short written route.",
+        "prerequisiteIds": [
+          "a1-places-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-places-5",
+        "number": 5,
+        "title": "My neighbourhood",
+        "focus": "there is/are; place reference",
+        "outcome": "Create a guided neighbourhood description for a visitor.",
+        "prerequisiteIds": [
+          "a1-places-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "en-A1-places-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "a1-places-1",
+        "a1-places-2",
+        "a1-places-3",
+        "a1-places-4",
+        "a1-places-5"
+      ]
+    }
+  },
+  {
+    "id": "abilities",
+    "language": "en",
+    "level": "A1",
+    "number": 5,
+    "lessons": [
+      {
+        "id": "a1-abilities-1",
+        "number": 1,
+        "title": "I can swim",
+        "focus": "can/cannot; base verb",
+        "outcome": "Describe basic abilities.",
+        "prerequisiteIds": [
+          "a1-places-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-abilities-2",
+        "number": 2,
+        "title": "Can you help me?",
+        "focus": "can requests; appropriate replies",
+        "outcome": "Request practical help politely.",
+        "prerequisiteIds": [
+          "a1-abilities-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-abilities-3",
+        "number": 3,
+        "title": "Please sit here",
+        "focus": "imperatives; do not; signs",
+        "outcome": "Interpret simple instructions and prohibitions.",
+        "prerequisiteIds": [
+          "a1-abilities-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-abilities-4",
+        "number": 4,
+        "title": "I like cooking",
+        "focus": "like/love plus noun or -ing chunks",
+        "outcome": "Exchange basic interests without confusing ability and preference.",
+        "prerequisiteIds": [
+          "a1-abilities-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-abilities-5",
+        "number": 5,
+        "title": "Let us make a plan",
+        "focus": "let us; invitations and simple responses",
+        "outcome": "Agree a practical leisure activity in text.",
+        "prerequisiteIds": [
+          "a1-abilities-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "en-A1-abilities-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "a1-abilities-1",
+        "a1-abilities-2",
+        "a1-abilities-3",
+        "a1-abilities-4",
+        "a1-abilities-5"
+      ]
+    }
+  },
+  {
+    "id": "family",
+    "language": "en",
+    "level": "A1",
+    "number": 6,
+    "lessons": [
+      {
+        "id": "a1-family-1",
+        "number": 1,
+        "title": "My family",
+        "focus": "possessive determiners; family words",
+        "outcome": "Describe close relationships.",
+        "prerequisiteIds": [
+          "a1-abilities-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-family-2",
+        "number": 2,
+        "title": "I have got a sister",
+        "focus": "have/has got; negatives",
+        "outcome": "State possessions and family facts.",
+        "prerequisiteIds": [
+          "a1-family-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-family-3",
+        "number": 3,
+        "title": "Have you got a bike?",
+        "focus": "have got questions; short answers",
+        "outcome": "Ask about possessions needed for an activity.",
+        "prerequisiteIds": [
+          "a1-family-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-family-4",
+        "number": 4,
+        "title": "Anna’s bag",
+        "focus": "possessive apostrophe; whose",
+        "outcome": "Identify owners in a lost-property exchange.",
+        "prerequisiteIds": [
+          "a1-family-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-family-5",
+        "number": 5,
+        "title": "People I know",
+        "focus": "possessives; simple personal description",
+        "outcome": "Read and assemble a short family profile.",
+        "prerequisiteIds": [
+          "a1-family-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "en-A1-family-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "a1-family-1",
+        "a1-family-2",
+        "a1-family-3",
+        "a1-family-4",
+        "a1-family-5"
+      ]
+    }
+  },
+  {
+    "id": "time",
+    "language": "en",
+    "level": "A1",
+    "number": 7,
+    "lessons": [
+      {
+        "id": "a1-time-1",
+        "number": 1,
+        "title": "What time is it?",
+        "focus": "clock times; at",
+        "outcome": "Match appointments to clock times.",
+        "prerequisiteIds": [
+          "a1-family-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-time-2",
+        "number": 2,
+        "title": "On Monday, in June",
+        "focus": "at/on/in for time; days and months",
+        "outcome": "Read a simple calendar correctly.",
+        "prerequisiteIds": [
+          "a1-time-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-time-3",
+        "number": 3,
+        "title": "My birthday",
+        "focus": "dates; ordinal numbers",
+        "outcome": "Extract event dates from invitations.",
+        "prerequisiteIds": [
+          "a1-time-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-time-4",
+        "number": 4,
+        "title": "When are you free?",
+        "focus": "time questions; from/to; availability",
+        "outcome": "Find a suitable shared meeting time.",
+        "prerequisiteIds": [
+          "a1-time-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-time-5",
+        "number": 5,
+        "title": "A message about a meeting",
+        "focus": "time, place and confirmation",
+        "outcome": "Compose a brief unambiguous arrangement.",
+        "prerequisiteIds": [
+          "a1-time-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "en-A1-time-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "a1-time-1",
+        "a1-time-2",
+        "a1-time-3",
+        "a1-time-4",
+        "a1-time-5"
+      ]
+    }
+  },
+  {
+    "id": "review",
+    "language": "en",
+    "level": "A1",
+    "number": 8,
+    "lessons": [
+      {
+        "id": "a1-review-1",
+        "number": 1,
+        "title": "Food for a picnic",
+        "focus": "some/any introduction; food vocabulary",
+        "outcome": "Read a short list and ask what is available.",
+        "prerequisiteIds": [
+          "a1-time-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-review-2",
+        "number": 2,
+        "title": "What are you doing?",
+        "focus": "present continuous; now",
+        "outcome": "Describe a current activity distinct from a routine.",
+        "prerequisiteIds": [
+          "a1-review-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-review-3",
+        "number": 3,
+        "title": "At a café",
+        "focus": "would like as a chunk; prices",
+        "outcome": "Complete a natural ordering and payment exchange.",
+        "prerequisiteIds": [
+          "a1-review-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-review-4",
+        "number": 4,
+        "title": "Yesterday I was at home",
+        "focus": "was/were; past time phrases",
+        "outcome": "Understand a short elementary account of yesterday.",
+        "prerequisiteIds": [
+          "a1-review-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a1-review-5",
+        "number": 5,
+        "title": "My A1 day",
+        "focus": "integrated forms, routines and messages",
+        "outcome": "Complete a practical reading and guided-writing sequence.",
+        "prerequisiteIds": [
+          "a1-review-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "en-A1-review-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "a1-review-1",
+        "a1-review-2",
+        "a1-review-3",
+        "a1-review-4",
+        "a1-review-5"
+      ]
+    }
+  },
+  {
+    "id": "past",
+    "language": "en",
+    "level": "A2",
+    "number": 1,
+    "lessons": [
+      {
+        "id": "a2-past-1",
+        "number": 1,
+        "title": "Last weekend",
+        "focus": "past simple regular verbs; spelling",
+        "outcome": "Report completed everyday activities.",
+        "prerequisiteIds": [
+          "a1-review-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-past-2",
+        "number": 2,
+        "title": "A journey to remember",
+        "focus": "frequent irregular past forms",
+        "outcome": "Reconstruct a simple travel account.",
+        "prerequisiteIds": [
+          "a2-past-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-past-3",
+        "number": 3,
+        "title": "Did you enjoy it?",
+        "focus": "did questions and negatives; base verb",
+        "outcome": "Ask follow-up questions about an event.",
+        "prerequisiteIds": [
+          "a2-past-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-past-4",
+        "number": 4,
+        "title": "What was happening?",
+        "focus": "past continuous; while",
+        "outcome": "Describe the background to a past event.",
+        "prerequisiteIds": [
+          "a2-past-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-past-5",
+        "number": 5,
+        "title": "When the bus arrived",
+        "focus": "past simple versus past continuous; when",
+        "outcome": "Write a short account with background and event.",
+        "prerequisiteIds": [
+          "a2-past-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "en-A2-past-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "a2-past-1",
+        "a2-past-2",
+        "a2-past-3",
+        "a2-past-4",
+        "a2-past-5"
+      ]
+    }
+  },
+  {
+    "id": "quantity",
+    "language": "en",
+    "level": "A2",
+    "number": 2,
+    "lessons": [
+      {
+        "id": "a2-quantity-1",
+        "number": 1,
+        "title": "A bottle of water",
+        "focus": "countable/uncountable; containers",
+        "outcome": "Interpret quantities in a recipe or shopping list.",
+        "prerequisiteIds": [
+          "a2-past-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-quantity-2",
+        "number": 2,
+        "title": "Some or any?",
+        "focus": "some/any; offers and requests",
+        "outcome": "Ask for supplies using natural quantity expressions.",
+        "prerequisiteIds": [
+          "a2-quantity-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-quantity-3",
+        "number": 3,
+        "title": "How much do we need?",
+        "focus": "much/many/a lot of",
+        "outcome": "Compare stock with requirements.",
+        "prerequisiteIds": [
+          "a2-quantity-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-quantity-4",
+        "number": 4,
+        "title": "A few or a little?",
+        "focus": "few/little; enough; too",
+        "outcome": "Explain whether supplies meet a need.",
+        "prerequisiteIds": [
+          "a2-quantity-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-quantity-5",
+        "number": 5,
+        "title": "Planning a meal",
+        "focus": "quantifiers in a practical exchange",
+        "outcome": "Choose a menu from dietary and quantity constraints.",
+        "prerequisiteIds": [
+          "a2-quantity-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "en-A2-quantity-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "a2-quantity-1",
+        "a2-quantity-2",
+        "a2-quantity-3",
+        "a2-quantity-4",
+        "a2-quantity-5"
+      ]
+    }
+  },
+  {
+    "id": "future",
+    "language": "en",
+    "level": "A2",
+    "number": 3,
+    "lessons": [
+      {
+        "id": "a2-future-1",
+        "number": 1,
+        "title": "I am going to study",
+        "focus": "going to intentions and evidence",
+        "outcome": "Distinguish an intention from an evidence-based prediction.",
+        "prerequisiteIds": [
+          "a2-quantity-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-future-2",
+        "number": 2,
+        "title": "I will help you",
+        "focus": "will for decisions, offers and promises",
+        "outcome": "Respond appropriately to a new situation.",
+        "prerequisiteIds": [
+          "a2-future-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-future-3",
+        "number": 3,
+        "title": "We are meeting tomorrow",
+        "focus": "present continuous for arrangements",
+        "outcome": "Read and confirm a diary entry.",
+        "prerequisiteIds": [
+          "a2-future-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-future-4",
+        "number": 4,
+        "title": "The train leaves at six",
+        "focus": "present simple schedules; future contrast",
+        "outcome": "Coordinate personal arrangements with a timetable.",
+        "prerequisiteIds": [
+          "a2-future-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-future-5",
+        "number": 5,
+        "title": "Plans that change",
+        "focus": "future form choice in context",
+        "outcome": "Reschedule a plan with a clear explanation.",
+        "prerequisiteIds": [
+          "a2-future-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "en-A2-future-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "a2-future-1",
+        "a2-future-2",
+        "a2-future-3",
+        "a2-future-4",
+        "a2-future-5"
+      ]
+    }
+  },
+  {
+    "id": "comparison",
+    "language": "en",
+    "level": "A2",
+    "number": 4,
+    "lessons": [
+      {
+        "id": "a2-comparison-1",
+        "number": 1,
+        "title": "Cheaper and more convenient",
+        "focus": "comparative spelling; than",
+        "outcome": "Compare practical travel or shopping options.",
+        "prerequisiteIds": [
+          "a2-future-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-comparison-2",
+        "number": 2,
+        "title": "The best option",
+        "focus": "superlatives; irregular better/best",
+        "outcome": "Choose an option using stated criteria.",
+        "prerequisiteIds": [
+          "a2-comparison-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-comparison-3",
+        "number": 3,
+        "title": "Not as busy as …",
+        "focus": "as … as; less; too/enough",
+        "outcome": "Explain a preference with an accurate comparison.",
+        "prerequisiteIds": [
+          "a2-comparison-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-comparison-4",
+        "number": 4,
+        "title": "Rules and obligations",
+        "focus": "must/have to; must not versus do not have to",
+        "outcome": "Interpret workplace or accommodation rules.",
+        "prerequisiteIds": [
+          "a2-comparison-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-comparison-5",
+        "number": 5,
+        "title": "Choosing a place to stay",
+        "focus": "comparison and rules in context",
+        "outcome": "Recommend accommodation from short descriptions.",
+        "prerequisiteIds": [
+          "a2-comparison-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "en-A2-comparison-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "a2-comparison-1",
+        "a2-comparison-2",
+        "a2-comparison-3",
+        "a2-comparison-4",
+        "a2-comparison-5"
+      ]
+    }
+  },
+  {
+    "id": "experience",
+    "language": "en",
+    "level": "A2",
+    "number": 5,
+    "lessons": [
+      {
+        "id": "a2-experience-1",
+        "number": 1,
+        "title": "Have you ever …?",
+        "focus": "present perfect; ever/never",
+        "outcome": "Ask about experience without naming a finished time.",
+        "prerequisiteIds": [
+          "a2-comparison-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-experience-2",
+        "number": 2,
+        "title": "I have just arrived",
+        "focus": "just/already/yet",
+        "outcome": "Explain the current status of a task.",
+        "prerequisiteIds": [
+          "a2-experience-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-experience-3",
+        "number": 3,
+        "title": "I went there last year",
+        "focus": "present perfect versus finished past",
+        "outcome": "Choose the tense from time context.",
+        "prerequisiteIds": [
+          "a2-experience-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-experience-4",
+        "number": 4,
+        "title": "How long have you lived here?",
+        "focus": "for/since; duration with state verbs",
+        "outcome": "Describe a continuing situation.",
+        "prerequisiteIds": [
+          "a2-experience-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-experience-5",
+        "number": 5,
+        "title": "A personal update",
+        "focus": "experience, recent news and past detail",
+        "outcome": "Write a short update with consistent time references.",
+        "prerequisiteIds": [
+          "a2-experience-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "en-A2-experience-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "a2-experience-1",
+        "a2-experience-2",
+        "a2-experience-3",
+        "a2-experience-4",
+        "a2-experience-5"
+      ]
+    }
+  },
+  {
+    "id": "services",
+    "language": "en",
+    "level": "A2",
+    "number": 6,
+    "lessons": [
+      {
+        "id": "a2-services-1",
+        "number": 1,
+        "title": "Could you help me?",
+        "focus": "could/would requests",
+        "outcome": "Ask for assistance in a service setting.",
+        "prerequisiteIds": [
+          "a2-experience-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-services-2",
+        "number": 2,
+        "title": "I would like to change this",
+        "focus": "infinitive after would like; returns vocabulary",
+        "outcome": "Explain a simple product problem.",
+        "prerequisiteIds": [
+          "a2-services-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-services-3",
+        "number": 3,
+        "title": "Can you tell me where …?",
+        "focus": "indirect questions; statement word order",
+        "outcome": "Ask a polite factual question.",
+        "prerequisiteIds": [
+          "a2-services-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-services-4",
+        "number": 4,
+        "title": "Something is wrong",
+        "focus": "indefinite pronouns; problem descriptions",
+        "outcome": "Describe a fault without omitting essential details.",
+        "prerequisiteIds": [
+          "a2-services-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-services-5",
+        "number": 5,
+        "title": "A short service email",
+        "focus": "request, reason and closing",
+        "outcome": "Write a guided complaint or booking enquiry.",
+        "prerequisiteIds": [
+          "a2-services-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "en-A2-services-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "a2-services-1",
+        "a2-services-2",
+        "a2-services-3",
+        "a2-services-4",
+        "a2-services-5"
+      ]
+    }
+  },
+  {
+    "id": "travel",
+    "language": "en",
+    "level": "A2",
+    "number": 7,
+    "lessons": [
+      {
+        "id": "a2-travel-1",
+        "number": 1,
+        "title": "Buying a ticket",
+        "focus": "destination, single/return; question forms",
+        "outcome": "Choose and request a suitable ticket.",
+        "prerequisiteIds": [
+          "a2-services-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-travel-2",
+        "number": 2,
+        "title": "Checking in",
+        "focus": "reservation details; confirmation questions",
+        "outcome": "Understand a hotel reception exchange.",
+        "prerequisiteIds": [
+          "a2-travel-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-travel-3",
+        "number": 3,
+        "title": "Suggestions for a day out",
+        "focus": "shall we/why do not we/how about",
+        "outcome": "Suggest and negotiate an activity.",
+        "prerequisiteIds": [
+          "a2-travel-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-travel-4",
+        "number": 4,
+        "title": "Getting around safely",
+        "focus": "imperatives; first/then; direction sequences",
+        "outcome": "Follow written instructions in an unfamiliar place.",
+        "prerequisiteIds": [
+          "a2-travel-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-travel-5",
+        "number": 5,
+        "title": "A travel problem",
+        "focus": "past events, requests and alternatives",
+        "outcome": "Resolve a missed connection using given information.",
+        "prerequisiteIds": [
+          "a2-travel-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "en-A2-travel-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "a2-travel-1",
+        "a2-travel-2",
+        "a2-travel-3",
+        "a2-travel-4",
+        "a2-travel-5"
+      ]
+    }
+  },
+  {
+    "id": "review",
+    "language": "en",
+    "level": "A2",
+    "number": 8,
+    "lessons": [
+      {
+        "id": "a2-review-1",
+        "number": 1,
+        "title": "A new home",
+        "focus": "comparatives; quantities; descriptive email",
+        "outcome": "Compare listings and explain a housing choice.",
+        "prerequisiteIds": [
+          "a2-travel-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-review-2",
+        "number": 2,
+        "title": "A busy week",
+        "focus": "past/present/future reference",
+        "outcome": "Integrate a diary with a personal update.",
+        "prerequisiteIds": [
+          "a2-review-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-review-3",
+        "number": 3,
+        "title": "A course application",
+        "focus": "skills, experience and availability",
+        "outcome": "Complete an application and a short enquiry.",
+        "prerequisiteIds": [
+          "a2-review-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-review-4",
+        "number": 4,
+        "title": "Changing an arrangement",
+        "focus": "polite requests; scheduling and reasons",
+        "outcome": "Negotiate a workable alternative.",
+        "prerequisiteIds": [
+          "a2-review-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "a2-review-5",
+        "number": 5,
+        "title": "My A2 project",
+        "focus": "integrated everyday reading and constrained writing",
+        "outcome": "Organise a trip or event from several short sources.",
+        "prerequisiteIds": [
+          "a2-review-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "en-A2-review-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "a2-review-1",
+        "a2-review-2",
+        "a2-review-3",
+        "a2-review-4",
+        "a2-review-5"
+      ]
+    }
+  },
+  {
+    "id": "perfect",
+    "language": "en",
+    "level": "B1",
+    "number": 1,
+    "lessons": [
+      {
+        "id": "b1-perfect-1",
+        "number": 1,
+        "title": "Experience or finished event?",
+        "focus": "present perfect versus past simple",
+        "outcome": "Distinguish experience from dated biographical detail.",
+        "prerequisiteIds": [
+          "a2-review-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-perfect-2",
+        "number": 2,
+        "title": "How long?",
+        "focus": "for/since; state verbs",
+        "outcome": "Describe continuing personal and work situations.",
+        "prerequisiteIds": [
+          "b1-perfect-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-perfect-3",
+        "number": 3,
+        "title": "News and consequences",
+        "focus": "present perfect with current relevance",
+        "outcome": "Explain why past news matters now.",
+        "prerequisiteIds": [
+          "b1-perfect-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-perfect-4",
+        "number": 4,
+        "title": "A changing routine",
+        "focus": "present perfect continuous introduction",
+        "outcome": "Describe an ongoing recent activity.",
+        "prerequisiteIds": [
+          "b1-perfect-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-perfect-5",
+        "number": 5,
+        "title": "A life story",
+        "focus": "present perfect/past simple/continuous contrast",
+        "outcome": "Write a connected profile with clear time reference.",
+        "prerequisiteIds": [
+          "b1-perfect-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "en-B1-perfect-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "b1-perfect-1",
+        "b1-perfect-2",
+        "b1-perfect-3",
+        "b1-perfect-4",
+        "b1-perfect-5"
+      ]
+    }
+  },
+  {
+    "id": "conditions",
+    "language": "en",
+    "level": "B1",
+    "number": 2,
+    "lessons": [
+      {
+        "id": "b1-conditions-1",
+        "number": 1,
+        "title": "If you heat water …",
+        "focus": "zero conditional; general truths",
+        "outcome": "Explain a familiar process or recurring result.",
+        "prerequisiteIds": [
+          "b1-perfect-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-conditions-2",
+        "number": 2,
+        "title": "If the weather improves …",
+        "focus": "first conditional; future time clauses",
+        "outcome": "Plan realistically without will in the if clause.",
+        "prerequisiteIds": [
+          "b1-conditions-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-conditions-3",
+        "number": 3,
+        "title": "Unless we leave now",
+        "focus": "unless; as soon as; before",
+        "outcome": "Interpret conditions and deadlines accurately.",
+        "prerequisiteIds": [
+          "b1-conditions-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-conditions-4",
+        "number": 4,
+        "title": "If I had more time",
+        "focus": "second conditional; would/could",
+        "outcome": "Explore hypothetical present choices.",
+        "prerequisiteIds": [
+          "b1-conditions-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-conditions-5",
+        "number": 5,
+        "title": "Making a decision",
+        "focus": "real versus hypothetical conditions",
+        "outcome": "Compare practical options and consequences.",
+        "prerequisiteIds": [
+          "b1-conditions-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "en-B1-conditions-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "b1-conditions-1",
+        "b1-conditions-2",
+        "b1-conditions-3",
+        "b1-conditions-4",
+        "b1-conditions-5"
+      ]
+    }
+  },
+  {
+    "id": "relative",
+    "language": "en",
+    "level": "B1",
+    "number": 3,
+    "lessons": [
+      {
+        "id": "b1-relative-1",
+        "number": 1,
+        "title": "The person who …",
+        "focus": "defining relative clauses; who/which/that",
+        "outcome": "Identify a person or thing precisely.",
+        "prerequisiteIds": [
+          "b1-conditions-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-relative-2",
+        "number": 2,
+        "title": "The book I bought",
+        "focus": "object pronoun omission; subject/object distinction",
+        "outcome": "Shorten descriptions without losing the subject.",
+        "prerequisiteIds": [
+          "b1-relative-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-relative-3",
+        "number": 3,
+        "title": "Where and whose",
+        "focus": "place and possession in relative clauses",
+        "outcome": "Describe a location or relationship clearly.",
+        "prerequisiteIds": [
+          "b1-relative-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-relative-4",
+        "number": 4,
+        "title": "Extra information",
+        "focus": "non-defining relatives; punctuation",
+        "outcome": "Distinguish essential identification from added detail.",
+        "prerequisiteIds": [
+          "b1-relative-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-relative-5",
+        "number": 5,
+        "title": "A useful recommendation",
+        "focus": "relative clauses in reviews",
+        "outcome": "Write a coherent recommendation with relevant descriptive detail.",
+        "prerequisiteIds": [
+          "b1-relative-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "en-B1-relative-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "b1-relative-1",
+        "b1-relative-2",
+        "b1-relative-3",
+        "b1-relative-4",
+        "b1-relative-5"
+      ]
+    }
+  },
+  {
+    "id": "reported",
+    "language": "en",
+    "level": "B1",
+    "number": 4,
+    "lessons": [
+      {
+        "id": "b1-reported-1",
+        "number": 1,
+        "title": "She said that …",
+        "focus": "reported statements; common backshift",
+        "outcome": "Relay a message with accurate pronoun reference.",
+        "prerequisiteIds": [
+          "b1-relative-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-reported-2",
+        "number": 2,
+        "title": "He asked whether …",
+        "focus": "reported questions; statement word order",
+        "outcome": "Report an enquiry without question inversion.",
+        "prerequisiteIds": [
+          "b1-reported-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-reported-3",
+        "number": 3,
+        "title": "They told us to wait",
+        "focus": "reported requests; say/tell/ask",
+        "outcome": "Pass on instructions and requests.",
+        "prerequisiteIds": [
+          "b1-reported-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-reported-4",
+        "number": 4,
+        "title": "Yesterday or the day before?",
+        "focus": "time/place shifts; still-true facts",
+        "outcome": "Preserve the context of a reported message.",
+        "prerequisiteIds": [
+          "b1-reported-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-reported-5",
+        "number": 5,
+        "title": "A message for the team",
+        "focus": "integrated reported speech",
+        "outcome": "Summarise an exchange and the action required.",
+        "prerequisiteIds": [
+          "b1-reported-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "en-B1-reported-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "b1-reported-1",
+        "b1-reported-2",
+        "b1-reported-3",
+        "b1-reported-4",
+        "b1-reported-5"
+      ]
+    }
+  },
+  {
+    "id": "modals",
+    "language": "en",
+    "level": "B1",
+    "number": 5,
+    "lessons": [
+      {
+        "id": "b1-modals-1",
+        "number": 1,
+        "title": "What should I do?",
+        "focus": "should/ought to; advice",
+        "outcome": "Offer reasons for advice in a familiar problem.",
+        "prerequisiteIds": [
+          "b1-reported-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-modals-2",
+        "number": 2,
+        "title": "What do we have to do?",
+        "focus": "obligation; permission; absence of necessity",
+        "outcome": "Compare rules in two settings.",
+        "prerequisiteIds": [
+          "b1-modals-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-modals-3",
+        "number": 3,
+        "title": "It might be a mistake",
+        "focus": "may/might/could; present possibility",
+        "outcome": "Distinguish a guess from a known fact.",
+        "prerequisiteIds": [
+          "b1-modals-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-modals-4",
+        "number": 4,
+        "title": "It must be hers",
+        "focus": "must/cannot for present deduction",
+        "outcome": "Draw a justified inference from clues.",
+        "prerequisiteIds": [
+          "b1-modals-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-modals-5",
+        "number": 5,
+        "title": "Giving practical advice",
+        "focus": "modals and reasons in a forum exchange",
+        "outcome": "Recommend a feasible response while acknowledging uncertainty.",
+        "prerequisiteIds": [
+          "b1-modals-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "en-B1-modals-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "b1-modals-1",
+        "b1-modals-2",
+        "b1-modals-3",
+        "b1-modals-4",
+        "b1-modals-5"
+      ]
+    }
+  },
+  {
+    "id": "work",
+    "language": "en",
+    "level": "B1",
+    "number": 6,
+    "lessons": [
+      {
+        "id": "b1-work-1",
+        "number": 1,
+        "title": "Describing a role",
+        "focus": "work collocations; basic present/past passive",
+        "outcome": "Explain responsibilities and simple workplace processes.",
+        "prerequisiteIds": [
+          "b1-modals-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-work-2",
+        "number": 2,
+        "title": "Applying for a job",
+        "focus": "purpose; infinitives/gerunds after common verbs",
+        "outcome": "Write a guided application linked to a vacancy.",
+        "prerequisiteIds": [
+          "b1-work-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-work-3",
+        "number": 3,
+        "title": "Clarifying a task",
+        "focus": "indirect questions; clarification",
+        "outcome": "Resolve missing information in a work brief.",
+        "prerequisiteIds": [
+          "b1-work-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-work-4",
+        "number": 4,
+        "title": "Arranging work",
+        "focus": "requests; deadlines; confirmation",
+        "outcome": "Agree responsibilities in email.",
+        "prerequisiteIds": [
+          "b1-work-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-work-5",
+        "number": 5,
+        "title": "A professional update",
+        "focus": "neutral register; paragraphing",
+        "outcome": "Report progress, a problem and a next step.",
+        "prerequisiteIds": [
+          "b1-work-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "en-B1-work-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "b1-work-1",
+        "b1-work-2",
+        "b1-work-3",
+        "b1-work-4",
+        "b1-work-5"
+      ]
+    }
+  },
+  {
+    "id": "narratives",
+    "language": "en",
+    "level": "B1",
+    "number": 7,
+    "lessons": [
+      {
+        "id": "b1-narratives-1",
+        "number": 1,
+        "title": "Before it happened",
+        "focus": "past perfect; event sequence",
+        "outcome": "Distinguish earlier events from the main narrative.",
+        "prerequisiteIds": [
+          "b1-work-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-narratives-2",
+        "number": 2,
+        "title": "While we were waiting",
+        "focus": "past simple/continuous/perfect",
+        "outcome": "Connect background, interruption and earlier cause.",
+        "prerequisiteIds": [
+          "b1-narratives-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-narratives-3",
+        "number": 3,
+        "title": "Things were different then",
+        "focus": "used to versus past simple",
+        "outcome": "Describe past habits and states.",
+        "prerequisiteIds": [
+          "b1-narratives-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-narratives-4",
+        "number": 4,
+        "title": "A surprising result",
+        "focus": "linking devices; so/such; narrative emphasis",
+        "outcome": "Explain the cause and outcome of an experience.",
+        "prerequisiteIds": [
+          "b1-narratives-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-narratives-5",
+        "number": 5,
+        "title": "A connected account",
+        "focus": "reference and temporal cohesion",
+        "outcome": "Edit a short narrative for a clear sequence and point.",
+        "prerequisiteIds": [
+          "b1-narratives-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "en-B1-narratives-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "b1-narratives-1",
+        "b1-narratives-2",
+        "b1-narratives-3",
+        "b1-narratives-4",
+        "b1-narratives-5"
+      ]
+    }
+  },
+  {
+    "id": "review",
+    "language": "en",
+    "level": "B1",
+    "number": 8,
+    "lessons": [
+      {
+        "id": "b1-review-1",
+        "number": 1,
+        "title": "Community choices",
+        "focus": "conditions; relative clauses; reasons",
+        "outcome": "Compare proposals for a local project.",
+        "prerequisiteIds": [
+          "b1-narratives-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-review-2",
+        "number": 2,
+        "title": "A difficult journey",
+        "focus": "narrative tenses; service complaint",
+        "outcome": "Explain a travel problem and request a remedy.",
+        "prerequisiteIds": [
+          "b1-review-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-review-3",
+        "number": 3,
+        "title": "Learning and work",
+        "focus": "experience, obligations and goals",
+        "outcome": "Recommend a course for a stated profile.",
+        "prerequisiteIds": [
+          "b1-review-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-review-4",
+        "number": 4,
+        "title": "A reasoned opinion",
+        "focus": "contrast, support and paragraph development",
+        "outcome": "Write a guided discussion contribution.",
+        "prerequisiteIds": [
+          "b1-review-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b1-review-5",
+        "number": 5,
+        "title": "My B1 dossier",
+        "focus": "integrated reading, editing and written interaction",
+        "outcome": "Handle familiar written situations independently.",
+        "prerequisiteIds": [
+          "b1-review-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "en-B1-review-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "b1-review-1",
+        "b1-review-2",
+        "b1-review-3",
+        "b1-review-4",
+        "b1-review-5"
+      ]
+    }
+  },
+  {
+    "id": "aspect",
+    "language": "en",
+    "level": "B2",
+    "number": 1,
+    "lessons": [
+      {
+        "id": "b2-aspect-1",
+        "number": 1,
+        "title": "Results and duration",
+        "focus": "present perfect simple/continuous",
+        "outcome": "Distinguish completion from continuing activity.",
+        "prerequisiteIds": [
+          "b1-review-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-aspect-2",
+        "number": 2,
+        "title": "Looking back from the past",
+        "focus": "past perfect simple/continuous",
+        "outcome": "Explain causes and duration before a past event.",
+        "prerequisiteIds": [
+          "b2-aspect-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-aspect-3",
+        "number": 3,
+        "title": "Looking ahead",
+        "focus": "future continuous/perfect",
+        "outcome": "Discuss a process and its expected completion.",
+        "prerequisiteIds": [
+          "b2-aspect-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-aspect-4",
+        "number": 4,
+        "title": "States and changing meanings",
+        "focus": "state verbs; dynamic uses",
+        "outcome": "Choose aspect according to meaning rather than verb lists.",
+        "prerequisiteIds": [
+          "b2-aspect-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-aspect-5",
+        "number": 5,
+        "title": "Time perspectives in a report",
+        "focus": "tense/aspect consistency",
+        "outcome": "Edit a report with multiple time frames.",
+        "prerequisiteIds": [
+          "b2-aspect-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "en-B2-aspect-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "b2-aspect-1",
+        "b2-aspect-2",
+        "b2-aspect-3",
+        "b2-aspect-4",
+        "b2-aspect-5"
+      ]
+    }
+  },
+  {
+    "id": "passive",
+    "language": "en",
+    "level": "B2",
+    "number": 2,
+    "lessons": [
+      {
+        "id": "b2-passive-1",
+        "number": 1,
+        "title": "Processes without an agent",
+        "focus": "passive across tenses",
+        "outcome": "Describe a process with appropriate information focus.",
+        "prerequisiteIds": [
+          "b2-aspect-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-passive-2",
+        "number": 2,
+        "title": "Who is responsible?",
+        "focus": "agent phrases; active/passive choice",
+        "outcome": "Retain responsibility when rephrasing a report.",
+        "prerequisiteIds": [
+          "b2-passive-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-passive-3",
+        "number": 3,
+        "title": "Having something done",
+        "focus": "causative have/get",
+        "outcome": "Distinguish arranging a service from doing it oneself.",
+        "prerequisiteIds": [
+          "b2-passive-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-passive-4",
+        "number": 4,
+        "title": "It is said that …",
+        "focus": "reporting passive; is believed to",
+        "outcome": "Attribute claims without presenting them as proven facts.",
+        "prerequisiteIds": [
+          "b2-passive-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-passive-5",
+        "number": 5,
+        "title": "A service incident report",
+        "focus": "passive, causative and chronology",
+        "outcome": "Summarise an incident and proposed remedy clearly.",
+        "prerequisiteIds": [
+          "b2-passive-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "en-B2-passive-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "b2-passive-1",
+        "b2-passive-2",
+        "b2-passive-3",
+        "b2-passive-4",
+        "b2-passive-5"
+      ]
+    }
+  },
+  {
+    "id": "deduction",
+    "language": "en",
+    "level": "B2",
+    "number": 3,
+    "lessons": [
+      {
+        "id": "b2-deduction-1",
+        "number": 1,
+        "title": "What must have happened?",
+        "focus": "must/might/cannot have",
+        "outcome": "Calibrate deductions about past events.",
+        "prerequisiteIds": [
+          "b2-passive-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-deduction-2",
+        "number": 2,
+        "title": "You should have checked",
+        "focus": "should/ought to have",
+        "outcome": "Distinguish criticism from a factual claim.",
+        "prerequisiteIds": [
+          "b2-deduction-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-deduction-3",
+        "number": 3,
+        "title": "It could have been worse",
+        "focus": "could have; unrealised possibility",
+        "outcome": "Explain an alternative past outcome.",
+        "prerequisiteIds": [
+          "b2-deduction-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-deduction-4",
+        "number": 4,
+        "title": "We need not have hurried",
+        "focus": "need not have versus did not need to",
+        "outcome": "Distinguish unnecessary action from absent necessity.",
+        "prerequisiteIds": [
+          "b2-deduction-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-deduction-5",
+        "number": 5,
+        "title": "Reviewing a decision",
+        "focus": "perfect modals in context",
+        "outcome": "Assess a decision using evidence and appropriate uncertainty.",
+        "prerequisiteIds": [
+          "b2-deduction-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "en-B2-deduction-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "b2-deduction-1",
+        "b2-deduction-2",
+        "b2-deduction-3",
+        "b2-deduction-4",
+        "b2-deduction-5"
+      ]
+    }
+  },
+  {
+    "id": "argument",
+    "language": "en",
+    "level": "B2",
+    "number": 4,
+    "lessons": [
+      {
+        "id": "b2-argument-1",
+        "number": 1,
+        "title": "Claims and evidence",
+        "focus": "argument structure; cohesive devices",
+        "outcome": "Separate a claim from its supporting evidence.",
+        "prerequisiteIds": [
+          "b2-deduction-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-argument-2",
+        "number": 2,
+        "title": "Counterarguments",
+        "focus": "although/despite/nevertheless",
+        "outcome": "Integrate a counterpoint without losing coherence.",
+        "prerequisiteIds": [
+          "b2-argument-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-argument-3",
+        "number": 3,
+        "title": "If we had known",
+        "focus": "third conditional",
+        "outcome": "Explain a past counterfactual and its consequence.",
+        "prerequisiteIds": [
+          "b2-argument-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-argument-4",
+        "number": 4,
+        "title": "Past causes, present results",
+        "focus": "mixed conditionals; scope",
+        "outcome": "Relate a past choice to a present situation accurately.",
+        "prerequisiteIds": [
+          "b2-argument-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-argument-5",
+        "number": 5,
+        "title": "A balanced position",
+        "focus": "qualified thesis and conclusion",
+        "outcome": "Construct a reasoned discussion using supplied evidence.",
+        "prerequisiteIds": [
+          "b2-argument-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "en-B2-argument-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "b2-argument-1",
+        "b2-argument-2",
+        "b2-argument-3",
+        "b2-argument-4",
+        "b2-argument-5"
+      ]
+    }
+  },
+  {
+    "id": "verb-patterns",
+    "language": "en",
+    "level": "B2",
+    "number": 5,
+    "lessons": [
+      {
+        "id": "b2-verb-patterns-1",
+        "number": 1,
+        "title": "Doing or to do?",
+        "focus": "gerund/infinitive after common verbs",
+        "outcome": "Choose a pattern appropriate to the verb and meaning.",
+        "prerequisiteIds": [
+          "b2-argument-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-verb-patterns-2",
+        "number": 2,
+        "title": "Remember to call",
+        "focus": "remember/stop/try; meaning changes",
+        "outcome": "Explain how the pattern changes the intended action.",
+        "prerequisiteIds": [
+          "b2-verb-patterns-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-verb-patterns-3",
+        "number": 3,
+        "title": "Let, make and allow",
+        "focus": "object plus infinitive; causation",
+        "outcome": "Distinguish permission, compulsion and enabling.",
+        "prerequisiteIds": [
+          "b2-verb-patterns-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-verb-patterns-4",
+        "number": 4,
+        "title": "Preferences and regret",
+        "focus": "would rather/prefer; wish/if only",
+        "outcome": "Express preferences and unreal wishes naturally.",
+        "prerequisiteIds": [
+          "b2-verb-patterns-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-verb-patterns-5",
+        "number": 5,
+        "title": "A message with the right meaning",
+        "focus": "verb-pattern editing in context",
+        "outcome": "Repair meaning-changing errors in an authentic-style exchange.",
+        "prerequisiteIds": [
+          "b2-verb-patterns-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "en-B2-verb-patterns-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "b2-verb-patterns-1",
+        "b2-verb-patterns-2",
+        "b2-verb-patterns-3",
+        "b2-verb-patterns-4",
+        "b2-verb-patterns-5"
+      ]
+    }
+  },
+  {
+    "id": "lexis",
+    "language": "en",
+    "level": "B2",
+    "number": 6,
+    "lessons": [
+      {
+        "id": "b2-lexis-1",
+        "number": 1,
+        "title": "Phrasal verbs in context",
+        "focus": "transitivity; separability; pronoun placement",
+        "outcome": "Interpret and use common multiword verbs naturally.",
+        "prerequisiteIds": [
+          "b2-verb-patterns-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-lexis-2",
+        "number": 2,
+        "title": "Words that go together",
+        "focus": "verb–noun/adjective–noun collocations",
+        "outcome": "Improve the naturalness of a practical report.",
+        "prerequisiteIds": [
+          "b2-lexis-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-lexis-3",
+        "number": 3,
+        "title": "Building word families",
+        "focus": "prefixes/suffixes; part of speech",
+        "outcome": "Select a form that fits syntax and intended meaning.",
+        "prerequisiteIds": [
+          "b2-lexis-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-lexis-4",
+        "number": 4,
+        "title": "Similar but different",
+        "focus": "near-synonyms; dependent prepositions",
+        "outcome": "Choose vocabulary suited to context and register.",
+        "prerequisiteIds": [
+          "b2-lexis-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-lexis-5",
+        "number": 5,
+        "title": "Paraphrasing accurately",
+        "focus": "meaning preservation and lexical range",
+        "outcome": "Restate information without exaggerating or narrowing it.",
+        "prerequisiteIds": [
+          "b2-lexis-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "en-B2-lexis-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "b2-lexis-1",
+        "b2-lexis-2",
+        "b2-lexis-3",
+        "b2-lexis-4",
+        "b2-lexis-5"
+      ]
+    }
+  },
+  {
+    "id": "writing",
+    "language": "en",
+    "level": "B2",
+    "number": 7,
+    "lessons": [
+      {
+        "id": "b2-writing-1",
+        "number": 1,
+        "title": "Audience and purpose",
+        "focus": "register; email versus report",
+        "outcome": "Adapt the same information to two recipients.",
+        "prerequisiteIds": [
+          "b2-lexis-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-writing-2",
+        "number": 2,
+        "title": "A clear report",
+        "focus": "headings, findings and recommendations",
+        "outcome": "Organise evidence into a practical report.",
+        "prerequisiteIds": [
+          "b2-writing-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-writing-3",
+        "number": 3,
+        "title": "A review with substance",
+        "focus": "evaluation, examples and recommendation",
+        "outcome": "Write a balanced review tied to explicit criteria.",
+        "prerequisiteIds": [
+          "b2-writing-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-writing-4",
+        "number": 4,
+        "title": "An effective proposal",
+        "focus": "benefits, constraints and implementation",
+        "outcome": "Develop a feasible proposal from given facts.",
+        "prerequisiteIds": [
+          "b2-writing-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-writing-5",
+        "number": 5,
+        "title": "Revising for coherence",
+        "focus": "reference, paragraph unity and transitions",
+        "outcome": "Improve a multi-paragraph text using a revision rubric.",
+        "prerequisiteIds": [
+          "b2-writing-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "en-B2-writing-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "b2-writing-1",
+        "b2-writing-2",
+        "b2-writing-3",
+        "b2-writing-4",
+        "b2-writing-5"
+      ]
+    }
+  },
+  {
+    "id": "review",
+    "language": "en",
+    "level": "B2",
+    "number": 8,
+    "lessons": [
+      {
+        "id": "b2-review-1",
+        "number": 1,
+        "title": "A public issue dossier",
+        "focus": "multi-source reading and attribution",
+        "outcome": "Compare competing accounts without adopting unsupported claims.",
+        "prerequisiteIds": [
+          "b2-writing-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-review-2",
+        "number": 2,
+        "title": "A workplace decision",
+        "focus": "aspect, modals and conditional evaluation",
+        "outcome": "Recommend an option under practical constraints.",
+        "prerequisiteIds": [
+          "b2-review-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-review-3",
+        "number": 3,
+        "title": "A formal response",
+        "focus": "register, counterargument and evidence",
+        "outcome": "Respond coherently to a challenging proposal.",
+        "prerequisiteIds": [
+          "b2-review-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-review-4",
+        "number": 4,
+        "title": "A process improvement",
+        "focus": "passive, causative and report structure",
+        "outcome": "Explain a fault and justify an improvement.",
+        "prerequisiteIds": [
+          "b2-review-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "b2-review-5",
+        "number": 5,
+        "title": "My B2 portfolio",
+        "focus": "integrated critical reading and constrained writing",
+        "outcome": "Demonstrate flexible text handling on concrete and abstract topics.",
+        "prerequisiteIds": [
+          "b2-review-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "en-B2-review-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "b2-review-1",
+        "b2-review-2",
+        "b2-review-3",
+        "b2-review-4",
+        "b2-review-5"
+      ]
+    }
+  },
+  {
+    "id": "emphasis",
+    "language": "en",
+    "level": "C1",
+    "number": 1,
+    "lessons": [
+      {
+        "id": "c1-emphasis-1",
+        "number": 1,
+        "title": "Rarely have we seen …",
+        "focus": "negative inversion; auxiliary choice",
+        "outcome": "Interpret and construct emphatic formal statements.",
+        "prerequisiteIds": [
+          "b2-review-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-emphasis-2",
+        "number": 2,
+        "title": "Only after the review …",
+        "focus": "limiting adverbials; inversion scope",
+        "outcome": "Emphasise a restriction without changing its scope.",
+        "prerequisiteIds": [
+          "c1-emphasis-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-emphasis-3",
+        "number": 3,
+        "title": "What matters is …",
+        "focus": "wh-clefts and it-clefts",
+        "outcome": "Focus new or contrasting information precisely.",
+        "prerequisiteIds": [
+          "c1-emphasis-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-emphasis-4",
+        "number": 4,
+        "title": "Had we known …",
+        "focus": "conditional inversion; were/should/had",
+        "outcome": "Rephrase conditional claims preserving register and meaning.",
+        "prerequisiteIds": [
+          "c1-emphasis-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-emphasis-5",
+        "number": 5,
+        "title": "Emphasis with restraint",
+        "focus": "rhetorical effect and audience",
+        "outcome": "Revise a position paper without excessive emphatic constructions.",
+        "prerequisiteIds": [
+          "c1-emphasis-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "en-C1-emphasis-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "c1-emphasis-1",
+        "c1-emphasis-2",
+        "c1-emphasis-3",
+        "c1-emphasis-4",
+        "c1-emphasis-5"
+      ]
+    }
+  },
+  {
+    "id": "stance",
+    "language": "en",
+    "level": "C1",
+    "number": 2,
+    "lessons": [
+      {
+        "id": "c1-stance-1",
+        "number": 1,
+        "title": "How certain is the claim?",
+        "focus": "hedging; boosting; epistemic phrases",
+        "outcome": "Match certainty to the quality of evidence.",
+        "prerequisiteIds": [
+          "c1-emphasis-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-stance-2",
+        "number": 2,
+        "title": "Whose view is it?",
+        "focus": "reporting verbs and attribution",
+        "outcome": "Distinguish a source’s stance from the writer’s.",
+        "prerequisiteIds": [
+          "c1-stance-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-stance-3",
+        "number": 3,
+        "title": "Limits and exceptions",
+        "focus": "qualified quantifiers; scope",
+        "outcome": "Avoid overgeneralisation in analytical prose.",
+        "prerequisiteIds": [
+          "c1-stance-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-stance-4",
+        "number": 4,
+        "title": "Evidence versus inference",
+        "focus": "causal language; correlation",
+        "outcome": "Identify and repair unjustified causal conclusions.",
+        "prerequisiteIds": [
+          "c1-stance-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-stance-5",
+        "number": 5,
+        "title": "A calibrated conclusion",
+        "focus": "stance and limitations",
+        "outcome": "Write a nuanced conclusion from incomplete evidence.",
+        "prerequisiteIds": [
+          "c1-stance-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "en-C1-stance-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "c1-stance-1",
+        "c1-stance-2",
+        "c1-stance-3",
+        "c1-stance-4",
+        "c1-stance-5"
+      ]
+    }
+  },
+  {
+    "id": "nominal",
+    "language": "en",
+    "level": "C1",
+    "number": 3,
+    "lessons": [
+      {
+        "id": "c1-nominal-1",
+        "number": 1,
+        "title": "From action to concept",
+        "focus": "nominalisation; abstract nouns",
+        "outcome": "Recognise how a text packages processes as concepts.",
+        "prerequisiteIds": [
+          "c1-stance-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-nominal-2",
+        "number": 2,
+        "title": "Complex noun phrases",
+        "focus": "premodification/postmodification; attachment",
+        "outcome": "Resolve ambiguity in dense academic phrases.",
+        "prerequisiteIds": [
+          "c1-nominal-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-nominal-3",
+        "number": 3,
+        "title": "Condensing a clause",
+        "focus": "participial and infinitival modifiers",
+        "outcome": "Compress information while preserving agency and time.",
+        "prerequisiteIds": [
+          "c1-nominal-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-nominal-4",
+        "number": 4,
+        "title": "Unpacking dense prose",
+        "focus": "verbal paraphrase; reference",
+        "outcome": "Explain a specialist passage to a general audience.",
+        "prerequisiteIds": [
+          "c1-nominal-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-nominal-5",
+        "number": 5,
+        "title": "An accurate abstract",
+        "focus": "purpose, method, result and limitation",
+        "outcome": "Condense an analysis without adding claims.",
+        "prerequisiteIds": [
+          "c1-nominal-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "en-C1-nominal-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "c1-nominal-1",
+        "c1-nominal-2",
+        "c1-nominal-3",
+        "c1-nominal-4",
+        "c1-nominal-5"
+      ]
+    }
+  },
+  {
+    "id": "register",
+    "language": "en",
+    "level": "C1",
+    "number": 4,
+    "lessons": [
+      {
+        "id": "c1-register-1",
+        "number": 1,
+        "title": "Precision and connotation",
+        "focus": "near-synonyms; semantic prosody",
+        "outcome": "Choose wording consistent with the intended evaluation.",
+        "prerequisiteIds": [
+          "c1-nominal-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-register-2",
+        "number": 2,
+        "title": "Collocation at an advanced level",
+        "focus": "lexical bundles; academic/professional usage",
+        "outcome": "Repair unnatural combinations in context.",
+        "prerequisiteIds": [
+          "c1-register-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-register-3",
+        "number": 3,
+        "title": "Indirect but clear",
+        "focus": "pragmatics; mitigation and politeness",
+        "outcome": "Write tactful criticism without obscuring the required action.",
+        "prerequisiteIds": [
+          "c1-register-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-register-4",
+        "number": 4,
+        "title": "Idioms and implication",
+        "focus": "figurative meaning; contextual inference",
+        "outcome": "Explain an idiom’s effect without literal translation.",
+        "prerequisiteIds": [
+          "c1-register-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-register-5",
+        "number": 5,
+        "title": "Changing the audience",
+        "focus": "formal, public-facing and collegial registers",
+        "outcome": "Adapt content while preserving factual meaning.",
+        "prerequisiteIds": [
+          "c1-register-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "en-C1-register-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "c1-register-1",
+        "c1-register-2",
+        "c1-register-3",
+        "c1-register-4",
+        "c1-register-5"
+      ]
+    }
+  },
+  {
+    "id": "discourse",
+    "language": "en",
+    "level": "C1",
+    "number": 5,
+    "lessons": [
+      {
+        "id": "c1-discourse-1",
+        "number": 1,
+        "title": "Keeping a text connected",
+        "focus": "reference chains; abstract demonstratives",
+        "outcome": "Track ideas across a long analytical text.",
+        "prerequisiteIds": [
+          "c1-register-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-discourse-2",
+        "number": 2,
+        "title": "Avoiding repetition",
+        "focus": "ellipsis and substitution",
+        "outcome": "Shorten a text without leaving unclear references.",
+        "prerequisiteIds": [
+          "c1-discourse-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-discourse-3",
+        "number": 3,
+        "title": "Given and new information",
+        "focus": "information structure; fronting",
+        "outcome": "Improve paragraph progression and reader orientation.",
+        "prerequisiteIds": [
+          "c1-discourse-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-discourse-4",
+        "number": 4,
+        "title": "Concession and redirection",
+        "focus": "discourse markers; implicit relations",
+        "outcome": "Recover and express complex argument relations.",
+        "prerequisiteIds": [
+          "c1-discourse-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-discourse-5",
+        "number": 5,
+        "title": "A coherent whole",
+        "focus": "macrostructure and editorial revision",
+        "outcome": "Revise a multi-section text for sustained logical development.",
+        "prerequisiteIds": [
+          "c1-discourse-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "en-C1-discourse-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "c1-discourse-1",
+        "c1-discourse-2",
+        "c1-discourse-3",
+        "c1-discourse-4",
+        "c1-discourse-5"
+      ]
+    }
+  },
+  {
+    "id": "negotiation",
+    "language": "en",
+    "level": "C1",
+    "number": 6,
+    "lessons": [
+      {
+        "id": "c1-negotiation-1",
+        "number": 1,
+        "title": "Interests behind positions",
+        "focus": "inference; priorities and constraints",
+        "outcome": "Identify room for agreement in a written negotiation.",
+        "prerequisiteIds": [
+          "c1-discourse-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-negotiation-2",
+        "number": 2,
+        "title": "Conditions and safeguards",
+        "focus": "provided that/unless; exception scope",
+        "outcome": "Draft conditions without unintended loopholes.",
+        "prerequisiteIds": [
+          "c1-negotiation-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-negotiation-3",
+        "number": 3,
+        "title": "Handling a serious objection",
+        "focus": "concession, qualification and reframing",
+        "outcome": "Respond substantively while maintaining a workable relationship.",
+        "prerequisiteIds": [
+          "c1-negotiation-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-negotiation-4",
+        "number": 4,
+        "title": "Recording an agreement",
+        "focus": "commitments, contingencies and deadlines",
+        "outcome": "Produce an unambiguous summary of agreement.",
+        "prerequisiteIds": [
+          "c1-negotiation-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-negotiation-5",
+        "number": 5,
+        "title": "A reasoned compromise",
+        "focus": "trade-offs and evaluation",
+        "outcome": "Justify a negotiated outcome and its limitations.",
+        "prerequisiteIds": [
+          "c1-negotiation-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "en-C1-negotiation-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "c1-negotiation-1",
+        "c1-negotiation-2",
+        "c1-negotiation-3",
+        "c1-negotiation-4",
+        "c1-negotiation-5"
+      ]
+    }
+  },
+  {
+    "id": "analysis",
+    "language": "en",
+    "level": "C1",
+    "number": 7,
+    "lessons": [
+      {
+        "id": "c1-analysis-1",
+        "number": 1,
+        "title": "The structure of an argument",
+        "focus": "premise, inference and conclusion",
+        "outcome": "Map a complex argument accurately.",
+        "prerequisiteIds": [
+          "c1-negotiation-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-analysis-2",
+        "number": 2,
+        "title": "Reading between the lines",
+        "focus": "implication, irony and authorial stance",
+        "outcome": "Support an interpretation with textual evidence.",
+        "prerequisiteIds": [
+          "c1-analysis-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-analysis-3",
+        "number": 3,
+        "title": "Comparing sources",
+        "focus": "reliability, perspective and omissions",
+        "outcome": "Assess divergent accounts using explicit criteria.",
+        "prerequisiteIds": [
+          "c1-analysis-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-analysis-4",
+        "number": 4,
+        "title": "Synthesis rather than summary",
+        "focus": "cross-source organisation; attribution",
+        "outcome": "Integrate multiple sources around analytical themes.",
+        "prerequisiteIds": [
+          "c1-analysis-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-analysis-5",
+        "number": 5,
+        "title": "A critical response",
+        "focus": "counterevidence and qualified judgement",
+        "outcome": "Develop a sustained critique without overstating certainty.",
+        "prerequisiteIds": [
+          "c1-analysis-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "en-C1-analysis-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "c1-analysis-1",
+        "c1-analysis-2",
+        "c1-analysis-3",
+        "c1-analysis-4",
+        "c1-analysis-5"
+      ]
+    }
+  },
+  {
+    "id": "review",
+    "language": "en",
+    "level": "C1",
+    "number": 8,
+    "lessons": [
+      {
+        "id": "c1-review-1",
+        "number": 1,
+        "title": "A complex issue dossier",
+        "focus": "critical reading across genres",
+        "outcome": "Identify assumptions, source limits and competing interpretations.",
+        "prerequisiteIds": [
+          "c1-analysis-5"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-review-2",
+        "number": 2,
+        "title": "A concise synthesis",
+        "focus": "nominalisation, cohesion and calibrated stance",
+        "outcome": "Produce a faithful analytical summary.",
+        "prerequisiteIds": [
+          "c1-review-1"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-review-3",
+        "number": 3,
+        "title": "A sensitive negotiation",
+        "focus": "register, conditions and compromise",
+        "outcome": "Write an agreement that reflects competing priorities.",
+        "prerequisiteIds": [
+          "c1-review-2"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-review-4",
+        "number": 4,
+        "title": "A defensible position",
+        "focus": "counterevidence and sustained argument",
+        "outcome": "Develop a nuanced response to a complex issue.",
+        "prerequisiteIds": [
+          "c1-review-3"
+        ],
+        "status": "planned"
+      },
+      {
+        "id": "c1-review-5",
+        "number": 5,
+        "title": "My C1 capstone",
+        "focus": "integrated analysis, editing and written interaction",
+        "outcome": "Create and self-evaluate a portfolio against explicit criteria.",
+        "prerequisiteIds": [
+          "c1-review-4"
+        ],
+        "status": "planned"
+      }
+    ],
+    "finalTest": {
+      "id": "en-C1-review-final",
+      "passPercent": 80,
+      "coveredLessonIds": [
+        "c1-review-1",
+        "c1-review-2",
+        "c1-review-3",
+        "c1-review-4",
+        "c1-review-5"
+      ]
+    }
+  }
+]

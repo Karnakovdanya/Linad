@@ -1,0 +1,39 @@
+{
+  "protectedFiles": {
+    "src/components/Header.tsx": true,
+    "src/components/Footer.tsx": true,
+    "src/components/Logo.tsx": true,
+    "src/components/Icon.tsx": true,
+    "src/components/PageState.tsx": true,
+    "src/components/ContactSection.tsx": true,
+    "src/components/ContactLink.tsx": true,
+    "src/pages/HomePage.tsx": true,
+    "src/pages/AuthorContent.tsx": true,
+    "src/styles/global.css": true,
+    "src/styles/home.css": true,
+    "src/styles/author.css": true,
+    "src/styles/tokens.css": true,
+    "src/config/contacts.ts": true,
+    "src/i18n/author-messages.ts": true,
+    "package.json": true,
+    "package-lock.json": true
+  },
+  "oldTranslations": {
+    "ru": {
+      "count": 161,
+      "unchanged": true
+    },
+    "de": {
+      "count": 161,
+      "unchanged": true
+    },
+    "en": {
+      "count": 161,
+      "unchanged": true
+    }
+  },
+  "pageShellAndOtherPages": [
+    true,
+    true
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "build": "passed",
+  "lint": "passed",
+  "typecheck": "passed",
+  "earlyCompletedFiles": {
+    "author.spec.ts": 8,
+    "contact-navigation.spec.ts": 6,
+    "contacts.spec.ts": 5,
+    "doctor.spec.ts": 15,
+    "footer-mobile.spec.ts": 12,
+    "foundation.spec.ts": 78,
+    "header.spec.ts": 6,
+    "home-design.spec.ts": 6
+  },
+  "earlyCompletedCount": 136,
+  "remainingUnchangedTests": 119,
+  "typographyFinal": 6,
+  "tutorsFinal": 29,
+  "uniquePassed": 290,
+  "notes": "The original full run was interrupted. All test files were covered across continuation and targeted reruns. Earlier JSON reports retain the resolved failures; the final Tutors report is clean.",
+  "sourceAudit": {
+    "existing": 113,
+    "authorisedChanges": [
+      "src/app/App.tsx"
+    ],
+    "otherChanges": [],
+    "existingAssetsUnchanged": 36
+  }
+}

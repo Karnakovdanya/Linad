@@ -1,0 +1,93 @@
+.lin-assistant { --lin-accent: var(--cta-background); --lin-pane: #eeecf9; --lin-card: rgb(255 255 255 / 81%); --lin-soft: #e3e0f8; --lin-ink: var(--text); --lin-edge: rgb(255 255 255 / 80%); --lin-gap: 20px; --lin-size: 64px; color: var(--lin-ink); font-family: inherit; }
+:root[data-theme='dark'] .lin-assistant { --lin-pane: #2b2d34; --lin-card: #353842; --lin-soft: #414757; --lin-edge: #484b56; --lin-accent: #a7bce8; }
+.lin-art { display: block; position: relative; overflow: hidden; flex-shrink: 0; }
+.lin-art img { display: block; position: absolute; left: 0; top: 0; max-width: none; height: auto; pointer-events: none; user-select: none; }
+.lin-launcher { position: fixed; z-index: 30; right: max(var(--lin-gap), env(safe-area-inset-right)); bottom: max(var(--lin-dock-bottom), calc(var(--lin-gap) + env(safe-area-inset-bottom))); width: var(--lin-size); height: var(--lin-size); display: grid; place-items: center; padding: 0; border: 1px solid #d2d3f4; border-radius: 50%; background: #f3f2fd; box-shadow: 0 0 0 4px rgb(126 139 245 / 10%), 0 4px 24px rgb(54 95 173 / 22%); transition: box-shadow 180ms ease, transform 180ms ease; overflow: hidden; }
+.lin-launcher .lin-art { position: absolute; inset: 0; width: 100%; height: 100%; border-radius: inherit; transition: opacity 180ms ease; }
+.lin-launcher-hover { opacity: 0; }
+.lin-launcher:hover, .lin-launcher:focus-visible { box-shadow: 0 0 0 5px rgb(126 139 245 / 18%), 0 5px 26px rgb(54 95 173 / 32%); }
+.lin-launcher:is(:hover, :focus-visible) .lin-launcher-hover { opacity: 1; }
+.lin-launcher:is(:hover, :focus-visible) .lin-launcher-idle:has(+ .lin-launcher-hover) { opacity: 0; }
+.lin-launcher:active { transform: scale(.96); }
+.lin-window { position: fixed; z-index: 29; right: max(var(--lin-gap), env(safe-area-inset-right)); bottom: max(calc(var(--lin-dock-bottom) + var(--lin-size) + 16px), calc(var(--lin-gap) + env(safe-area-inset-bottom) + var(--lin-size) + 16px)); width: min(364px, calc(100vw - 2 * var(--lin-gap))); height: min(852px, calc(var(--lin-viewport-height) - var(--lin-size) - 2 * var(--lin-gap) - 16px)); max-height: calc(100dvh - var(--lin-dock-bottom) - var(--lin-size) - 28px); display: flex; flex-direction: column; border: 1px solid var(--lin-edge); border-radius: 25px; background: linear-gradient(145deg, color-mix(in srgb, var(--lin-pane) 96%, white), var(--lin-pane)); box-shadow: 0 15px 65px rgb(43 42 89 / 22%), 0 2px 10px rgb(43 42 89 / 8%); overflow: hidden; font-size: 14px; line-height: 1.5; animation: lin-open 180ms ease both; }
+.lin-window[data-open='false'] { animation: lin-close 160ms ease both; pointer-events: none; }
+.lin-header { display: flex; align-items: center; gap: 11px; padding: 11px 16px; flex-shrink: 0; background: color-mix(in srgb, var(--lin-soft) 42%, transparent); }
+.lin-header-avatar { width: 44px; border-radius: 50%; }
+.lin-header > div { min-width: 0; }
+.lin-header h2 { font-size: 19px; line-height: 1.3; margin: 0; letter-spacing: 0; }
+.lin-header p { font-size: 12px; color: var(--muted); margin-top: 1px; }
+.lin-close { display: grid; place-items: center; width: 40px; height: 40px; border: 0; border-radius: 12px; background: transparent; margin-left: auto; padding: 9px; flex-shrink: 0; }
+.lin-close:hover { background: var(--lin-card); }
+.lin-close svg { width: 20px; height: 20px; }
+.lin-scroll { flex: 1; min-height: 0; overflow-y: auto; overscroll-behavior: contain; scrollbar-width: thin; scrollbar-color: var(--border) transparent; padding: 0 14px 16px; }
+.lin-welcome-art { display: flex; align-items: center; justify-content: center; margin: 8px 0 0; }
+.lin-welcome-art .lin-art { width: 330px; max-width: 100%; border-radius: 28px; }
+.lin-welcome-art.returned { margin-block: 12px; }
+.lin-welcome-art.returned .lin-art { width: 148px; border-radius: 20px; }
+.lin-greeting { background: var(--lin-card); padding: 12px 14px; border-radius: 18px; margin-bottom: 12px; font-size: 13px; }
+.lin-greeting h3 { font-size: 14px; margin: 0 0 2px; line-height: 1.5; }
+.lin-greeting h3:focus, .lin-question-bubble:focus { outline: none; }
+.lin-topics { display: flex; flex-direction: column; gap: 5px; }
+.lin-topic { display: flex; align-items: center; gap: 10px; width: 100%; min-height: 51px; border: 1px solid transparent; background: var(--lin-card); color: var(--lin-ink); border-radius: 14px; padding: 6px 10px; text-align: left; font: inherit; transition: background 160ms ease, border-color 160ms ease, transform 160ms ease; }
+.lin-topic > span:nth-child(2) { min-width: 0; flex: 1; }
+.lin-topic strong { display: block; font-size: 12px; line-height: 1.4; font-weight: 650; }
+.lin-topic small { display: block; font-size: 11px; color: var(--muted); line-height: 1.4; margin-top: 2px; }
+.lin-topic-icon { display: grid; place-items: center; width: 35px; height: 35px; border-radius: 12px; background: var(--lin-soft); color: var(--lin-accent); flex-shrink: 0; }
+.lin-topic-icon svg { width: 21px; height: 21px; }
+.lin-topic > svg, .lin-action > svg:last-child { width: 15px; height: 15px; color: var(--muted); }
+.lin-topic:hover { background: color-mix(in srgb, var(--lin-card) 82%, var(--lin-soft)); border-color: color-mix(in srgb, var(--lin-accent) 25%, transparent); transform: translateX(2px); }
+.lin-topic:active { transform: scale(.99); }
+.lin-composer { padding: 10px 14px 8px; flex-shrink: 0; background: var(--lin-pane); border-top: 1px solid color-mix(in srgb, var(--border) 28%, transparent); }
+.lin-composer form { display: flex; align-items: center; gap: 6px; padding: 5px 5px 5px 13px; background: var(--lin-card); border: 1px solid var(--lin-edge); border-radius: 18px; }
+.lin-composer input { width: 100%; min-width: 0; height: 35px; border: 0; border-radius: 8px; background: transparent; color: var(--lin-ink); font: inherit; font-size: 13px; padding: 4px 2px; }
+.lin-composer input::placeholder { color: var(--muted); opacity: .85; }
+.lin-composer input:focus { outline: none; }
+.lin-composer form:focus-within { border-color: var(--lin-accent); box-shadow: 0 0 0 2px color-mix(in srgb, var(--lin-accent) 12%, transparent); }
+.lin-composer button { display: grid; place-items: center; width: 35px; height: 35px; flex-shrink: 0; border: 0; border-radius: 50%; background: var(--lin-soft); color: var(--lin-accent); padding: 6px; }
+.lin-composer button:disabled { opacity: .5; }
+.lin-composer button svg { width: 23px; height: 23px; }
+.lin-composer > small { display: block; text-align: center; color: var(--muted); margin-top: 4px; font-size: 9px; line-height: 1.3; }
+.lin-conversation { display: flex; flex-direction: column; gap: 15px; padding-top: 13px; animation: lin-answer 170ms ease both; }
+.lin-back { display: inline-flex; align-self: flex-start; align-items: center; gap: 6px; min-height: 34px; border: 0; border-radius: 9px; background: transparent; padding: 4px 6px; color: var(--muted); font: inherit; font-size: 12px; }
+.lin-back:hover { background: var(--lin-card); }
+.lin-question-bubble { align-self: flex-end; max-width: 94%; background: var(--cta-background); color: #fff; padding: 11px 14px; border-radius: 15px 15px 5px 15px; font-size: 13px; font-weight: 500; line-height: 1.5; margin: 0; }
+.lin-answer-row { display: flex; align-items: flex-start; gap: 9px; }
+.lin-answer-avatar { width: 38px; border-radius: 50%; margin-top: 6px; }
+.lin-answer-card { flex: 1; min-width: 0; padding: 15px; border-radius: 6px 18px 18px; background: var(--lin-card); }
+.lin-answer-card p + p { margin-top: 12px; }
+.lin-actions { display: flex; flex-direction: column; gap: 7px; }
+.lin-action { display: flex; align-items: center; gap: 10px; padding: 10px 12px; min-height: 43px; border: 1px solid transparent; border-radius: 12px; background: var(--lin-card); font-size: 12px; line-height: 1.4; transition: background 160ms ease, border-color 160ms ease; }
+.lin-action > svg:first-child { color: var(--lin-accent); width: 19px; height: 19px; }
+.lin-action > span { flex: 1; }
+.lin-action:hover { background: var(--lin-soft); border-color: var(--border); }
+.lin-understood, .lin-all-topics { display: flex; align-items: center; justify-content: center; gap: 8px; align-self: center; min-height: 42px; border: 0; border-radius: 12px; background: transparent; color: var(--lin-accent); font: inherit; font-size: 12px; padding: 8px 12px; }
+.lin-understood:hover, .lin-all-topics:hover { background: var(--lin-soft); }
+.lin-understood svg, .lin-all-topics svg { width: 18px; height: 18px; }
+.lin-acknowledged { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border-radius: 14px; background: var(--lin-card); font-size: 12px; }
+.lin-acknowledged .lin-art { width: 65px; border-radius: 12px; }
+.lin-unknown-art { width: 115px; margin: 0 auto 12px; border-radius: 16px; }
+.lin-searching { display: flex; flex-direction: column; align-items: center; gap: 12px; padding-block: 18px; color: var(--muted); }
+.lin-searching .lin-art { width: 160px; border-radius: 18px; }
+.lin-assistant :is(button, a):focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+@keyframes lin-open { from { opacity: 0; transform: translateY(12px) scale(.98); } to { opacity: 1; transform: translateY(0) scale(1); } }
+@keyframes lin-close { to { opacity: 0; transform: translateY(10px) scale(.98); } }
+@keyframes lin-answer { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
+@media (max-width: 600px) {
+  .lin-assistant { --lin-gap: 16px; --lin-size: 60px; }
+  .lin-window { width: min(364px, calc(100vw - 24px)); right: max(12px, env(safe-area-inset-right)); border-radius: 23px; }
+  .lin-header { padding: 10px 12px; }
+  .lin-header-avatar { width: 42px; }
+  .lin-header h2 { font-size: 17px; }
+  .lin-welcome-art { margin-top: 4px; }
+  .lin-welcome-art .lin-art { width: 280px; border-radius: 18px; }
+  .lin-welcome-art.returned .lin-art { width: 112px; }
+  .lin-greeting { padding: 11px 13px; font-size: 13px; }
+  .lin-scroll { padding-inline: 10px; }
+  .lin-topic { min-height: 54px; padding: 8px; gap: 8px; }
+  .lin-topic-icon { width: 32px; height: 32px; border-radius: 11px; }
+  .lin-topic strong { font-size: 11.5px; }
+  .lin-topic small { font-size: 10.5px; }
+  .lin-composer input { font-size: 16px; }
+}
+@media (max-height: 520px) { .lin-welcome-art { display: none; } .lin-header { padding-block: 7px; } .lin-header-avatar { width: 34px; } .lin-composer { padding-block: 6px; } .lin-composer > small { display: none; } }
+@media (prefers-reduced-motion: reduce) { .lin-assistant *, .lin-assistant *::before, .lin-assistant *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; } }

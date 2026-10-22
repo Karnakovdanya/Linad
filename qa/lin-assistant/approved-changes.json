@@ -1,0 +1,9 @@
+{
+  "modified": [
+    "src/app/App.tsx"
+  ],
+  "added": [
+    "src/assistant/",
+    "public/assets/lin/"
+  ]
+}

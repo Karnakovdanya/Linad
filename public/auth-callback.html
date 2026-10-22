@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="referrer" content="no-referrer"><title>LINAD</title></head>
+<body><p>LINAD…</p><script>
+// This real static file works on GitHub Pages, including a repository base path.
+const destination = new URL('./', location.href);
+destination.search = location.search;
+destination.hash = '/auth/callback';
+location.replace(destination.href);
+</script></body></html>

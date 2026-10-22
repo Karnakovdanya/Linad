@@ -1,0 +1,18 @@
+{
+  "src/components/Header.tsx": {
+    "before": "1647c914b64864de40ed895aca1070f3574cfddbd77ed9df884fb7d607edd029",
+    "after": "dd2a5a329f49995b8f388cc990ab15e807da0085fb43f61a1b18f60f427aae94"
+  },
+  "src/app/App.tsx": {
+    "before": "7bc1cdc34e583ad3c16b5662c5f8e73134d06dbb80b0d7d3cf0ad58792a0388e",
+    "after": "2d93fe378732847b9c055965e24cfa394c883e73e6ba65e7308c3823ed75574c"
+  },
+  "src/pages/HomePage.tsx": {
+    "before": "815ff29e8d58f12b1203a3b3925d7ed38288fa1e43b11f66409c7cfb62d7881d",
+    "after": "016333e897775a95f947f82215b02eeaf241cccd3cf2240f5a45cc793552e712"
+  },
+  "src/pages/SectionPages.tsx": {
+    "before": "f66cc76adc1589d22d50267c8194e7efddda33ba21c59864af4d00e8fe9d0d1a",
+    "after": "468f2e6eb384136305d4e01f8c18a809cf4a0aebf3a9f05149940ac270915754"
+  }
+}

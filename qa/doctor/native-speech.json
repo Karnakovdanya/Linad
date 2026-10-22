@@ -1,0 +1,79 @@
+{
+  "voices": [
+    {
+      "name": "Microsoft Irina - Russian (Russia)",
+      "lang": "ru-RU",
+      "localService": true
+    },
+    {
+      "name": "Microsoft Pavel - Russian (Russia)",
+      "lang": "ru-RU",
+      "localService": true
+    }
+  ],
+  "results": [
+    {
+      "language": "ru",
+      "block": "phrases",
+      "events": [
+        "start",
+        "end"
+      ],
+      "voiceAvailable": true
+    },
+    {
+      "language": "ru",
+      "block": "words",
+      "events": [
+        "start",
+        "end"
+      ],
+      "voiceAvailable": true
+    },
+    {
+      "language": "ru",
+      "block": "dialogue-line",
+      "events": [
+        "start",
+        "end"
+      ],
+      "voiceAvailable": true
+    },
+    {
+      "language": "de",
+      "block": "phrases",
+      "events": [],
+      "voiceAvailable": false
+    },
+    {
+      "language": "de",
+      "block": "words",
+      "events": [],
+      "voiceAvailable": false
+    },
+    {
+      "language": "de",
+      "block": "dialogue-line",
+      "events": [],
+      "voiceAvailable": false
+    },
+    {
+      "language": "en",
+      "block": "phrases",
+      "events": [],
+      "voiceAvailable": false
+    },
+    {
+      "language": "en",
+      "block": "words",
+      "events": [],
+      "voiceAvailable": false
+    },
+    {
+      "language": "en",
+      "block": "dialogue-line",
+      "events": [],
+      "voiceAvailable": false
+    }
+  ]
+}

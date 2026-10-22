@@ -1,0 +1,14 @@
+{
+  "src/styles/practice.css": {
+    "before": "9dac39d852b9319d080d9163febaa9c5ae703f25a011121bedef3c3ed3c71cfb",
+    "after": "f6c362b5df326da81294d1dacaba15e7cf9148e064b36c181b291f85f908f2e8"
+  },
+  "src/pages/learning/practice/usePracticeSpeech.ts": {
+    "before": "c754d63bead4884233278e20965a93e12fd61fba23445dd2584bb500e49be69e",
+    "after": "17287e8a8fda33f02f804c6923c9bd295a02422c0ccdd9148726f30836d75f2b"
+  },
+  "src/pages/learning/practice/PracticePanels.tsx": {
+    "before": "2174af0562e21713d487242d79e19bb92c226101f0ecd03ed0265605e9ac8ded",
+    "after": "8a3e8524c0b707edb816b974bc67f74b30d75e1d907f41a726b778f5479b0bfe"
+  }
+}

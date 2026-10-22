@@ -1,0 +1,6 @@
+{
+  "src/app/App.tsx": {
+    "before": "02aa9a372771affe96a92f61e89b9c4da70cdd09bb7d34b7563f54355b0e1089",
+    "after": "7bc1cdc34e583ad3c16b5662c5f8e73134d06dbb80b0d7d3cf0ad58792a0388e"
+  }
+}

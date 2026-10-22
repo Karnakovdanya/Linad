@@ -1,0 +1,10 @@
+{
+  "src/account/ProfileMilestones.tsx": {
+    "before": "2b971407edb617f7c874a1828351539ef026cc43246ee4a18fb5bef27b4225b5",
+    "after": "f7014385c5fe3f9f3ebc4870e9d8b99b2461dfd835247841fb290c921b18eecb"
+  },
+  "src/styles/profile-milestones.css": {
+    "before": "bacfd7c49b9ddc07b8041203bc66e80460403174e8e815cb9ce6698eab79e638",
+    "after": "a61470fb8c91d431d079142400ad51c6c91acac2dec403910dd1fc1c43f2ecea"
+  }
+}

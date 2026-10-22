@@ -1,0 +1,31 @@
+{
+  "protectedFiles": {
+    "src/components/Header.tsx": true,
+    "src/components/Footer.tsx": true,
+    "src/pages/HomePage.tsx": true,
+    "src/styles/global.css": true,
+    "src/styles/home.css": true,
+    "src/styles/tokens.css": true,
+    "src/app/App.tsx": true,
+    "src/config/contacts.ts": true,
+    "src/components/ContactLink.tsx": true
+  },
+  "oldTranslations": {
+    "ru": {
+      "count": 116,
+      "unchanged": true
+    },
+    "de": {
+      "count": 116,
+      "unchanged": true
+    },
+    "en": {
+      "count": 116,
+      "unchanged": true
+    }
+  },
+  "pageShells": [
+    true,
+    true
+  ]
+}

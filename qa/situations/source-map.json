@@ -1,0 +1,76 @@
+{
+  "job-interview.png": {
+    "source": "C:\\Users\\danil\\Desktop\\Деловая встреча с видом на горы.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "fd9e899e3edc52bfe0a05ce7a7729c8b62625b950337978d038b0a8b46e3abd0"
+  },
+  "doctor.png": {
+    "source": "C:\\Users\\danil\\Desktop\\Консультация врача в современной клинике.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "358475d6cd82401c6b9277845aec0f80879cf2b06f9e2a3502e2205e00b4e689"
+  },
+  "travel.png": {
+    "source": "C:\\Users\\danil\\Desktop\\d57f6949-b00d-43ed-bc4c-6f889186e1c6.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "sha256": "9bc199e7f911c24db0a6d8e5e48f8152c4ca511ddf70e9e8147864939576cd49"
+  },
+  "documents.png": {
+    "source": "C:\\Users\\danil\\Desktop\\Документы на стойке Einwohnerdienste.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "0896fd6c01fcd7066ae38231e5cf016e06f49496ae2997c263e3dcb15883a806"
+  },
+  "everyday-communication.png": {
+    "source": "C:\\Users\\danil\\Desktop\\Беседа в кафе у озера.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "a15497b7cae054bf4bccf49a64b3f834f45cb451e86d078b16e0a40170b1f513"
+  },
+  "shopping.png": {
+    "source": "C:\\Users\\danil\\Desktop\\c3462055-f2aa-430e-97f4-511db5bc2d0e.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "sha256": "1e7f59389ee11ad9a2d0e7911656e91db99c9ce9877e19b0608a2ef439986603"
+  },
+  "housing.png": {
+    "source": "C:\\Users\\danil\\Desktop\\Уютная квартира с видом на закат.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "f24b6d5166b4b4cdad6a583105e53275f851ba480d130cfca394a1d6a369de45"
+  },
+  "education-learning.png": {
+    "source": "C:\\Users\\danil\\Desktop\\Изучение немецкого языка в современной аудитории.png",
+    "size": [1672, 941],
+    "sha256": "a0d267e9dade000b9c4ab5a4a18bc96f4f0f3055380893540d6f4424b03723a3"
+  },
+  "sport-fitness.png": {
+    "source": "C:\\Users\\danil\\Desktop\\04073cb5-2daa-4458-b714-2ae0588217f5.png",
+    "size": [1536, 1024],
+    "sha256": "ade95bdb6aca815f8992a80f59e005cb9b658bbc7e189460ad762e7afe40e7a3"
+  },
+  "banking-finance.png": {
+    "source": "C:\\Users\\danil\\Desktop\\Консультация в современном отделении банка.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "6d93db3d16f2cfec2b069127739079f769f6980974bb6c0acd5f3f4f43a15956"
+  }
+}

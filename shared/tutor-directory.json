@@ -1,0 +1,8 @@
+[
+  {"id":"anna-mueller","name":"Anna Müller","languages":["de"]},
+  {"id":"lukas-schneider","name":"Lukas Schneider","languages":["de"]},
+  {"id":"sarah-johnson","name":"Sarah Johnson","languages":["en"]},
+  {"id":"michael-brown","name":"Michael Brown","languages":["en"]},
+  {"id":"sophie-wagner","name":"Sophie Wagner","languages":["de"]},
+  {"id":"daniil-karnakov","name":"Daniil Karnakov","languages":["de","en"]}
+]

@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-21",
+  "project": "https://agcvacclaebekvcblvod.supabase.co",
+  "mode": "Read-only probes with the supplied publishable key; no personal rows requested",
+  "responses": [
+    { "path": "/rest/v1/account_state?select=revision&limit=0", "status": 404, "code": "PGRST205", "message": "Could not find the table 'public.account_state' in the schema cache" },
+    { "path": "/rest/v1/profiles?select=display_name&limit=0", "status": 404, "code": "PGRST205", "message": "Could not find the table 'public.profiles' in the schema cache" }
+  ],
+  "authenticatedBrowser": "Schema-related sync failure reproduced in the already signed-in profile; no session tokens extracted",
+  "migrationsAppliedToHostedProject": false,
+  "hostedSyncVerified": false
+}

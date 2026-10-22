@@ -1,0 +1,32 @@
+{
+  "changed": [
+    "src/account/AuthPage.tsx",
+    "src/styles/account.css"
+  ],
+  "unexpected": [],
+  "build": "passed",
+  "lint": "passed",
+  "browserTests": 8,
+  "widths": [
+    1440,
+    1024,
+    820,
+    768,
+    760,
+    700,
+    390,
+    320
+  ],
+  "themes": [
+    "light",
+    "dark"
+  ],
+  "languages": [
+    "ru",
+    "de",
+    "en"
+  ],
+  "focusRingRemoved": true,
+  "passwordToggleRemoved": true,
+  "stackedPhotoAboveForm": true
+}

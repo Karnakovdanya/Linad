@@ -1,0 +1,124 @@
+{
+  "browser": "automated Chrome, separate profile",
+  "voices": [
+    {
+      "name": "Microsoft Irina - Russian (Russia)",
+      "lang": "ru-RU",
+      "localService": true
+    },
+    {
+      "name": "Microsoft Pavel - Russian (Russia)",
+      "lang": "ru-RU",
+      "localService": true
+    }
+  ],
+  "outcomes": [
+    {
+      "language": "ru",
+      "block": "phrases",
+      "voiceAvailable": true,
+      "events": [
+        "start",
+        "end"
+      ],
+      "calls": [
+        {
+          "text": "У меня болит голова.",
+          "lang": "ru-RU",
+          "voice": "Microsoft Irina - Russian (Russia)"
+        }
+      ]
+    },
+    {
+      "language": "ru",
+      "block": "words",
+      "voiceAvailable": true,
+      "events": [
+        "start",
+        "end"
+      ],
+      "calls": [
+        {
+          "text": "Голова",
+          "lang": "ru-RU",
+          "voice": "Microsoft Irina - Russian (Russia)"
+        }
+      ]
+    },
+    {
+      "language": "ru",
+      "block": "dialogue-body",
+      "voiceAvailable": true,
+      "events": [
+        "start",
+        "end"
+      ],
+      "calls": [
+        {
+          "text": "Что вас беспокоит?",
+          "lang": "ru-RU",
+          "voice": "Microsoft Irina - Russian (Russia)"
+        }
+      ]
+    },
+    {
+      "language": "de",
+      "block": "phrases",
+      "voiceAvailable": false,
+      "events": [],
+      "calls": []
+    },
+    {
+      "language": "de",
+      "block": "words",
+      "voiceAvailable": false,
+      "events": [],
+      "calls": []
+    },
+    {
+      "language": "de",
+      "block": "dialogue-body",
+      "voiceAvailable": false,
+      "events": [],
+      "calls": []
+    },
+    {
+      "language": "en",
+      "block": "phrases",
+      "voiceAvailable": false,
+      "events": [],
+      "calls": []
+    },
+    {
+      "language": "en",
+      "block": "words",
+      "voiceAvailable": false,
+      "events": [],
+      "calls": []
+    },
+    {
+      "language": "en",
+      "block": "dialogue-body",
+      "voiceAvailable": false,
+      "events": [],
+      "calls": []
+    },
+    {
+      "language": "ru",
+      "block": "manual-Pavel-word",
+      "voiceAvailable": true,
+      "events": [
+        "start",
+        "end"
+      ],
+      "calls": [
+        {
+          "text": "Голова",
+          "lang": "ru-RU",
+          "voice": "Microsoft Pavel - Russian (Russia)"
+        }
+      ]
+    }
+  ],
+  "subjectiveAudioQualityChecked": false
+}

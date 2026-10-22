@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ru" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="LINAD — изучение немецкого и английского для реальной жизни." />
+    <meta name="color-scheme" content="light dark" />
+    <title>LINAD</title>
+    <script>
+      // Apply validated preferences before the first paint; no network or account.
+      try {
+        const p = JSON.parse(localStorage.getItem('linad.preferences.v1') || 'null');
+        if (p && p.version === 1) {
+          if (p.theme === 'light' || p.theme === 'dark') document.documentElement.dataset.theme = p.theme;
+          if (p.uiLanguage === 'ru' || p.uiLanguage === 'de' || p.uiLanguage === 'en') document.documentElement.lang = p.uiLanguage;
+        }
+      } catch { /* The React storage adapter reports errors after mounting. */ }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript lang="ru">Для работы LINAD включите JavaScript в браузере.</noscript>
+    <noscript lang="de">Aktivieren Sie JavaScript im Browser, um LINAD zu verwenden.</noscript>
+    <noscript lang="en">Enable JavaScript in your browser to use LINAD.</noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

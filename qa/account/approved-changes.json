@@ -1,0 +1,70 @@
+{
+  "src/app/App.tsx": {
+    "before": "2d93fe378732847b9c055965e24cfa394c883e73e6ba65e7308c3823ed75574c",
+    "after": "515c687c015576022e168fcf7e2ae5db865544e43413edb62fa5c9d4b357d2be"
+  },
+  "src/app/preferences-context.ts": {
+    "before": "99af904b9a5d499329bb08ab5a757fc8a286beb2768f45759bd16e46bd97ab14",
+    "after": "8ce8e0e5fa6b5319f13e728e2966d231b93fe2d8056d0803b843742f6dfd578b"
+  },
+  "src/app/PreferencesProvider.tsx": {
+    "before": "84b534f9548855384aa9307ec2bc9b7e84ee89c05850fd2c84dfa51b74aec921",
+    "after": "913c32229088fd544989f378342c83d4c3855ce284237123e066ef0fd55d2f29"
+  },
+  "src/components/Header.tsx": {
+    "before": "dd2a5a329f49995b8f388cc990ab15e807da0085fb43f61a1b18f60f427aae94",
+    "after": "fbe5c3941b1769d858f4e1d79ad7026f4baece9547075ec298cdc98d2ed27d82"
+  },
+  "src/main.tsx": {
+    "before": "41b893604cd55e11fb04a901d53df228dd6c4bb05dbaabe9c54a955a8ea65139",
+    "after": "dec18dc4a331566204807ffb01bf35fff156864b33f9b1d75b64b6b9c06a9cff"
+  },
+  "src/pages/HomePage.tsx": {
+    "before": "016333e897775a95f947f82215b02eeaf241cccd3cf2240f5a45cc793552e712",
+    "after": "4f1cd14878286edd6cd47f6719565464561617caa7af3cc5229b2267a2204c0c"
+  },
+  "src/pages/learning/levels/LessonPage.tsx": {
+    "before": "0d27251afdba087182b69b0be085a432033c2636c96495487cc462dbfebfb1a5",
+    "after": "d6a8d72e9b848ee6da79c15ab31ccd4ce69600ed09395c8ff9941bc3ee6d4321"
+  },
+  "src/pages/learning/levels/LevelLearning.tsx": {
+    "before": "1d7857f6fdbba6550b2835d4bc72539a21652da38808d49c7866a8bc814815f1",
+    "after": "3101904ca2459a868998dfd1842160d54636c9f575d1d058c4d4b96418bf50a8"
+  },
+  "src/pages/learning/levels/storage.ts": {
+    "before": "3b051c70100b00515ba950d5ad9a7381b83bdece33ef8dadc51c0318cc02b6fb",
+    "after": "efd5e94090ef977843ea22c148446d336f9048b128b54c0ac54f6684d5dd1d2a"
+  },
+  "src/pages/learning/levels/useLevelsStore.ts": {
+    "before": "0b68838d58f4f28577d1239fe2f4ed9e87893b09a08eb7d88b67d190c4383a28",
+    "after": "f92a13eb48f3f6dae353d1f579875b0c9d7b92e96c22e31c8f36032490271fcf"
+  },
+  "src/pages/learning/practice/PracticeWorkspace.tsx": {
+    "before": "5be17e3553cd1868e88063c74eb263412eee2abe3f0dbc89b3e1609c8a4263c0",
+    "after": "e1b43b66b82a579e39b4c1081298caf217d56e507923f27e654feebc951becc0"
+  },
+  "src/pages/learning/practice/usePracticeStorage.ts": {
+    "before": "c6b82a88227f429b4af59709b814969fc6f07ad6ed41b7c94703df9b6221a18e",
+    "after": "6b3097f36479c372f7f9ad737bb43a0744b7dc5a7700faea976b7b0bbe4e3e29"
+  },
+  "src/pages/tutors/Catalog.tsx": {
+    "before": "7f3d573a566ea1ac795722cc9ea021229c3b45a729e60dc54fa8af81f91fb800",
+    "after": "aae99d6c25c9f379eb89953cfdba15392fae04789cb223f6bda3656be17d0e09"
+  },
+  "src/pages/tutors/Profile.tsx": {
+    "before": "2cf111a6191a6afc6fb00ad0565f377581c757f506cd249c74a99fb2a58e6b95",
+    "after": "d63b2d85e6f8c84ef05e38e2dff8336437d3531e6d9970da4535409825a6224e"
+  },
+  "src/storage/practice.ts": {
+    "before": "942e7b1f8c02ec20cd86f3ad283a6ca5522e691428db7db2ac07d0e4d472bd8d",
+    "after": "95317bc1ff84c283bd5392fb8d7780f5b39bcdd5f78bfebcdc643657daa910e8"
+  },
+  "package.json": {
+    "before": "54976dc2a7796e019c3a956f00a6d9900b2aa6d1a301d473dc6adcc9ae094a78",
+    "after": "173bb6f91c5c721604882307649afaf73644aeffb12e29781cac2dcb3290091b"
+  },
+  "package-lock.json": {
+    "before": "ca25af601665ad44a37571bb348808d457c0b06834449ce1b9742faa64852ee6",
+    "after": "46ed1f79e26def133b31818c9289797fedc97b4524486c7a32caf3b4a6d287bb"
+  }
+}

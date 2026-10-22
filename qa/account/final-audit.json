@@ -1,0 +1,12 @@
+{
+  "tracked": 172,
+  "approvedChanges": 15,
+  "unexpected": [],
+  "liveDatabase": "account_state missing PGRST205; migration not applied",
+  "authTests": "mocked API; real sign-up and mail not verified",
+  "build": "passed",
+  "lint": "passed",
+  "accountTests": 23,
+  "extendedRegressionRun": 95,
+  "navigationRun": 11
+}

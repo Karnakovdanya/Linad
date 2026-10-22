@@ -1,0 +1,47 @@
+{
+  "protectedFiles": {
+    "src/components/Header.tsx": true,
+    "src/components/Footer.tsx": true,
+    "src/components/Logo.tsx": true,
+    "src/components/Icon.tsx": true,
+    "src/components/PageState.tsx": true,
+    "src/components/ContactLink.tsx": true,
+    "src/config/contacts.ts": true,
+    "src/pages/HomePage.tsx": true,
+    "src/pages/AuthorContent.tsx": true,
+    "src/pages/SectionPages.tsx": true,
+    "src/styles/global.css": true,
+    "src/styles/home.css": true,
+    "src/styles/author.css": true,
+    "src/styles/tokens.css": true,
+    "src/styles/learning.css": true,
+    "src/pages/learning/LearningPage.tsx": true,
+    "src/pages/learning/LearningPathCard.tsx": true,
+    "src/pages/learning/LanguageFlag.tsx": true,
+    "src/pages/learning/LearningPathPage.tsx": true,
+    "src/app/PreferencesProvider.tsx": true,
+    "src/app/preferences-context.ts": true,
+    "src/storage/preferences.ts": true,
+    "src/domain/types.ts": true,
+    "src/i18n/author-messages.ts": true,
+    "src/i18n/learning-messages.ts": true,
+    "public/assets/learning/learning-everyday-life.png": true,
+    "public/assets/learning/learning-by-level.png": true,
+    "package.json": true,
+    "package-lock.json": true
+  },
+  "translations": {
+    "ru": {
+      "count": 181,
+      "unchanged": true
+    },
+    "de": {
+      "count": 181,
+      "unchanged": true
+    },
+    "en": {
+      "count": 181,
+      "unchanged": true
+    }
+  }
+}

@@ -1,0 +1,67 @@
+import { useState } from 'react';
+import type { FormEvent } from 'react';
+import { Link, Navigate, useLocation, useNavigate } from 'react-router-dom';
+import { usePreferences } from '../app/preferences-context';
+import { accountCopy, accountError } from './copy';
+import { useAccount } from './auth-context';
+import { authRedirect, supabase } from './client';
+
+export function AuthPage() {
+  const { preferences } = usePreferences(); const c = accountCopy(preferences.uiLanguage);
+  const { user, ready, refreshAuth } = useAccount(); const location = useLocation(); const navigate = useNavigate();
+  const register = location.pathname.endsWith('/register'); const forgot = location.pathname.endsWith('/forgot-password'); const update = location.pathname.endsWith('/update-password');
+  const [busy, setBusy] = useState(false); const [notice, setNotice] = useState<'confirmEmail' | 'resetSent' | 'saved' | ''>(''); const [error, setError] = useState<unknown>(null);
+  const [showPassword, setShowPassword] = useState(false);
+  if (!ready) return <p className="container" role="status">{c.loading}</p>;
+  if (user && !update && !forgot) return <Navigate to="/profile" replace />;
+  async function submit(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault(); if (busy) return;
+    const data = new FormData(event.currentTarget); const email = String(data.get('email') ?? '').trim(); const password = String(data.get('password') ?? ''); const name = String(data.get('name') ?? '').trim();
+    setError(null); setNotice('');
+    if (!supabase) { setError('configError'); return; }
+    if ((register || update) && password !== data.get('confirm')) { setError('mismatch'); return; }
+    if (register && !name) { setError('required'); return; }
+    setBusy(true);
+    try {
+      if (forgot) {
+        const { error } = await supabase.auth.resetPasswordForEmail(email, { redirectTo: authRedirect('recovery') });
+        if (error) throw error; setNotice('resetSent');
+      } else if (update) {
+        if (!user) { setError('sessionMissing'); return; }
+        const { error } = await supabase.auth.updateUser({ password }); if (error) throw error;
+        setNotice('saved');
+      } else if (register) {
+        const { data, error } = await supabase.auth.signUp({ email, password, options: { data: { full_name: name }, emailRedirectTo: authRedirect() } });
+        if (error) throw error;
+        if (data.session) { await refreshAuth(); navigate('/profile', { replace: true }); }
+        else setNotice('confirmEmail');
+      } else {
+        const { error } = await supabase.auth.signInWithPassword({ email, password }); if (error) throw error;
+        await refreshAuth(); navigate('/profile', { replace: true });
+      }
+    } catch (issue) { setError(issue); }
+    finally { setBusy(false); }
+  }
+  const title = update ? c.changePassword : forgot ? c.reset : register ? c.create : c.login;
+  return <section className="container account-auth">
+    <div className="account-auth-photo"><img src={`${import.meta.env.BASE_URL}assets/account/auth-lake.png`} alt="" /><div><h1 id="page-heading" tabIndex={-1}>{c.authTitle}</h1><p>{c.authIntro}</p></div></div>
+    <div className="account-auth-form account-panel">
+      {!forgot && !update && <nav className="account-tabs" aria-label={c.profile}><Link className={!register ? 'selected' : ''} to="/auth/login">{c.login}</Link><Link className={register ? 'selected' : ''} to="/auth/register">{c.register}</Link></nav>}
+      <h2>{title}</h2>
+      <form onSubmit={submit} aria-busy={busy}>
+        {register && <label>{c.name}<input name="name" autoComplete="name" required maxLength={100} /></label>}
+        {!update && <label>{c.email}<input name="email" type="email" autoComplete="email" required maxLength={254} /></label>}
+        {!forgot && <label>{update ? c.newPassword : c.password}<span className="account-password"><input name="password" type={showPassword ? 'text' : 'password'} autoComplete={register || update ? 'new-password' : 'current-password'} required minLength={register || update ? 8 : 1} maxLength={128} aria-describedby={register || update ? 'password-hint' : undefined} /><button type="button" onClick={() => setShowPassword(!showPassword)} aria-label={c.password} aria-pressed={showPassword}>◉</button></span>{(register || update) && <small id="password-hint">{c.passwordHint}</small>}</label>}
+        {(register || update) && <label>{c.confirmPassword}<input name="confirm" type={showPassword ? 'text' : 'password'} autoComplete="new-password" required minLength={8} maxLength={128} /></label>}
+        {(Boolean(error) || location.search.includes('callback=error')) && <p role="alert" className="account-error">{error ? typeof error === 'string' && error in c ? c[error as keyof typeof c] : accountError(error, c) : c.callbackError}</p>}
+        {notice && <p role="status" className="account-notice">{c[notice]}</p>}
+        {!supabase && <p role="alert">{c.configError}</p>}
+        <button type="submit" className="button button-primary" disabled={busy || !supabase || (update && !user)}>{busy ? c.loading : forgot ? c.resetSend : title}</button>
+      </form>
+      {!register && !forgot && !update && <Link className="text-link" to="/auth/forgot-password">{c.forgot}</Link>}
+      {(forgot || update) && <Link className="text-link" to={user ? '/profile/settings' : '/auth/login'}>{c.back}</Link>}
+      <Link className="text-link" to="/learn">{c.guest}</Link>
+      <small>{c.security}</small>
+    </div>
+  </section>;
+}

@@ -1,0 +1,72 @@
+.account-profile-final .account-milestone {
+  --milestone-ink: var(--text);
+  position: relative;
+  isolation: isolate;
+  container-type: inline-size;
+  display: flex;
+  align-items: center;
+  min-height: 136px;
+  padding: 14px 16px;
+  overflow: hidden;
+  border: 1px solid color-mix(in srgb, var(--cta-hover) 24%, var(--surface));
+  border-radius: 20px;
+  background: linear-gradient(120deg, var(--surface) 6%, color-mix(in srgb, var(--soft) 42%, var(--surface)) 58%, color-mix(in srgb, var(--cta-hover) 17%, var(--surface)));
+  box-shadow: inset 0 1px 2px rgb(255 255 255 / 90%), 0 4px 16px rgb(54 95 173 / 9%);
+  color: var(--milestone-ink);
+}
+.account-milestone-art {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  top: 0;
+  width: 49%;
+  height: 100%;
+  pointer-events: none;
+  user-select: none;
+}
+.account-milestone-content { position: relative; width: 66%; }
+.account-profile-final .account-milestone h2 {
+  display: inline-block;
+  max-width: 100%;
+  margin: 0 0 8px;
+  padding: 3px 9px;
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--soft) 68%, transparent);
+  color: var(--muted);
+  font-size: .8125rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+.account-profile-final .account-milestone strong { font-size: clamp(1.1875rem, 7.2cqi, 1.5rem); line-height: 1.25; font-weight: 750; overflow-wrap: normal; }
+.account-profile-final .account-summary-goal strong.account-goal-value { font-size: clamp(1.5rem, 8cqi, 1.875rem); }
+.account-profile-final .account-summary-goal button {
+  display: inline-block;
+  max-width: 100%;
+  min-height: 32px;
+  margin-top: 8px;
+  padding: 5px 10px;
+  border: 1px solid color-mix(in srgb, var(--cta-background) 18%, transparent);
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--surface) 88%, transparent);
+  color: var(--cta-background);
+  font-size: .8125rem;
+  font-weight: 600;
+  line-height: 1.35;
+  text-decoration: none;
+  text-align: left;
+}
+.account-profile-final .account-summary-goal button:hover { background: var(--surface); border-color: var(--cta-background); }
+.account-profile-final .account-summary-goal button:focus-visible { outline: 2px solid var(--focus); outline-offset: 3px; }
+.account-profile-final .account-summary-streak small { margin-top: 8px; color: var(--muted); font-size: .8125rem; line-height: 1.4; }
+:root[data-theme='dark'] .account-profile-final .account-milestone {
+  background: linear-gradient(120deg, var(--surface), color-mix(in srgb, var(--soft) 80%, var(--surface)) 68%, color-mix(in srgb, var(--cta-background) 20%, var(--surface)));
+  border-color: color-mix(in srgb, var(--cta-hover) 30%, var(--border));
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / 7%), 0 4px 16px rgb(0 0 0 / 13%);
+}
+:root[data-theme='dark'] .account-milestone-art { opacity: .82; mask-image: radial-gradient(ellipse at 60% 50%, #000 25%, transparent 72%); }
+:root[data-theme='dark'] .account-profile-final .account-summary-goal button { color: var(--focus); border-color: var(--border); }
+:root[data-theme='dark'] .account-profile-final .account-summary-goal button:hover { border-color: var(--focus); }
+@container profile-hero (max-width: 460px) {
+  .account-profile-final .account-milestone { padding: 16px 18px; }
+  .account-profile-final .account-summary-goal button { min-height: 44px; }
+}

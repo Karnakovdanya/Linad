@@ -1,0 +1,14 @@
+{
+  "src/pages/tutors/Catalog.tsx": "431111f56e9e5ac9f38e846de319bec5c8b228d2a571b0cd71042883754e4891",
+  "src/pages/tutors/Forms.tsx": "0344bc543bf6dede2c04db1c730870a5cec142337677346b7c7dcabddf4460cc",
+  "src/pages/tutors/Prepared.tsx": "1bcb88393a4c1af1bfb7386f33346e5dad1a07567e55514667ffe37f3b7d8512",
+  "src/pages/tutors/Profile.tsx": "d4fca654f6c46a9e3d3700819a04c077e93ce4db70ffbe8e1f3ddefc2e5a1850",
+  "src/pages/tutors/TutorUI.tsx": "3c14826bd5b3ee3dc8891c98096b4448c0dc0721ca8c3e1df05ef110f3405251",
+  "src/pages/tutors/Tutors.tsx": "86876365b70e66096789e13c5c2f0e8612cb6b8f8703ac514709fa29642b31cb",
+  "src/pages/tutors/copy.ts": "9acf06fd2be72851ed567e6ce15ecc4c003185ab2c9d21361d82636ea2288cc3",
+  "src/pages/tutors/data.ts": "929fc65ec32fae27c3098f2d40800328e78546efb74c62465fb33c9b41241868",
+  "src/pages/tutors/model.ts": "683f9a54ef143afecbd394b417105bce10b40961eea8cb1cc1f0672a33806075",
+  "src/pages/tutors/service.ts": "0038798dd61593688c3a7b5fe4e38ed91e233d6c23b85b036e33966f70d70414",
+  "src/pages/tutors/useTutorLocale.ts": "6a5bb9068a56097a0609c26135ed98d97eb3487ac32f2a218b31ddf5c646cf15",
+  "src/styles/tutors.css": "d89ba2e0db3beb51adf48f764fb66366e67d8446de416b32223f9d0f868905f8"
+}

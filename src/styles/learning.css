@@ -1,0 +1,46 @@
+.learning-page { display: grid; gap: 24px; padding-block: 24px 40px; }
+.learning-page .learning-intro { min-width: 0; }
+.learning-page .learning-intro > .text-link { margin-bottom: 8px; }
+.learning-page .learning-intro > p { margin-top: 10px; max-width: 80ch; color: var(--muted); font-size: var(--font-body); font-weight: var(--weight-body); line-height: 1.5; }
+.learning-page .learning-language-panel { display: grid; gap: 16px; min-width: 0; padding: 24px; border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); }
+.learning-page h2 { font-size: var(--font-card-title); font-weight: var(--weight-heading); }
+.learning-page .learning-language-options { display: flex; flex-wrap: wrap; gap: 12px; }
+.learning-page .learning-language-option { min-width: 160px; gap: 12px; }
+.learning-page .learning-language-flag { width: 24px; height: 24px; flex: 0 0 24px; }
+.learning-page .learning-paths { min-width: 0; }
+.learning-page .learning-paths > h2 { margin-bottom: 16px; }
+.learning-page .learning-path-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); grid-auto-rows: 1fr; gap: 24px; }
+.learning-page .learning-path-card { display: flex; flex-direction: column; min-width: 0; overflow: hidden; border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); }
+.learning-page .learning-path-photo { width: 100%; height: auto; aspect-ratio: 20 / 7; object-fit: cover; object-position: center 40%; }
+.learning-page .learning-path-body { display: flex; flex: 1; flex-direction: column; align-items: flex-start; gap: 14px; min-width: 0; padding: 24px; }
+.learning-page .learning-path-heading { display: flex; align-items: center; gap: 12px; min-width: 0; }
+.learning-page .learning-path-heading h3 { margin: 0; font-size: var(--font-card-title); font-weight: var(--weight-heading); line-height: 1.3; }
+.learning-page .learning-path-icon { display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 36px; flex: 0 0 36px; border-radius: 10px; background: var(--soft); color: var(--primary); }
+.learning-page .learning-path-icon svg { width: 22px; height: 22px; }
+.learning-page .learning-path-description { color: var(--muted); font-size: var(--font-card-description); font-weight: var(--weight-body); line-height: 1.5; }
+.learning-page :is(.learning-situation-list, .learning-level-list) { display: flex; flex-wrap: wrap; gap: 8px 12px; margin: 0 0 6px; padding: 0; list-style: none; font-size: var(--font-compact-step); line-height: 1.5; }
+.learning-page .learning-situation-list { color: var(--muted); }
+.learning-page .learning-situation-list li { display: flex; align-items: baseline; gap: 8px; }
+.learning-page .learning-situation-list li::before { content: ''; width: 4px; height: 4px; flex: 0 0 4px; align-self: center; border-radius: 50%; background: var(--primary); }
+.learning-page .learning-level-list li { min-width: 44px; padding: 6px 10px; border: 1px solid var(--border); border-radius: 8px; background: var(--soft); text-align: center; font-weight: var(--weight-button); }
+.learning-page .learning-path-cta { max-width: 100%; margin-top: auto; }
+.learning-page .learning-back-link { justify-self: start; }
+.learning-page .learning-back-icon { display: inline-flex; transform: rotate(180deg); }
+.learning-page .learning-route-state { min-width: 0; padding: 28px; border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); }
+.learning-page .learning-route-state > p { margin-top: 16px; font-size: var(--font-body); color: var(--muted); }
+.learning-page .learning-route-state strong { color: var(--text); }
+
+@media (max-width: 899px) {
+  .learning-page .learning-path-grid { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 767px) {
+  .learning-page { gap: 20px; padding-block: 20px 28px; }
+  .learning-page :is(.learning-language-panel, .learning-path-body, .learning-route-state) { padding: 20px; }
+  .learning-page .learning-path-grid { gap: 20px; }
+  .learning-page .learning-path-photo { aspect-ratio: 20 / 9; }
+}
+@media (max-width: 479px) {
+  .learning-page .learning-language-options { gap: 10px; }
+  .learning-page .learning-language-option { flex: 1 1 100%; min-width: 0; }
+  .learning-page .learning-path-cta { align-self: stretch; }
+}

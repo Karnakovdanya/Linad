@@ -1,0 +1,5 @@
+import type { StudyLanguage } from '../account/profile';
+export interface AdminUser { user_id: string; full_name: string; email: string; created_at: string; email_confirmed_at: string | null; study_languages: StudyLanguage[]; lessons_completed: number | null; modules_completed: number | null }
+export interface AdminModule { module_id: string; language: 'de' | 'en'; completed_lessons: number | null; completed: boolean | null; percent: number | null }
+export interface AdminDetail { user: AdminUser; modules: AdminModule[]; lessons: { lesson_id: string; attempts: number; score: number | null; total: number | null; updated_at: string }[] }
+export interface AdminDashboard { total: number; today: number; registrations_7d: number; registrations_30d: number; active_7d: number | null; active_30d: number | null; activity_since: string; progress_accounts: number; users: AdminUser[]; filtered_total: number; courses: { language: string; level: string; learners: number; completed_modules: number; completed_lessons: number }[] }

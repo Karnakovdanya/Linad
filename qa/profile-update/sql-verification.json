@@ -1,0 +1,10 @@
+{
+  "engine": "PGlite 0.5.11 / PostgreSQL, Supabase-owned schema scaffolding",
+  "hostedSupabase": false,
+  "passed": [
+    "Both migrations execute and can be reapplied without deleting records",
+    "Legacy names and new-user first/last-name trigger",
+    "Owner-only profile updates, validation, CAS revisions, idempotent test history and avatar ownership",
+    "Second-account isolation across all user tables and Storage; anonymous RPC/table access denied"
+  ]
+}

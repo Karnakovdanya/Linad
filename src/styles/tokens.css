@@ -1,0 +1,62 @@
+:root {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color-scheme: light;
+  --background: #E6DDEE;
+  --surface: #FAF9FC;
+  --text: #25283B;
+  --muted: #56586B;
+  --primary: #434E74;
+  --on-primary: #FFFFFF;
+  --border: #CBC3D4;
+  --soft: #DDD4E7;
+  --focus: #434E74;
+  --shadow: 0 8px 28px rgb(37 40 59 / 5%);
+  --radius: 16px;
+  --font-body: 1.125rem;
+  --font-card-description: 1.0625rem;
+  --font-card-title: 1.375rem;
+  --font-button: 1.0625rem;
+  --font-page-title: clamp(2.25rem, 3.1vw, 2.75rem);
+  --font-compact-step: .9375rem;
+  --weight-body: 400;
+  --weight-button: 600;
+  --weight-heading: 700;
+  --cta-background: #365FAD;
+  --cta-hover: #5680D2;
+  --cta-active: #294B8B;
+  --cta-text: #FFFFFF;
+  --action-duration: 220ms;
+  --action-easing: ease-out;
+  --action-hover-scale: 1.025;
+  --action-active-scale: .98;
+  --secondary-hover-fill: rgb(54 95 173 / 8%);
+  --secondary-active-fill: rgb(54 95 173 / 14%);
+  --secondary-hover-border: #8C9FC5;
+}
+
+@media (max-width: 767px) {
+  :root {
+    --font-body: 1rem;
+    --font-card-description: .95rem;
+    --font-card-title: 1.25rem;
+    --font-button: 1rem;
+    --font-page-title: clamp(1.75rem, 8vw, 2.125rem);
+  }
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --background: linear-gradient(110deg, #191B20 0%, #24262D 55%, #303540 100%);
+  --surface: #2B2D34;
+  --text: #F2F2F4;
+  --muted: #C1C3CB;
+  --primary: #596B92;
+  --on-primary: #FFFFFF;
+  --border: #484B56;
+  --soft: #353842;
+  --focus: #BDC8E8;
+  --shadow: 0 8px 28px rgb(0 0 0 / 12%);
+  --secondary-hover-fill: rgb(86 128 210 / 14%);
+  --secondary-active-fill: rgb(86 128 210 / 20%);
+  --secondary-hover-border: #7289B2;
+}

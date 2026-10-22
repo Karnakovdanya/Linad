@@ -1,0 +1,66 @@
+import { useEffect, useState } from 'react';
+import type { ReactNode } from 'react';
+import { Link } from 'react-router-dom';
+import { usePreferences } from '../app/preferences-context';
+import type { LearningLanguage } from '../domain/types';
+import { Icon } from '../components/Icon';
+import { TelegramCards } from '../components/TelegramCards';
+import { PracticeLanguageFlag } from '../pages/learning/practice/PracticeLanguageFlag';
+import { lessonCatalog, lessonKey } from '../pages/learning/levels/data/lessons';
+import { lessonStatus, levelStatus } from '../pages/learning/levels/progress';
+import { languagePair, localLevelsStorage } from '../pages/learning/levels/storage';
+import { resumePath } from '../pages/learning/levels/navigation';
+import { useAccount } from './auth-context';
+import { useAccountData } from './useAccountData';
+import { accountCopy } from './copy';
+import { ProfileMilestones } from './ProfileMilestones';
+import { Avatar } from './Avatar';
+import { studyStreak } from './activity';
+import { ProfileDialog } from './ProfileDialog';
+import { StudyLanguages } from './StudyLanguages';
+import { ProfileGoal } from './ProfileGoal';
+
+function Glyph({ kind }: { kind: 'add' | 'goal' | 'calendar' }) {
+  const path = kind === 'add' ? 'M12 4v16M4 12h16' : kind === 'calendar' ? 'M5 5h14v16H5V5Zm3-3v6m8-6v6M5 10h14M9 14h.01M15 14h.01M9 18h.01M15 18h.01' : 'M21 12a9 9 0 1 1-9-9m0 5a4 4 0 1 0 4 4m-4 0 9-9m-4 0h4v4';
+  return <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d={path} /></svg>;
+}
+function Progress({ value, label }: { value: number; label: string }) { return <div className="account-progress"><progress value={value} max={100} aria-label={label} /><span>{value}%</span></div>; }
+
+export function ProfileOverview({ children }: { children: ReactNode }) {
+  const { user, profile } = useAccount(); const doc = useAccountData(); const { preferences } = usePreferences(); const c = accountCopy(preferences.uiLanguage);
+  const [editor, setEditor] = useState<'languages' | 'goal' | null>(null); const [now, setNow] = useState(() => new Date());
+  useEffect(() => { const timer = window.setInterval(() => setNow(new Date()), 60_000); return () => window.clearInterval(timer); }, []);
+  const languages = profile?.study_languages ?? []; const goal = profile?.study_goal; const streak = studyStreak(doc.studyActivity, now);
+  const name = profile?.display_name || user?.user_metadata.full_name || user?.email?.split('@')[0] || '';
+  const completed = Object.values(lessonCatalog).flatMap(Object.values).filter(lesson => lessonStatus(lesson, doc.levels.lessons[lessonKey(lesson.language, lesson.id)]).completed).length;
+  const words = Object.values(doc.collection.words).filter(word => !word.deletedAt).length;
+  const tests = new Set([...doc.levels.assessmentHistory, ...Object.values(doc.levels.runs)].filter(run => run.completed).map(run => run.id)).size + Object.values(doc.levels.lessons).reduce((sum, lesson) => sum + lesson.attempts.length, 0) + Object.values(doc.levels.moduleAttempts).reduce((sum, attempts) => sum + attempts.length, 0);
+  const activities = [...Object.entries(doc.levels.activity).map(([language, entry]) => ({ id: language, at: entry.at, title: entry.lessonId ? lessonCatalog[language as LearningLanguage][entry.lessonId]?.title[preferences.uiLanguage] : null, label: language === 'de' ? c.german : c.english, kind: entry.kind === 'lesson' ? c.lesson : entry.kind === 'practice' ? c.practice : entry.kind === 'mini-test' ? c.miniTest : c.moduleTest, to: resumePath(languagePair(doc.levels, language as LearningLanguage)), language: language as LearningLanguage })),
+    ...Object.values(doc.collection.words).filter(word => !word.deletedAt).map(word => ({ id: word.id, at: word.savedAt, title: word.text[preferences.uiLanguage] || word.text.de || word.text.en, label: c.wordSaved, kind: c.words, to: '/profile/words', language: null }))].sort((a, b) => b.at.localeCompare(a.at)).slice(0, 6);
+  function resume(language: LearningLanguage) { localLevelsStorage.write(languagePair(doc.levels, language)); }
+  const coursePath = (language: LearningLanguage) => doc.levels.setupComplete[language] ? resumePath(languagePair(doc.levels, language)) : '/learn/levels/languages';
+  return <>
+    <section className="account-profile-hero account-profile-final" aria-labelledby="page-heading">
+      <img className="account-profile-background" src={`${import.meta.env.BASE_URL}assets/account/profile-lake.png`} alt="" aria-hidden="true" />
+      <div className="account-profile-top"><header className="account-heading"><Avatar /><div><h1 id="page-heading" tabIndex={-1}>{c.greeting}, <strong>{name}!</strong></h1><p>{c.profileTagline}</p></div></header><blockquote className="account-profile-quote"><span aria-hidden="true">“</span><p>{c.quote}</p></blockquote></div>
+      <div className="account-profile-summary"><div className={`account-profile-languages ${languages.length === 0 ? 'empty' : ''}`}>
+        {languages.map(item => {
+          const course = doc.levels.selectedLevels[item.language]; const percent = levelStatus(doc.levels, item.language, course).percent;
+          return <article className="account-panel account-personal-language" key={item.language}><span className="account-language-flag"><PracticeLanguageFlag language={item.language} /></span><div><h2>{item.language === 'de' ? c.german : c.english}</h2><strong>{item.level ?? c.levelUnspecified}</strong><small>{c.personalLevel}</small><Progress value={percent} label={`${c.courseProgress} ${item.language} ${course}`} /><small>{c.courseProgress} · {course}</small></div><button className="account-language-edit" type="button" aria-label={`${c.editLanguage} · ${item.language === 'de' ? c.german : c.english}`} onClick={() => setEditor('languages')}>⋯</button></article>;
+        })}
+        {languages.length < 2 && <button className="account-panel account-add-language" type="button" onClick={() => setEditor('languages')}><span className="account-add-icon"><Glyph kind="add" /></span><span><strong>{c.addStudyLanguage}</strong><small>{c.addStudyHint}</small></span></button>}
+      </div><ProfileMilestones goal={goal} streak={streak} language={preferences.uiLanguage} onEditGoal={() => setEditor('goal')} /></div>
+    </section>
+    {editor && <ProfileDialog title={editor === 'languages' ? c.studyLanguages : c.goal} onClose={() => setEditor(null)}>{editor === 'languages' ? <StudyLanguages onSaved={() => setEditor(null)} /> : <ProfileGoal onSaved={() => setEditor(null)} />}</ProfileDialog>}
+    <section className="account-profile-learning"><div className="account-section-title"><h2>{c.learning}</h2><Link className="text-link" to="/profile/learning">{c.openAll} →</Link></div>
+      {languages.length ? <div className="account-course-grid">{languages.map(item => {
+        const level = doc.levels.selectedLevels[item.language]; const percent = levelStatus(doc.levels, item.language, level).percent;
+        return <article className="account-panel account-course-card" key={item.language}><img src={`${import.meta.env.BASE_URL}assets/account/study-${item.language === 'de' ? 'german' : 'english'}.png`} alt={item.language === 'de' ? c.germanCountry : c.englishCountry} /><div><h3>{item.language === 'de' ? c.german : c.english}</h3><p>{c.courseProgress} · {level}</p><Progress value={percent} label={`${c.courseProgress} ${item.language} ${level}`} /><Link className="button button-primary" to={coursePath(item.language)} onClick={() => resume(item.language)}>{c.continue}</Link></div></article>;
+      })}</div> : <div className="account-profile-learning-empty"><Icon name="book" /><p>{c.learningEmpty}</p></div>}
+    </section>
+    {children}
+    <div className="account-stats account-profile-stats">{([{ value: completed, label: c.lessons, icon: 'chart', to: '/profile/learning' }, { value: words, label: c.savedWords, icon: 'cards', to: '/profile/words' }, { value: tests, label: c.tests, icon: 'check', to: '/profile/learning' }] as const).map(item => <Link className="account-panel" to={item.to} key={item.label}><span className="account-stat-icon"><Icon name={item.icon} /></span><div><strong>{item.value}</strong><span>{item.label}</span></div><Icon name="arrow" /></Link>)}</div>
+    <div className="account-profile-telegram"><h2>Telegram</h2><TelegramCards /></div>
+    <section className="account-panel account-activity"><h2>{c.activity}</h2>{activities.length ? <ul className="account-list">{activities.map(entry => <li key={entry.id}><span className="account-activity-icon"><Icon name={entry.language ? 'book' : 'cards'} /></span><span><strong>{entry.kind}</strong>{entry.title && ` · ${entry.title}`}<small>{entry.label}</small></span><time dateTime={entry.at}>{new Date(entry.at).toLocaleString(preferences.uiLanguage)}</time><Link className="text-link" to={entry.to} onClick={() => { if (entry.language) resume(entry.language); }}>{c.open} →</Link></li>)}</ul> : <p>{c.noActivity}</p>}</section>
+  </>;
+}

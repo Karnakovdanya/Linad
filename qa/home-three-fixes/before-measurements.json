@@ -1,0 +1,1052 @@
+{
+  "ru-light-320": {
+    "hero": {
+      "x": 0,
+      "y": 76,
+      "width": 320,
+      "height": 620
+    },
+    "cards": [
+      {
+        "width": 288,
+        "height": 222,
+        "src": "/assets/home/learning-card.png"
+      },
+      {
+        "width": 288,
+        "height": 222,
+        "src": "/assets/home/tutors-card.png"
+      },
+      {
+        "width": 288,
+        "height": 222,
+        "src": "/assets/home/telegram-card.png"
+      }
+    ]
+  },
+  "ru-light-375": {
+    "hero": {
+      "x": 0,
+      "y": 76,
+      "width": 375,
+      "height": 620
+    },
+    "cards": [
+      {
+        "width": 337.5,
+        "height": 222,
+        "src": "/assets/home/learning-card.png"
+      },
+      {
+        "width": 337.5,
+        "height": 222,
+        "src": "/assets/home/tutors-card.png"
+      },
+      {
+        "width": 337.5,
+        "height": 222,
+        "src": "/assets/home/telegram-card.png"
+      }
+    ]
+  },
+  "ru-light-390": {
+    "hero": {
+      "x": 0,
+      "y": 76,
+      "width": 390,
+      "height": 620
+    },
+    "cards": [
+      {
+        "width": 351,
+        "height": 222,
+        "src": "/assets/home/learning-card.png"
+      },
+      {
+        "width": 351,
+        "height": 222,
+        "src": "/assets/home/tutors-card.png"
+      },
+      {
+        "width": 351,
+        "height": 222,
+        "src": "/assets/home/telegram-card.png"
+      }
+    ]
+  },
+  "ru-light-430": {
+    "hero": {
+      "x": 0,
+      "y": 76,
+      "width": 430,
+      "height": 620
+    },
+    "cards": [
+      {
+        "width": 387,
+        "height": 222,
+        "src": "/assets/home/learning-card.png"
+      },
+      {
+        "width": 387,
+        "height": 222,
+        "src": "/assets/home/tutors-card.png"
+      },
+      {
+        "width": 387,
+        "height": 222,
+        "src": "/assets/home/telegram-card.png"
+      }
+    ]
+  },
+  "ru-light-768": {
+    "hero": {
+      "x": 0,
+      "y": 76,
+      "width": 768,
+      "height": 420
+    },
+    "cards": [
+      {
+        "width": 337.59375,
+        "height": 212,
+        "src": "/assets/home/learning-card.png"
+      },
+      {
+        "width": 337.59375,
+        "height": 212,
+        "src": "/assets/home/tutors-card.png"
+      },
+      {
+        "width": 691.1875,
+        "height": 212,
+        "src": "/assets/home/telegram-card.png"
+      }
+    ]
+  },
+  "ru-light-1024": {
+    "hero": {
+      "x": 0,
+      "y": 76,
+      "width": 1024,
+      "height": 420
+    },
+    "cards": [
+      {
+        "width": 452.796875,
+        "height": 212,
+        "src": "/assets/home/learning-card.png"
+      },
+      {
+        "width": 452.796875,
+        "height": 212,
+        "src": "/assets/home/tutors-card.png"
+      },
+      {
+        "width": 921.59375,
+        "height": 212,
+        "src": "/assets/home/telegram-card.png"
+      }
+    ]
+  },
+  "ru-light-1440": {
+    "hero": {
+      "x": 0,
+      "y": 72,
+      "width": 1440,
+      "height": 438
+    },
+    "cards": [
+      {
+        "width": 421.328125,
+        "height": 212,
+        "src": "/assets/home/learning-card.png"
+      },
+      {
+        "width": 421.328125,
+        "height": 212,
+        "src": "/assets/home/tutors-card.png"
+      },
+      {
+        "width": 421.34375,
+        "height": 212,
+        "src": "/assets/home/telegram-card.png"
+      }
+    ]
+  },
+  "ru-dark-320": {
+    "hero": {
+      "x": 0,
+      "y": 76,
+      "width": 320,
+      "height": 620
+    },
+    "cards": [
+      {
+        "width": 288,
+        "height": 222,
+        "src": "/assets/home/learning-card.png"
+      },
+      {
+        "width": 288,
+        "height": 222,
+        "src": "/assets/home/tutors-card.png"
+      },
+      {
+        "width": 288,
+        "height": 222,
+        "src": "/assets/home/telegram-card.png"
+      }
+    ]
+  },
+  "ru-dark-375": {
+    "hero": {
+      "x": 0,
+      "y": 76,
+      "width": 375,
+      "height": 620
+    },
+    "cards": [
+      {
+        "width": 337.5,
+        "height": 222,
+        "src": "/assets/home/learning-card.png"
+      },
+      {
+        "width": 337.5,
+        "height": 222,
+        "src": "/assets/home/tutors-card.png"
+      },
+      {
+        "width": 337.5,
+        "height": 222,
+        "src": "/assets/home/telegram-card.png"
+      }
+    ]
+  },
+  "ru-dark-390": {
+    "hero": {
+      "x": 0,
+      "y": 76,
+      "width": 390,
+      "height": 620
+    },
+    "cards": [
+      {
+        "width": 351,
+        "height": 222,
+        "src": "/assets/home/learning-card.png"
+      },
+      {
+        "width": 351,
+        "height": 222,
+        "src": "/assets/home/tutors-card.png"
+      },
+      {
+        "width": 351,
+        "height": 222,
+        "src": "/assets/home/telegram-card.png"
+      }
+    ]
+  },
+  "ru-dark-430": {
+    "hero": {
+      "x": 0,
+      "y": 76,
+      "width": 430,
+      "height": 620
+    },
+    "cards": [
+      {
+        "width": 387,
+        "height": 222,
+        "src": "/assets/home/learning-card.png"
+      },
+      {
+        "width": 387,
+        "height": 222,
+        "src": "/assets/home/tutors-card.png"
+      },
+      {
+        "width": 387,
+        "height": 222,
+        "src": "/assets/home/telegram-card.png"
+      }
+    ]
+  },
+  "ru-dark-768": {
+    "hero": {
+      "x": 0,
+      "y": 76,
+      "width": 768,
+      "height": 420
+    },
+    "cards": [
+      {
+        "width": 337.59375,
+        "height": 212,
+        "src": "/assets/home/learning-card.png"
+      },
+      {
+        "width": 337.59375,
+        "height": 212,
+        "src": "/assets/home/tutors-card.png"
+      },
+      {
+        "width": 691.1875,
+        "height": 212,
+        "src": "/assets/home/telegram-card.png"
+      }
+    ]
+  },
+  "ru-dark-1024": {
+    "hero": {
+      "x": 0,
+      "y": 76,
+      "width": 1024,
+      "height": 420
+    },
+    "cards": [
+      {
+        "width": 452.796875,
+        "height": 212,
+        "src": "/assets/home/learning-card.png"
+      },
+      {
+        "width": 452.796875,
+        "height": 212,
+        "src": "/assets/home/tutors-card.png"
+      },
+      {
+        "width": 921.59375,
+        "height": 212,
+        "src": "/assets/home/telegram-card.png"
+      }
+    ]
+  },
+  "ru-dark-1440": {
+    "hero": {
+      "x": 0,
+      "y": 72,
+      "width": 1440,
+      "height": 438
+    },
+    "cards": [
+      {
+        "width": 421.328125,
+        "height": 212,
+        "src": "/assets/home/learning-card.png"
+      },
+      {
+        "width": 421.328125,
+        "height": 212,
+        "src": "/assets/home/tutors-card.png"
+      },
+      {
+        "width": 421.34375,
+        "height": 212,
+        "src": "/assets/home/telegram-card.png"
+      }
+    ]
+  },
+  "de-light-320": {
+    "hero": {
+      "x": 0,
+      "y": 76,
+      "width": 320,
+      "height": 620
+    },
+    "cards": [
+      {
+        "width": 288,
+        "height": 222,
+        "src": "/assets/home/learning-card.png"
+      },
+      {
+        "width": 288,
+        "height": 222,
+        "src": "/assets/home/tutors-card.png"
+      },
+      {
+        "width": 288,
+        "height": 222,
+        "src": "/assets/home/telegram-card.png"
+      }
+    ]
+  },
+  "de-light-375": {
+    "hero": {
+      "x": 0,
+      "y": 76,
+      "width": 375,
+      "height": 620
+    },
+    "cards": [
+      {
+        "width": 337.5,
+        "height": 222,
+        "src": "/assets/home/learning-card.png"
+      },
+      {
+        "width": 337.5,
+        "height": 222,
+        "src": "/assets/home/tutors-card.png"
+      },
+      {
+        "width": 337.5,
+        "height": 222,
+        "src": "/assets/home/telegram-card.png"
+      }
+    ]
+  },
+  "de-light-390": {
+    "hero": {
+      "x": 0,
+      "y": 76,
+      "width": 390,
+      "height": 620
+    },
+    "cards": [
+      {
+        "width": 351,
+        "height": 222,
+        "src": "/assets/home/learning-card.png"
+      },
+      {
+        "width": 351,
+        "height": 222,
+        "src": "/assets/home/tutors-card.png"
+      },
+      {
+        "width": 351,
+        "height": 222,
+        "src": "/assets/home/telegram-card.png"
+      }
+    ]
+  },
+  "de-light-430": {
+    "hero": {
+      "x": 0,
+      "y": 76,
+      "width": 430,
+      "height": 620
+    },
+    "cards": [
+      {
+        "width": 387,
+        "height": 222,
+        "src": "/assets/home/learning-card.png"
+      },
+      {
+        "width": 387,
+        "height": 222,
+        "src": "/assets/home/tutors-card.png"
+      },
+      {
+        "width": 387,
+        "height": 222,
+        "src": "/assets/home/telegram-card.png"
+      }
+    ]
+  },
+  "de-light-768": {
+    "hero": {
+      "x": 0,
+      "y": 76,
+      "width": 768,
+      "height": 420
+    },
+    "cards": [
+      {
+        "width": 337.59375,
+        "height": 223.9375,
+        "src": "/assets/home/learning-card.png"
+      },
+      {
+        "width": 337.59375,
+        "height": 223.9375,
+        "src": "/assets/home/tutors-card.png"
+      },
+      {
+        "width": 691.1875,
+        "height": 223.9375,
+        "src": "/assets/home/telegram-card.png"
+      }
+    ]
+  },
+  "de-light-1024": {
+    "hero": {
+      "x": 0,
+      "y": 76,
+      "width": 1024,
+      "height": 420
+    },
+    "cards": [
+      {
+        "width": 452.796875,
+        "height": 212,
+        "src": "/assets/home/learning-card.png"
+      },
+      {
+        "width": 452.796875,
+        "height": 212,
+        "src": "/assets/home/tutors-card.png"
+      },
+      {
+        "width": 921.59375,
+        "height": 212,
+        "src": "/assets/home/telegram-card.png"
+      }
+    ]
+  },
+  "de-light-1440": {
+    "hero": {
+      "x": 0,
+      "y": 72,
+      "width": 1440,
+      "height": 438
+    },
+    "cards": [
+      {
+        "width": 421.328125,
+        "height": 212,
+        "src": "/assets/home/learning-card.png"
+      },
+      {
+        "width": 421.328125,
+        "height": 212,
+        "src": "/assets/home/tutors-card.png"
+      },
+      {
+        "width": 421.34375,
+        "height": 212,
+        "src": "/assets/home/telegram-card.png"
+      }
+    ]
+  },
+  "de-dark-320": {
+    "hero": {
+      "x": 0,
+      "y": 76,
+      "width": 320,
+      "height": 620
+    },
+    "cards": [
+      {
+        "width": 288,
+        "height": 222,
+        "src": "/assets/home/learning-card.png"
+      },
+      {
+        "width": 288,
+        "height": 222,
+        "src": "/assets/home/tutors-card.png"
+      },
+      {
+        "width": 288,
+        "height": 222,
+        "src": "/assets/home/telegram-card.png"
+      }
+    ]
+  },
+  "de-dark-375": {
+    "hero": {
+      "x": 0,
+      "y": 76,
+      "width": 375,
+      "height": 620
+    },
+    "cards": [
+      {
+        "width": 337.5,
+        "height": 222,
+        "src": "/assets/home/learning-card.png"
+      },
+      {
+        "width": 337.5,
+        "height": 222,
+        "src": "/assets/home/tutors-card.png"
+      },
+      {
+        "width": 337.5,
+        "height": 222,
+        "src": "/assets/home/telegram-card.png"
+      }
+    ]
+  },
+  "de-dark-390": {
+    "hero": {
+      "x": 0,
+      "y": 76,
+      "width": 390,
+      "height": 620
+    },
+    "cards": [
+      {
+        "width": 351,
+        "height": 222,
+        "src": "/assets/home/learning-card.png"
+      },
+      {
+        "width": 351,
+        "height": 222,
+        "src": "/assets/home/tutors-card.png"
+      },
+      {
+        "width": 351,
+        "height": 222,
+        "src": "/assets/home/telegram-card.png"
+      }
+    ]
+  },
+  "de-dark-430": {
+    "hero": {
+      "x": 0,
+      "y": 76,
+      "width": 430,
+      "height": 620
+    },
+    "cards": [
+      {
+        "width": 387,
+        "height": 222,
+        "src": "/assets/home/learning-card.png"
+      },
+      {
+        "width": 387,
+        "height": 222,
+        "src": "/assets/home/tutors-card.png"
+      },
+      {
+        "width": 387,
+        "height": 222,
+        "src": "/assets/home/telegram-card.png"
+      }
+    ]
+  },
+  "de-dark-768": {
+    "hero": {
+      "x": 0,
+      "y": 76,
+      "width": 768,
+      "height": 420
+    },
+    "cards": [
+      {
+        "width": 337.59375,
+        "height": 223.9375,
+        "src": "/assets/home/learning-card.png"
+      },
+      {
+        "width": 337.59375,
+        "height": 223.9375,
+        "src": "/assets/home/tutors-card.png"
+      },
+      {
+        "width": 691.1875,
+        "height": 223.9375,
+        "src": "/assets/home/telegram-card.png"
+      }
+    ]
+  },
+  "de-dark-1024": {
+    "hero": {
+      "x": 0,
+      "y": 76,
+      "width": 1024,
+      "height": 420
+    },
+    "cards": [
+      {
+        "width": 452.796875,
+        "height": 212,
+        "src": "/assets/home/learning-card.png"
+      },
+      {
+        "width": 452.796875,
+        "height": 212,
+        "src": "/assets/home/tutors-card.png"
+      },
+      {
+        "width": 921.59375,
+        "height": 212,
+        "src": "/assets/home/telegram-card.png"
+      }
+    ]
+  },
+  "de-dark-1440": {
+    "hero": {
+      "x": 0,
+      "y": 72,
+      "width": 1440,
+      "height": 438
+    },
+    "cards": [
+      {
+        "width": 421.328125,
+        "height": 212,
+        "src": "/assets/home/learning-card.png"
+      },
+      {
+        "width": 421.328125,
+        "height": 212,
+        "src": "/assets/home/tutors-card.png"
+      },
+      {
+        "width": 421.34375,
+        "height": 212,
+        "src": "/assets/home/telegram-card.png"
+      }
+    ]
+  },
+  "en-light-320": {
+    "hero": {
+      "x": 0,
+      "y": 76,
+      "width": 320,
+      "height": 620
+    },
+    "cards": [
+      {
+        "width": 288,
+        "height": 222,
+        "src": "/assets/home/learning-card.png"
+      },
+      {
+        "width": 288,
+        "height": 222,
+        "src": "/assets/home/tutors-card.png"
+      },
+      {
+        "width": 288,
+        "height": 222,
+        "src": "/assets/home/telegram-card.png"
+      }
+    ]
+  },
+  "en-light-375": {
+    "hero": {
+      "x": 0,
+      "y": 76,
+      "width": 375,
+      "height": 620
+    },
+    "cards": [
+      {
+        "width": 337.5,
+        "height": 222,
+        "src": "/assets/home/learning-card.png"
+      },
+      {
+        "width": 337.5,
+        "height": 222,
+        "src": "/assets/home/tutors-card.png"
+      },
+      {
+        "width": 337.5,
+        "height": 222,
+        "src": "/assets/home/telegram-card.png"
+      }
+    ]
+  },
+  "en-light-390": {
+    "hero": {
+      "x": 0,
+      "y": 76,
+      "width": 390,
+      "height": 620
+    },
+    "cards": [
+      {
+        "width": 351,
+        "height": 222,
+        "src": "/assets/home/learning-card.png"
+      },
+      {
+        "width": 351,
+        "height": 222,
+        "src": "/assets/home/tutors-card.png"
+      },
+      {
+        "width": 351,
+        "height": 222,
+        "src": "/assets/home/telegram-card.png"
+      }
+    ]
+  },
+  "en-light-430": {
+    "hero": {
+      "x": 0,
+      "y": 76,
+      "width": 430,
+      "height": 620
+    },
+    "cards": [
+      {
+        "width": 387,
+        "height": 222,
+        "src": "/assets/home/learning-card.png"
+      },
+      {
+        "width": 387,
+        "height": 222,
+        "src": "/assets/home/tutors-card.png"
+      },
+      {
+        "width": 387,
+        "height": 222,
+        "src": "/assets/home/telegram-card.png"
+      }
+    ]
+  },
+  "en-light-768": {
+    "hero": {
+      "x": 0,
+      "y": 76,
+      "width": 768,
+      "height": 420
+    },
+    "cards": [
+      {
+        "width": 337.59375,
+        "height": 223.9375,
+        "src": "/assets/home/learning-card.png"
+      },
+      {
+        "width": 337.59375,
+        "height": 223.9375,
+        "src": "/assets/home/tutors-card.png"
+      },
+      {
+        "width": 691.1875,
+        "height": 223.9375,
+        "src": "/assets/home/telegram-card.png"
+      }
+    ]
+  },
+  "en-light-1024": {
+    "hero": {
+      "x": 0,
+      "y": 76,
+      "width": 1024,
+      "height": 420
+    },
+    "cards": [
+      {
+        "width": 452.796875,
+        "height": 212,
+        "src": "/assets/home/learning-card.png"
+      },
+      {
+        "width": 452.796875,
+        "height": 212,
+        "src": "/assets/home/tutors-card.png"
+      },
+      {
+        "width": 921.59375,
+        "height": 212,
+        "src": "/assets/home/telegram-card.png"
+      }
+    ]
+  },
+  "en-light-1440": {
+    "hero": {
+      "x": 0,
+      "y": 72,
+      "width": 1440,
+      "height": 438
+    },
+    "cards": [
+      {
+        "width": 421.328125,
+        "height": 234.96875,
+        "src": "/assets/home/learning-card.png"
+      },
+      {
+        "width": 421.328125,
+        "height": 234.96875,
+        "src": "/assets/home/tutors-card.png"
+      },
+      {
+        "width": 421.34375,
+        "height": 234.96875,
+        "src": "/assets/home/telegram-card.png"
+      }
+    ]
+  },
+  "en-dark-320": {
+    "hero": {
+      "x": 0,
+      "y": 76,
+      "width": 320,
+      "height": 620
+    },
+    "cards": [
+      {
+        "width": 288,
+        "height": 222,
+        "src": "/assets/home/learning-card.png"
+      },
+      {
+        "width": 288,
+        "height": 222,
+        "src": "/assets/home/tutors-card.png"
+      },
+      {
+        "width": 288,
+        "height": 222,
+        "src": "/assets/home/telegram-card.png"
+      }
+    ]
+  },
+  "en-dark-375": {
+    "hero": {
+      "x": 0,
+      "y": 76,
+      "width": 375,
+      "height": 620
+    },
+    "cards": [
+      {
+        "width": 337.5,
+        "height": 222,
+        "src": "/assets/home/learning-card.png"
+      },
+      {
+        "width": 337.5,
+        "height": 222,
+        "src": "/assets/home/tutors-card.png"
+      },
+      {
+        "width": 337.5,
+        "height": 222,
+        "src": "/assets/home/telegram-card.png"
+      }
+    ]
+  },
+  "en-dark-390": {
+    "hero": {
+      "x": 0,
+      "y": 76,
+      "width": 390,
+      "height": 620
+    },
+    "cards": [
+      {
+        "width": 351,
+        "height": 222,
+        "src": "/assets/home/learning-card.png"
+      },
+      {
+        "width": 351,
+        "height": 222,
+        "src": "/assets/home/tutors-card.png"
+      },
+      {
+        "width": 351,
+        "height": 222,
+        "src": "/assets/home/telegram-card.png"
+      }
+    ]
+  },
+  "en-dark-430": {
+    "hero": {
+      "x": 0,
+      "y": 76,
+      "width": 430,
+      "height": 620
+    },
+    "cards": [
+      {
+        "width": 387,
+        "height": 222,
+        "src": "/assets/home/learning-card.png"
+      },
+      {
+        "width": 387,
+        "height": 222,
+        "src": "/assets/home/tutors-card.png"
+      },
+      {
+        "width": 387,
+        "height": 222,
+        "src": "/assets/home/telegram-card.png"
+      }
+    ]
+  },
+  "en-dark-768": {
+    "hero": {
+      "x": 0,
+      "y": 76,
+      "width": 768,
+      "height": 420
+    },
+    "cards": [
+      {
+        "width": 337.59375,
+        "height": 223.9375,
+        "src": "/assets/home/learning-card.png"
+      },
+      {
+        "width": 337.59375,
+        "height": 223.9375,
+        "src": "/assets/home/tutors-card.png"
+      },
+      {
+        "width": 691.1875,
+        "height": 223.9375,
+        "src": "/assets/home/telegram-card.png"
+      }
+    ]
+  },
+  "en-dark-1024": {
+    "hero": {
+      "x": 0,
+      "y": 76,
+      "width": 1024,
+      "height": 420
+    },
+    "cards": [
+      {
+        "width": 452.796875,
+        "height": 212,
+        "src": "/assets/home/learning-card.png"
+      },
+      {
+        "width": 452.796875,
+        "height": 212,
+        "src": "/assets/home/tutors-card.png"
+      },
+      {
+        "width": 921.59375,
+        "height": 212,
+        "src": "/assets/home/telegram-card.png"
+      }
+    ]
+  },
+  "en-dark-1440": {
+    "hero": {
+      "x": 0,
+      "y": 72,
+      "width": 1440,
+      "height": 438
+    },
+    "cards": [
+      {
+        "width": 421.328125,
+        "height": 234.96875,
+        "src": "/assets/home/learning-card.png"
+      },
+      {
+        "width": 421.328125,
+        "height": 234.96875,
+        "src": "/assets/home/tutors-card.png"
+      },
+      {
+        "width": 421.34375,
+        "height": 234.96875,
+        "src": "/assets/home/telegram-card.png"
+      }
+    ]
+  }
+}

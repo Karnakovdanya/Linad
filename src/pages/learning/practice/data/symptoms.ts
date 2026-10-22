@@ -1,0 +1,83 @@
+import { translation as tr } from './types';
+import type { PracticeMaterial } from './types';
+
+// Editorial draft for review. German uses standard German with Swiss spelling.
+export const symptomsMaterial = {
+  status: 'draft',
+  phrases: [
+    { id: 'headache', text: tr('У меня болит голова.', 'Ich habe Kopfschmerzen.', 'I have a headache.') },
+    { id: 'fever', text: tr('У меня температура.', 'Ich habe Fieber.', 'I have a fever.') },
+    { id: 'sore-throat', text: tr('У меня болит горло.', 'Ich habe Halsschmerzen.', 'I have a sore throat.') },
+    { id: 'cough', text: tr('У меня кашель.', 'Ich habe Husten.', 'I have a cough.') },
+    { id: 'runny-nose', text: tr('У меня насморк.', 'Ich habe Schnupfen.', 'I have a runny nose.') },
+    { id: 'stomach-ache', text: tr('У меня болит живот.', 'Ich habe Bauchschmerzen.', 'I have a stomach ache.') },
+    { id: 'nausea', text: tr('Меня тошнит.', 'Mir ist übel.', 'I feel nauseous.') },
+    { id: 'dizziness', text: tr('У меня кружится голова.', 'Mir ist schwindlig.', 'I feel dizzy.') },
+    { id: 'breathing', text: tr('Мне трудно дышать.', 'Ich bekomme schlecht Luft.', 'I am having trouble breathing.') },
+    { id: 'chest-pain', text: tr('У меня болит в груди, когда я вдыхаю.', 'Ich habe Schmerzen in der Brust, wenn ich einatme.', 'My chest hurts when I breathe in.') },
+    { id: 'since-yesterday', text: tr('Эти симптомы появились вчера.', 'Die Beschwerden habe ich seit gestern.', 'I have had these symptoms since yesterday.') },
+    { id: 'movement', text: tr('При движении боль усиливается.', 'Bei Bewegung werden die Schmerzen stärker.', 'The pain gets worse when I move.') },
+    { id: 'allergy', text: tr('У меня аллергия на пенициллин.', 'Ich bin gegen Penicillin allergisch.', 'I am allergic to penicillin.') },
+    { id: 'medication', text: tr('Я принимаю эти лекарства.', 'Ich nehme diese Medikamente.', 'I take these medicines.') },
+    { id: 'repeat', text: tr('Не могли бы вы повторить это медленно?', 'Könnten Sie das bitte noch einmal langsam sagen?', 'Could you please say that again slowly?') },
+  ],
+  dialogues: [
+    {
+      id: 'headache-visit', title: tr('На приёме: головная боль', 'Beim Arzt: Kopfschmerzen', 'At the doctor’s: a headache'),
+      lines: [
+        { speaker: 'doctor', text: tr('Что вас беспокоит?', 'Was fehlt Ihnen?', 'What seems to be the problem?') },
+        { speaker: 'patient', text: tr('У меня сильно болит голова.', 'Ich habe starke Kopfschmerzen.', 'I have a bad headache.') },
+        { speaker: 'doctor', text: tr('Как давно у вас эта боль?', 'Seit wann haben Sie diese Schmerzen?', 'How long have you had this pain?') },
+        { speaker: 'patient', text: tr('Со вчерашнего вечера.', 'Seit gestern Abend.', 'Since yesterday evening.') },
+      ],
+    },
+    {
+      id: 'cough-fever', title: tr('Описание кашля и температуры', 'Husten und Fieber beschreiben', 'Describing a cough and fever'),
+      lines: [
+        { speaker: 'doctor', text: tr('Какие у вас симптомы?', 'Welche Beschwerden haben Sie?', 'What symptoms do you have?') },
+        { speaker: 'patient', text: tr('У меня кашель и болит горло.', 'Ich habe Husten und Halsschmerzen.', 'I have a cough and a sore throat.') },
+        { speaker: 'doctor', text: tr('У вас также есть температура?', 'Haben Sie auch Fieber?', 'Do you also have a fever?') },
+        { speaker: 'patient', text: tr('Да, сегодня утром было 38 градусов.', 'Ja, heute Morgen hatte ich 38 Grad Fieber.', 'Yes, my temperature was 38 degrees this morning.') },
+        { speaker: 'doctor', text: tr('Как долго вы кашляете?', 'Wie lange haben Sie den Husten schon?', 'How long have you had the cough?') },
+        { speaker: 'patient', text: tr('Уже два дня. По ночам кашель сильнее.', 'Seit zwei Tagen. Nachts ist der Husten stärker.', 'For two days. The cough is worse at night.') },
+        { speaker: 'doctor', text: tr('Вам трудно дышать?', 'Bekommen Sie schlecht Luft?', 'Are you having trouble breathing?') },
+        { speaker: 'patient', text: tr('Нет, дышать я могу нормально.', 'Nein, ich kann normal atmen.', 'No, I can breathe normally.') },
+      ],
+    },
+    {
+      id: 'additional-questions', title: tr('Дополнительные вопросы', 'Weitere Fragen', 'Additional questions'),
+      lines: [
+        { speaker: 'doctor', text: tr('Вы принимаете какие-нибудь лекарства?', 'Nehmen Sie Medikamente ein?', 'Do you take any medicines?') },
+        { speaker: 'patient', text: tr('Да. Вот список моих лекарств.', 'Ja. Hier ist eine Liste meiner Medikamente.', 'Yes. Here is a list of my medicines.') },
+        { speaker: 'doctor', text: tr('У вас есть аллергия?', 'Haben Sie Allergien?', 'Do you have any allergies?') },
+        { speaker: 'patient', text: tr('Да, у меня аллергия на пенициллин.', 'Ja, ich bin gegen Penicillin allergisch.', 'Yes, I am allergic to penicillin.') },
+        { speaker: 'doctor', text: tr('Боль усиливается при движении?', 'Werden die Schmerzen bei Bewegung stärker?', 'Does the pain get worse when you move?') },
+        { speaker: 'patient', text: tr('Не могли бы вы повторить вопрос медленно?', 'Könnten Sie die Frage bitte noch einmal langsam sagen?', 'Could you please repeat the question slowly?') },
+        { speaker: 'doctor', text: tr('Вам больнее, когда вы двигаетесь?', 'Tut es mehr weh, wenn Sie sich bewegen?', 'Does it hurt more when you move?') },
+        { speaker: 'patient', text: tr('Да, при движении боль усиливается.', 'Ja, bei Bewegung werden die Schmerzen stärker.', 'Yes, the pain gets worse when I move.') },
+      ],
+    },
+  ],
+  words: [
+    { id: 'head', text: tr('Голова', 'der Kopf', 'head') },
+    { id: 'pain', text: tr('Боль', 'der Schmerz', 'pain') },
+    { id: 'fever', text: tr('Температура', 'das Fieber', 'fever') },
+    { id: 'throat', text: tr('Горло', 'der Hals', 'throat') },
+    { id: 'cough', text: tr('Кашель', 'der Husten', 'cough') },
+    { id: 'runny-nose', text: tr('Насморк', 'der Schnupfen', 'runny nose') },
+    { id: 'abdomen', text: tr('Живот', 'der Bauch', 'abdomen') },
+    { id: 'nausea', text: tr('Тошнота', 'die Übelkeit', 'nausea') },
+    { id: 'dizziness', text: tr('Головокружение', 'der Schwindel', 'dizziness') },
+    { id: 'medicine', text: tr('Лекарство', 'das Medikament', 'medicine') },
+    { id: 'allergy', text: tr('Аллергия', 'die Allergie', 'allergy') },
+    { id: 'blood-pressure', text: tr('Давление', 'der Blutdruck', 'blood pressure') },
+    { id: 'symptoms', text: tr('Симптомы', 'die Beschwerden', 'symptoms') },
+    { id: 'breathing', text: tr('Дыхание', 'die Atmung', 'breathing') },
+    { id: 'chest', text: tr('Грудь', 'die Brust', 'chest') },
+    { id: 'back', text: tr('Спина', 'der Rücken', 'back') },
+    { id: 'duration', text: tr('Продолжительность', 'die Dauer', 'duration') },
+    { id: 'appointment', text: tr('Запись на приём', 'der Termin', 'appointment') },
+    { id: 'doctor', text: tr('Врач', 'die Ärztin / der Arzt', 'doctor') },
+    { id: 'examination', text: tr('Обследование', 'die Untersuchung', 'examination') },
+  ],
+} as const satisfies PracticeMaterial;

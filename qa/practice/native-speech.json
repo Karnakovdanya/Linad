@@ -1,0 +1,19 @@
+{
+  "supported": true,
+  "voices": [
+    {
+      "name": "Microsoft Irina - Russian (Russia)",
+      "lang": "ru-RU",
+      "localService": true
+    },
+    {
+      "name": "Microsoft Pavel - Russian (Russia)",
+      "lang": "ru-RU",
+      "localService": true
+    }
+  ],
+  "playbackEvents": [
+    "start",
+    "end"
+  ]
+}

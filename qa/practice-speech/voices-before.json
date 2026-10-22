@@ -1,0 +1,25 @@
+{
+  "chrome": {
+    "supported": true,
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+    "voices": [
+      {
+        "name": "Microsoft Irina - Russian (Russia)",
+        "lang": "ru-RU",
+        "localService": true,
+        "default": true,
+        "voiceURI": "Microsoft Irina - Russian (Russia)"
+      },
+      {
+        "name": "Microsoft Pavel - Russian (Russia)",
+        "lang": "ru-RU",
+        "localService": true,
+        "default": false,
+        "voiceURI": "Microsoft Pavel - Russian (Russia)"
+      }
+    ]
+  },
+  "msedge": {
+    "error": "Error: browserType.launch: Chromium distribution 'msedge' is not found at C:\\Users\\danil\\AppData\\Local\\Microsoft\\Edge\\Application\\msedge.exe\nRun \"npx playwright install msedge\""
+  }
+}

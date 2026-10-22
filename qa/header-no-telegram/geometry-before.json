@@ -1,0 +1,1568 @@
+{
+  "ru-light-390": {
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 390,
+      "height": 76
+    },
+    "nav": {
+      "x": 160.5,
+      "y": 68,
+      "width": 210,
+      "height": 290
+    },
+    "footer": {
+      "x": 0,
+      "y": 3126.390625,
+      "width": 390,
+      "height": 195.390625
+    },
+    "cards": [
+      {
+        "x": 19.5,
+        "y": 431.515625,
+        "width": 351,
+        "height": 222
+      },
+      {
+        "x": 19.5,
+        "y": 669.515625,
+        "width": 351,
+        "height": 222
+      },
+      {
+        "x": 19.5,
+        "y": 907.515625,
+        "width": 351,
+        "height": 222
+      }
+    ],
+    "links": [
+      {
+        "x": 161.5,
+        "y": 81,
+        "width": 208,
+        "height": 48,
+        "text": "Главная",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 161.5,
+        "y": 133,
+        "width": 208,
+        "height": 48,
+        "text": "Обучение",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 161.5,
+        "y": 185,
+        "width": 208,
+        "height": 48,
+        "text": "Репетиторы",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 161.5,
+        "y": 237,
+        "width": 208,
+        "height": 48,
+        "text": "Telegram",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 161.5,
+        "y": 289,
+        "width": 208,
+        "height": 48,
+        "text": "Войти",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      }
+    ]
+  },
+  "ru-light-820": {
+    "header": {
+      "x": 0,
+      "y": -16,
+      "width": 820,
+      "height": 76
+    },
+    "nav": {
+      "x": 519,
+      "y": 44,
+      "width": 260,
+      "height": 290
+    },
+    "footer": {
+      "x": 0,
+      "y": 2091.890625,
+      "width": 820,
+      "height": 198.59375
+    },
+    "cards": [
+      {
+        "x": 41,
+        "y": 396.6875,
+        "width": 361,
+        "height": 212
+      },
+      {
+        "x": 418,
+        "y": 396.6875,
+        "width": 361,
+        "height": 212
+      },
+      {
+        "x": 41,
+        "y": 624.6875,
+        "width": 738,
+        "height": 212
+      }
+    ],
+    "links": [
+      {
+        "x": 520,
+        "y": 57,
+        "width": 258,
+        "height": 48,
+        "text": "Главная",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 520,
+        "y": 109,
+        "width": 258,
+        "height": 48,
+        "text": "Обучение",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 520,
+        "y": 161,
+        "width": 258,
+        "height": 48,
+        "text": "Репетиторы",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 520,
+        "y": 213,
+        "width": 258,
+        "height": 48,
+        "text": "Telegram",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 520,
+        "y": 265,
+        "width": 258,
+        "height": 48,
+        "text": "Войти",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      }
+    ]
+  },
+  "ru-light-1440": {
+    "header": {
+      "x": 0,
+      "y": -16,
+      "width": 1440,
+      "height": 72
+    },
+    "nav": {
+      "x": 393,
+      "y": -4,
+      "width": 714,
+      "height": 48
+    },
+    "footer": {
+      "x": 0,
+      "y": 1376.90625,
+      "width": 1440,
+      "height": 105
+    },
+    "cards": [
+      {
+        "x": 72,
+        "y": 494,
+        "width": 421.328125,
+        "height": 212
+      },
+      {
+        "x": 509.328125,
+        "y": 494,
+        "width": 421.328125,
+        "height": 212
+      },
+      {
+        "x": 946.65625,
+        "y": 494,
+        "width": 421.34375,
+        "height": 212
+      }
+    ],
+    "links": [
+      {
+        "x": 393,
+        "y": -4,
+        "width": 85.765625,
+        "height": 48,
+        "text": "Главная",
+        "font": "500 23px / 36.8px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 536.359375,
+        "y": -4,
+        "width": 107.984375,
+        "height": 48,
+        "text": "Обучение",
+        "font": "500 23px / 36.8px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 701.9375,
+        "y": -4,
+        "width": 129,
+        "height": 48,
+        "text": "Репетиторы",
+        "font": "500 23px / 36.8px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 888.53125,
+        "y": -4,
+        "width": 95.65625,
+        "height": 48,
+        "text": "Telegram",
+        "font": "500 23px / 36.8px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 1041.78125,
+        "y": -4,
+        "width": 65.21875,
+        "height": 48,
+        "text": "Войти",
+        "font": "500 23px / 36.8px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      }
+    ]
+  },
+  "ru-dark-390": {
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 390,
+      "height": 76
+    },
+    "nav": {
+      "x": 160.5,
+      "y": 68,
+      "width": 210,
+      "height": 290
+    },
+    "footer": {
+      "x": 0,
+      "y": 3126.390625,
+      "width": 390,
+      "height": 195.390625
+    },
+    "cards": [
+      {
+        "x": 19.5,
+        "y": 431.515625,
+        "width": 351,
+        "height": 222
+      },
+      {
+        "x": 19.5,
+        "y": 669.515625,
+        "width": 351,
+        "height": 222
+      },
+      {
+        "x": 19.5,
+        "y": 907.515625,
+        "width": 351,
+        "height": 222
+      }
+    ],
+    "links": [
+      {
+        "x": 161.5,
+        "y": 81,
+        "width": 208,
+        "height": 48,
+        "text": "Главная",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 161.5,
+        "y": 133,
+        "width": 208,
+        "height": 48,
+        "text": "Обучение",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 161.5,
+        "y": 185,
+        "width": 208,
+        "height": 48,
+        "text": "Репетиторы",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 161.5,
+        "y": 237,
+        "width": 208,
+        "height": 48,
+        "text": "Telegram",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 161.5,
+        "y": 289,
+        "width": 208,
+        "height": 48,
+        "text": "Войти",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      }
+    ]
+  },
+  "ru-dark-820": {
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 820,
+      "height": 76
+    },
+    "nav": {
+      "x": 519,
+      "y": 60,
+      "width": 260,
+      "height": 290
+    },
+    "footer": {
+      "x": 0,
+      "y": 2107.890625,
+      "width": 820,
+      "height": 198.59375
+    },
+    "cards": [
+      {
+        "x": 41,
+        "y": 412.6875,
+        "width": 361,
+        "height": 212
+      },
+      {
+        "x": 418,
+        "y": 412.6875,
+        "width": 361,
+        "height": 212
+      },
+      {
+        "x": 41,
+        "y": 640.6875,
+        "width": 738,
+        "height": 212
+      }
+    ],
+    "links": [
+      {
+        "x": 520,
+        "y": 73,
+        "width": 258,
+        "height": 48,
+        "text": "Главная",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 520,
+        "y": 125,
+        "width": 258,
+        "height": 48,
+        "text": "Обучение",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 520,
+        "y": 177,
+        "width": 258,
+        "height": 48,
+        "text": "Репетиторы",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 520,
+        "y": 229,
+        "width": 258,
+        "height": 48,
+        "text": "Telegram",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 520,
+        "y": 281,
+        "width": 258,
+        "height": 48,
+        "text": "Войти",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      }
+    ]
+  },
+  "ru-dark-1440": {
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 72
+    },
+    "nav": {
+      "x": 393,
+      "y": 12,
+      "width": 714,
+      "height": 48
+    },
+    "footer": {
+      "x": 0,
+      "y": 1392.90625,
+      "width": 1440,
+      "height": 105
+    },
+    "cards": [
+      {
+        "x": 72,
+        "y": 510,
+        "width": 421.328125,
+        "height": 212
+      },
+      {
+        "x": 509.328125,
+        "y": 510,
+        "width": 421.328125,
+        "height": 212
+      },
+      {
+        "x": 946.65625,
+        "y": 510,
+        "width": 421.34375,
+        "height": 212
+      }
+    ],
+    "links": [
+      {
+        "x": 393,
+        "y": 12,
+        "width": 85.765625,
+        "height": 48,
+        "text": "Главная",
+        "font": "500 23px / 36.8px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 536.359375,
+        "y": 12,
+        "width": 107.984375,
+        "height": 48,
+        "text": "Обучение",
+        "font": "500 23px / 36.8px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 701.9375,
+        "y": 12,
+        "width": 129,
+        "height": 48,
+        "text": "Репетиторы",
+        "font": "500 23px / 36.8px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 888.53125,
+        "y": 12,
+        "width": 95.65625,
+        "height": 48,
+        "text": "Telegram",
+        "font": "500 23px / 36.8px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 1041.78125,
+        "y": 12,
+        "width": 65.21875,
+        "height": 48,
+        "text": "Войти",
+        "font": "500 23px / 36.8px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      }
+    ]
+  },
+  "de-light-390": {
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 390,
+      "height": 76
+    },
+    "nav": {
+      "x": 160.5,
+      "y": 68,
+      "width": 210,
+      "height": 290
+    },
+    "footer": {
+      "x": 0,
+      "y": 3143.609375,
+      "width": 390,
+      "height": 195.390625
+    },
+    "cards": [
+      {
+        "x": 19.5,
+        "y": 431.515625,
+        "width": 351,
+        "height": 222
+      },
+      {
+        "x": 19.5,
+        "y": 669.515625,
+        "width": 351,
+        "height": 222
+      },
+      {
+        "x": 19.5,
+        "y": 907.515625,
+        "width": 351,
+        "height": 222
+      }
+    ],
+    "links": [
+      {
+        "x": 161.5,
+        "y": 81,
+        "width": 208,
+        "height": 48,
+        "text": "Startseite",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 161.5,
+        "y": 133,
+        "width": 208,
+        "height": 48,
+        "text": "Lernen",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 161.5,
+        "y": 185,
+        "width": 208,
+        "height": 48,
+        "text": "Lehrkräfte",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 161.5,
+        "y": 237,
+        "width": 208,
+        "height": 48,
+        "text": "Telegram",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 161.5,
+        "y": 289,
+        "width": 208,
+        "height": 48,
+        "text": "Anmelden",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      }
+    ]
+  },
+  "de-light-820": {
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 820,
+      "height": 76
+    },
+    "nav": {
+      "x": 519,
+      "y": 60,
+      "width": 260,
+      "height": 290
+    },
+    "footer": {
+      "x": 0,
+      "y": 2115.328125,
+      "width": 820,
+      "height": 198.59375
+    },
+    "cards": [
+      {
+        "x": 41,
+        "y": 412.6875,
+        "width": 361,
+        "height": 212
+      },
+      {
+        "x": 418,
+        "y": 412.6875,
+        "width": 361,
+        "height": 212
+      },
+      {
+        "x": 41,
+        "y": 640.6875,
+        "width": 738,
+        "height": 212
+      }
+    ],
+    "links": [
+      {
+        "x": 520,
+        "y": 73,
+        "width": 258,
+        "height": 48,
+        "text": "Startseite",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 520,
+        "y": 125,
+        "width": 258,
+        "height": 48,
+        "text": "Lernen",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 520,
+        "y": 177,
+        "width": 258,
+        "height": 48,
+        "text": "Lehrkräfte",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 520,
+        "y": 229,
+        "width": 258,
+        "height": 48,
+        "text": "Telegram",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 520,
+        "y": 281,
+        "width": 258,
+        "height": 48,
+        "text": "Anmelden",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      }
+    ]
+  },
+  "de-light-1440": {
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 72
+    },
+    "nav": {
+      "x": 395.53125,
+      "y": 12,
+      "width": 708.953125,
+      "height": 48
+    },
+    "footer": {
+      "x": 0,
+      "y": 1407.75,
+      "width": 1440,
+      "height": 105
+    },
+    "cards": [
+      {
+        "x": 72,
+        "y": 510,
+        "width": 421.328125,
+        "height": 212
+      },
+      {
+        "x": 509.328125,
+        "y": 510,
+        "width": 421.328125,
+        "height": 212
+      },
+      {
+        "x": 946.65625,
+        "y": 510,
+        "width": 421.34375,
+        "height": 212
+      }
+    ],
+    "links": [
+      {
+        "x": 395.53125,
+        "y": 12,
+        "width": 98.203125,
+        "height": 48,
+        "text": "Startseite",
+        "font": "500 23px / 36.8px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 551.328125,
+        "y": 12,
+        "width": 71.046875,
+        "height": 48,
+        "text": "Lernen",
+        "font": "500 23px / 36.8px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 679.96875,
+        "y": 12,
+        "width": 106.703125,
+        "height": 48,
+        "text": "Lehrkräfte",
+        "font": "500 23px / 36.8px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 844.265625,
+        "y": 12,
+        "width": 95.65625,
+        "height": 48,
+        "text": "Telegram",
+        "font": "500 23px / 36.8px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 997.515625,
+        "y": 12,
+        "width": 106.96875,
+        "height": 48,
+        "text": "Anmelden",
+        "font": "500 23px / 36.8px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      }
+    ]
+  },
+  "de-dark-390": {
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 390,
+      "height": 76
+    },
+    "nav": {
+      "x": 160.5,
+      "y": 68,
+      "width": 210,
+      "height": 290
+    },
+    "footer": {
+      "x": 0,
+      "y": 3143.609375,
+      "width": 390,
+      "height": 195.390625
+    },
+    "cards": [
+      {
+        "x": 19.5,
+        "y": 431.515625,
+        "width": 351,
+        "height": 222
+      },
+      {
+        "x": 19.5,
+        "y": 669.515625,
+        "width": 351,
+        "height": 222
+      },
+      {
+        "x": 19.5,
+        "y": 907.515625,
+        "width": 351,
+        "height": 222
+      }
+    ],
+    "links": [
+      {
+        "x": 161.5,
+        "y": 81,
+        "width": 208,
+        "height": 48,
+        "text": "Startseite",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 161.5,
+        "y": 133,
+        "width": 208,
+        "height": 48,
+        "text": "Lernen",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 161.5,
+        "y": 185,
+        "width": 208,
+        "height": 48,
+        "text": "Lehrkräfte",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 161.5,
+        "y": 237,
+        "width": 208,
+        "height": 48,
+        "text": "Telegram",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 161.5,
+        "y": 289,
+        "width": 208,
+        "height": 48,
+        "text": "Anmelden",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      }
+    ]
+  },
+  "de-dark-820": {
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 820,
+      "height": 76
+    },
+    "nav": {
+      "x": 519,
+      "y": 60,
+      "width": 260,
+      "height": 290
+    },
+    "footer": {
+      "x": 0,
+      "y": 2115.328125,
+      "width": 820,
+      "height": 198.59375
+    },
+    "cards": [
+      {
+        "x": 41,
+        "y": 412.6875,
+        "width": 361,
+        "height": 212
+      },
+      {
+        "x": 418,
+        "y": 412.6875,
+        "width": 361,
+        "height": 212
+      },
+      {
+        "x": 41,
+        "y": 640.6875,
+        "width": 738,
+        "height": 212
+      }
+    ],
+    "links": [
+      {
+        "x": 520,
+        "y": 73,
+        "width": 258,
+        "height": 48,
+        "text": "Startseite",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 520,
+        "y": 125,
+        "width": 258,
+        "height": 48,
+        "text": "Lernen",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 520,
+        "y": 177,
+        "width": 258,
+        "height": 48,
+        "text": "Lehrkräfte",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 520,
+        "y": 229,
+        "width": 258,
+        "height": 48,
+        "text": "Telegram",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 520,
+        "y": 281,
+        "width": 258,
+        "height": 48,
+        "text": "Anmelden",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      }
+    ]
+  },
+  "de-dark-1440": {
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 72
+    },
+    "nav": {
+      "x": 395.53125,
+      "y": 12,
+      "width": 708.953125,
+      "height": 48
+    },
+    "footer": {
+      "x": 0,
+      "y": 1407.75,
+      "width": 1440,
+      "height": 105
+    },
+    "cards": [
+      {
+        "x": 72,
+        "y": 510,
+        "width": 421.328125,
+        "height": 212
+      },
+      {
+        "x": 509.328125,
+        "y": 510,
+        "width": 421.328125,
+        "height": 212
+      },
+      {
+        "x": 946.65625,
+        "y": 510,
+        "width": 421.34375,
+        "height": 212
+      }
+    ],
+    "links": [
+      {
+        "x": 395.53125,
+        "y": 12,
+        "width": 98.203125,
+        "height": 48,
+        "text": "Startseite",
+        "font": "500 23px / 36.8px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 551.328125,
+        "y": 12,
+        "width": 71.046875,
+        "height": 48,
+        "text": "Lernen",
+        "font": "500 23px / 36.8px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 679.96875,
+        "y": 12,
+        "width": 106.703125,
+        "height": 48,
+        "text": "Lehrkräfte",
+        "font": "500 23px / 36.8px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 844.265625,
+        "y": 12,
+        "width": 95.65625,
+        "height": 48,
+        "text": "Telegram",
+        "font": "500 23px / 36.8px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 997.515625,
+        "y": 12,
+        "width": 106.96875,
+        "height": 48,
+        "text": "Anmelden",
+        "font": "500 23px / 36.8px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      }
+    ]
+  },
+  "en-light-390": {
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 390,
+      "height": 76
+    },
+    "nav": {
+      "x": 160.5,
+      "y": 68,
+      "width": 210,
+      "height": 290
+    },
+    "footer": {
+      "x": 0,
+      "y": 2934.5625,
+      "width": 390,
+      "height": 195.390625
+    },
+    "cards": [
+      {
+        "x": 19.5,
+        "y": 369.125,
+        "width": 351,
+        "height": 222
+      },
+      {
+        "x": 19.5,
+        "y": 607.125,
+        "width": 351,
+        "height": 222
+      },
+      {
+        "x": 19.5,
+        "y": 845.125,
+        "width": 351,
+        "height": 222
+      }
+    ],
+    "links": [
+      {
+        "x": 161.5,
+        "y": 81,
+        "width": 208,
+        "height": 48,
+        "text": "Home",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 161.5,
+        "y": 133,
+        "width": 208,
+        "height": 48,
+        "text": "Learning",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 161.5,
+        "y": 185,
+        "width": 208,
+        "height": 48,
+        "text": "Tutors",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 161.5,
+        "y": 237,
+        "width": 208,
+        "height": 48,
+        "text": "Telegram",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 161.5,
+        "y": 289,
+        "width": 208,
+        "height": 48,
+        "text": "Sign in",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      }
+    ]
+  },
+  "en-light-820": {
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 820,
+      "height": 76
+    },
+    "nav": {
+      "x": 519,
+      "y": 60,
+      "width": 260,
+      "height": 290
+    },
+    "footer": {
+      "x": 0,
+      "y": 2120.828125,
+      "width": 820,
+      "height": 198.59375
+    },
+    "cards": [
+      {
+        "x": 41,
+        "y": 412.6875,
+        "width": 361,
+        "height": 223.96875
+      },
+      {
+        "x": 418,
+        "y": 412.6875,
+        "width": 361,
+        "height": 223.96875
+      },
+      {
+        "x": 41,
+        "y": 652.65625,
+        "width": 738,
+        "height": 223.96875
+      }
+    ],
+    "links": [
+      {
+        "x": 520,
+        "y": 73,
+        "width": 258,
+        "height": 48,
+        "text": "Home",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 520,
+        "y": 125,
+        "width": 258,
+        "height": 48,
+        "text": "Learning",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 520,
+        "y": 177,
+        "width": 258,
+        "height": 48,
+        "text": "Tutors",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 520,
+        "y": 229,
+        "width": 258,
+        "height": 48,
+        "text": "Telegram",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 520,
+        "y": 281,
+        "width": 258,
+        "height": 48,
+        "text": "Sign in",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      }
+    ]
+  },
+  "en-light-1440": {
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 72
+    },
+    "nav": {
+      "x": 441.84375,
+      "y": 12,
+      "width": 616.328125,
+      "height": 48
+    },
+    "footer": {
+      "x": 0,
+      "y": 1430.71875,
+      "width": 1440,
+      "height": 105
+    },
+    "cards": [
+      {
+        "x": 72,
+        "y": 510,
+        "width": 421.328125,
+        "height": 234.96875
+      },
+      {
+        "x": 509.328125,
+        "y": 510,
+        "width": 421.328125,
+        "height": 234.96875
+      },
+      {
+        "x": 946.65625,
+        "y": 510,
+        "width": 421.34375,
+        "height": 234.96875
+      }
+    ],
+    "links": [
+      {
+        "x": 441.84375,
+        "y": 12,
+        "width": 63.25,
+        "height": 48,
+        "text": "Home",
+        "font": "500 23px / 36.8px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 562.6875,
+        "y": 12,
+        "width": 90.6875,
+        "height": 48,
+        "text": "Learning",
+        "font": "500 23px / 36.8px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 710.96875,
+        "y": 12,
+        "width": 64.796875,
+        "height": 48,
+        "text": "Tutors",
+        "font": "500 23px / 36.8px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 833.359375,
+        "y": 12,
+        "width": 95.65625,
+        "height": 48,
+        "text": "Telegram",
+        "font": "500 23px / 36.8px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 986.609375,
+        "y": 12,
+        "width": 71.5625,
+        "height": 48,
+        "text": "Sign in",
+        "font": "500 23px / 36.8px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      }
+    ]
+  },
+  "en-dark-390": {
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 390,
+      "height": 76
+    },
+    "nav": {
+      "x": 160.5,
+      "y": 68,
+      "width": 210,
+      "height": 290
+    },
+    "footer": {
+      "x": 0,
+      "y": 2934.5625,
+      "width": 390,
+      "height": 195.390625
+    },
+    "cards": [
+      {
+        "x": 19.5,
+        "y": 369.125,
+        "width": 351,
+        "height": 222
+      },
+      {
+        "x": 19.5,
+        "y": 607.125,
+        "width": 351,
+        "height": 222
+      },
+      {
+        "x": 19.5,
+        "y": 845.125,
+        "width": 351,
+        "height": 222
+      }
+    ],
+    "links": [
+      {
+        "x": 161.5,
+        "y": 81,
+        "width": 208,
+        "height": 48,
+        "text": "Home",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 161.5,
+        "y": 133,
+        "width": 208,
+        "height": 48,
+        "text": "Learning",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 161.5,
+        "y": 185,
+        "width": 208,
+        "height": 48,
+        "text": "Tutors",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 161.5,
+        "y": 237,
+        "width": 208,
+        "height": 48,
+        "text": "Telegram",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 161.5,
+        "y": 289,
+        "width": 208,
+        "height": 48,
+        "text": "Sign in",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      }
+    ]
+  },
+  "en-dark-820": {
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 820,
+      "height": 76
+    },
+    "nav": {
+      "x": 519,
+      "y": 60,
+      "width": 260,
+      "height": 290
+    },
+    "footer": {
+      "x": 0,
+      "y": 2120.828125,
+      "width": 820,
+      "height": 198.59375
+    },
+    "cards": [
+      {
+        "x": 41,
+        "y": 412.6875,
+        "width": 361,
+        "height": 223.96875
+      },
+      {
+        "x": 418,
+        "y": 412.6875,
+        "width": 361,
+        "height": 223.96875
+      },
+      {
+        "x": 41,
+        "y": 652.65625,
+        "width": 738,
+        "height": 223.96875
+      }
+    ],
+    "links": [
+      {
+        "x": 520,
+        "y": 73,
+        "width": 258,
+        "height": 48,
+        "text": "Home",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 520,
+        "y": 125,
+        "width": 258,
+        "height": 48,
+        "text": "Learning",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 520,
+        "y": 177,
+        "width": 258,
+        "height": 48,
+        "text": "Tutors",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 520,
+        "y": 229,
+        "width": 258,
+        "height": 48,
+        "text": "Telegram",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 520,
+        "y": 281,
+        "width": 258,
+        "height": 48,
+        "text": "Sign in",
+        "font": "600 20px / 32px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      }
+    ]
+  },
+  "en-dark-1440": {
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 72
+    },
+    "nav": {
+      "x": 441.84375,
+      "y": 12,
+      "width": 616.328125,
+      "height": 48
+    },
+    "footer": {
+      "x": 0,
+      "y": 1430.71875,
+      "width": 1440,
+      "height": 105
+    },
+    "cards": [
+      {
+        "x": 72,
+        "y": 510,
+        "width": 421.328125,
+        "height": 234.96875
+      },
+      {
+        "x": 509.328125,
+        "y": 510,
+        "width": 421.328125,
+        "height": 234.96875
+      },
+      {
+        "x": 946.65625,
+        "y": 510,
+        "width": 421.34375,
+        "height": 234.96875
+      }
+    ],
+    "links": [
+      {
+        "x": 441.84375,
+        "y": 12,
+        "width": 63.25,
+        "height": 48,
+        "text": "Home",
+        "font": "500 23px / 36.8px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 562.6875,
+        "y": 12,
+        "width": 90.6875,
+        "height": 48,
+        "text": "Learning",
+        "font": "500 23px / 36.8px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 710.96875,
+        "y": 12,
+        "width": 64.796875,
+        "height": 48,
+        "text": "Tutors",
+        "font": "500 23px / 36.8px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 833.359375,
+        "y": 12,
+        "width": 95.65625,
+        "height": 48,
+        "text": "Telegram",
+        "font": "500 23px / 36.8px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "x": 986.609375,
+        "y": 12,
+        "width": 71.5625,
+        "height": 48,
+        "text": "Sign in",
+        "font": "500 23px / 36.8px \"Segoe UI\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "hostedSupabase": false,
+  "passed": [
+    "SQL can be applied twice",
+    "Private bucket, 3 MB, JPEG/PNG/WebP limits",
+    "Owner upload/read/delete",
+    "Cross-account access and other bucket writes rejected",
+    "Anonymous reads/writes rejected"
+  ]
+}

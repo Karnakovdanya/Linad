@@ -1,0 +1,67 @@
+[
+  {
+    "width": 1440,
+    "cards": [
+      {
+        "width": 231.421875,
+        "height": 155.203125
+      },
+      {
+        "width": 231.4375,
+        "height": 155.203125
+      }
+    ]
+  },
+  {
+    "width": 1196,
+    "cards": [
+      {
+        "width": 383.1875,
+        "height": 152
+      },
+      {
+        "width": 383.203125,
+        "height": 152
+      }
+    ]
+  },
+  {
+    "width": 820,
+    "cards": [
+      {
+        "width": 235.5,
+        "height": 152.765625
+      },
+      {
+        "width": 235.5,
+        "height": 152.765625
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "cards": [
+      {
+        "width": 315,
+        "height": 152
+      },
+      {
+        "width": 315,
+        "height": 152
+      }
+    ]
+  },
+  {
+    "width": 320,
+    "cards": [
+      {
+        "width": 252,
+        "height": 152
+      },
+      {
+        "width": 252,
+        "height": 152
+      }
+    ]
+  }
+]

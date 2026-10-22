@@ -1,0 +1,38 @@
+{
+  "src/account/Account.tsx": {
+    "before": "c1f903a1c9764c0d3c93800928e17255c8e9abd816f6c9df6d27f6c6bcbad826",
+    "after": "f632384ef694810b6aba02301f562e0d92b61332335ae8c77d5ba7710c5e3ce1"
+  },
+  "src/account/AuthProvider.tsx": {
+    "before": "bb2434bdf72c3f04e1a20a4226d47cb1f8ea657fdb061e8b6994603a8d14d28e",
+    "after": "7c7add5f6bf206dc6ad5b688de5d9a23b408c0c6b11066e9f2b241d1a87d56d9"
+  },
+  "src/account/avatar-storage.ts": {
+    "before": "2c51c0f3962efd34e23c6c9f631ecd2b443e0d3cfef5a32858bb46fe0d8433bb",
+    "after": "0d04f52c917ef9ea819f7b6326e5c7ae210c914ed805bc3eea11aafe19095005"
+  },
+  "src/account/Avatar.tsx": {
+    "before": "743d38ae8850fabe5f81b47d0796f1add3db2ba5139da3f49b9c8b223cd597b9",
+    "after": "70dc0042a4ef8fdfc343ff539d7e06cf547c4e304996317aa5049ea636a46ab7"
+  },
+  "src/account/copy.ts": {
+    "before": "650ebeb21feab85988cceb0372164fa3f540c9eb32900e1dbfc4b43970f79871",
+    "after": "fbb310c8ab723e6494aab861c8b89c041773072c29db5aa52c00a4452cdb0d94"
+  },
+  "src/account/document.ts": {
+    "before": "634de2ddb5b356e21344c4f624abcc90c9a3722defe8d552a986ffcb07885568",
+    "after": "05569e7c3933e7c2cf2e44f2240ed9f5042ae994d940b18778da0cf4d60295e5"
+  },
+  "src/account/profile.ts": {
+    "before": "73397fdbc8dfd8a7393a41affa0153fc1571f5288e93827096146b85de572ed7",
+    "after": "0b85809f6027121ebd50c440f469d82ab478f9c74abd24a6f1d320f4fc975279"
+  },
+  "src/account/StudyLanguages.tsx": {
+    "before": "f49bbc513a5e3ac658b198697feafc179a6b0d7ba09ba34f22bdb0bd9601619b",
+    "after": "5fd99987e80ec1bc30e7d77cad586b5dcca0d296adcbab02d73421417044ff4e"
+  },
+  "src/styles/account.css": {
+    "before": "25a0cf7e14e98b09b5ae4314c66d676061cd8c37318e2b0a583092b3c7088dfb",
+    "after": "aee902557b72eb7d105db88a2a66abe07ab2805e93a981c4adc1e19da1b97e79"
+  }
+}

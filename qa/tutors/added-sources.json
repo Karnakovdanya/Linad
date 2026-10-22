@@ -1,0 +1,14 @@
+[
+  "src/pages/tutors/Catalog.tsx",
+  "src/pages/tutors/Forms.tsx",
+  "src/pages/tutors/Prepared.tsx",
+  "src/pages/tutors/Profile.tsx",
+  "src/pages/tutors/TutorUI.tsx",
+  "src/pages/tutors/Tutors.tsx",
+  "src/pages/tutors/copy.ts",
+  "src/pages/tutors/data.ts",
+  "src/pages/tutors/model.ts",
+  "src/pages/tutors/service.ts",
+  "src/pages/tutors/useTutorLocale.ts",
+  "src/styles/tutors.css"
+]

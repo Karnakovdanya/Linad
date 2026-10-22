@@ -1,0 +1,10 @@
+{
+  "src/styles/home-about.css": {
+    "before": "ea85877bbb7181b2eee4221ad6a7970f4d6127a09e028b3b6a6f05b2408f1684",
+    "after": "5a1fc787ecaca89f66910c22c3643af19c4d5b7e59fd0b81f9d2d402fe487ab5"
+  },
+  "src/pages/tutors/Catalog.tsx": {
+    "before": "aae99d6c25c9f379eb89953cfdba15392fae04789cb223f6bda3656be17d0e09",
+    "after": "665363aae6df2616d01a2bd80f9c3fe5ea4b6c0c6539e2359739fdc915afc1f7"
+  }
+}

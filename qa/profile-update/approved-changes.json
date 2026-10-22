@@ -1,0 +1,38 @@
+{
+  "src/account/Account.tsx": {
+    "before": "f9fe0a02c6838a1317fdc138ed39dba1d4d5470ba9e92ecbe34dbe5697ec718e",
+    "after": "f632384ef694810b6aba02301f562e0d92b61332335ae8c77d5ba7710c5e3ce1"
+  },
+  "src/account/auth-context.ts": {
+    "before": "141acc6a311c8e249e6cb847fc6a7d18c143d09f258009ab598de35aee222887",
+    "after": "3cad2c06d3df4369c9620f796ab73172dde2ff5916e8f145ee8a84fcd5037ee8"
+  },
+  "src/account/AuthPage.tsx": {
+    "before": "6d2d632f705bdca3915b08e77ca7ed9da09215a2b4e38a907a34f7c2fd5e4e30",
+    "after": "18b5d0c611c72982cdce3fd004e0cf411bb1c861fb7a598c689e043cc1775880"
+  },
+  "src/account/AuthProvider.tsx": {
+    "before": "431866b89b03ebdc84e4d888f6202c203c3f95d5c5dcf8ef566144a2b03d896f",
+    "after": "7c7add5f6bf206dc6ad5b688de5d9a23b408c0c6b11066e9f2b241d1a87d56d9"
+  },
+  "src/account/copy.ts": {
+    "before": "13b1a878ea2681c34bdc930c9586cb995c1745d30a93ca855beeb583aaebf46c",
+    "after": "fbb310c8ab723e6494aab861c8b89c041773072c29db5aa52c00a4452cdb0d94"
+  },
+  "src/account/document.ts": {
+    "before": "634de2ddb5b356e21344c4f624abcc90c9a3722defe8d552a986ffcb07885568",
+    "after": "05569e7c3933e7c2cf2e44f2240ed9f5042ae994d940b18778da0cf4d60295e5"
+  },
+  "src/pages/HomePage.tsx": {
+    "before": "016333e897775a95f947f82215b02eeaf241cccd3cf2240f5a45cc793552e712",
+    "after": "4f1cd14878286edd6cd47f6719565464561617caa7af3cc5229b2267a2204c0c"
+  },
+  "src/pages/learning/practice/PracticeWorkspace.tsx": {
+    "before": "5be17e3553cd1868e88063c74eb263412eee2abe3f0dbc89b3e1609c8a4263c0",
+    "after": "e1b43b66b82a579e39b4c1081298caf217d56e507923f27e654feebc951becc0"
+  },
+  "src/styles/account.css": {
+    "before": "e01b29d10987b7723f8ca3b11875a6abc3635354cac1f95cbc76eb4c746ecc42",
+    "after": "aee902557b72eb7d105db88a2a66abe07ab2805e93a981c4adc1e19da1b97e79"
+  }
+}

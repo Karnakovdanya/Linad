@@ -1,0 +1,56 @@
+{
+  "button-idle.png": {
+    "original": "knopka_obi4nui lin.png",
+    "sha256": "b799c31112e054df98d8cbde9cc72a8197b4c092c7e6a30c0d06d82800dabfff",
+    "width": 67,
+    "height": 71
+  },
+  "button-hover.png": {
+    "original": "07_Knopka_navedeniye.png",
+    "sha256": "c1cc0de43cbb2a4517720a72c4de3d2a94caa6d977ee09fdf8729b69eb42bdd1",
+    "width": 124,
+    "height": 145
+  },
+  "button-unread.png": {
+    "original": "08_Knopka_uvedomleniye.png",
+    "sha256": "f58ad195f13ed8d86b80a9f8031a61294d9a390081ed68f4d0a0ef1a5e431ecc",
+    "width": 117,
+    "height": 145
+  },
+  "hello.png": {
+    "original": "01_Privet.png",
+    "sha256": "31b41729ab262e0e218e6061822e91754547d8cd93ae557380fadd1d6e684c9a",
+    "width": 169,
+    "height": 145
+  },
+  "happy-to-help.png": {
+    "original": "02_Rad_pomoch.png",
+    "sha256": "36dd78618090979d877704157e9c4b133d568fa3bfc354c613dadee871bde2d0",
+    "width": 135,
+    "height": 145
+  },
+  "ask.png": {
+    "original": "03_Zadavay_vopros.png",
+    "sha256": "9fcf62b2c2b8b382ba590412bc1f939eb485973bc3cfc4c8a9637caef0490223",
+    "width": 148,
+    "height": 145
+  },
+  "great.png": {
+    "original": "04_Otlichno.png",
+    "sha256": "e723b7f3fe724fd8e30078071c7b1bfccdfa9b31fea41e13ff00615072ec4d61",
+    "width": 139,
+    "height": 145
+  },
+  "searching.png": {
+    "original": "05_Rabotayu_nad_otvetom.png",
+    "sha256": "9d44170c9b75223a3a32b416ea55ef0ebd6270f9c548384aadd19d85403cea71",
+    "width": 199,
+    "height": 145
+  },
+  "welcome.png": {
+    "original": "a38f70c9-0680-439e-aa38-d91fc4cc7499.png",
+    "sha256": "c195c039f126eeb70c6e685c8743cbb7cd66e157f9a3d5e93aff90d53c5b00e7",
+    "width": 1536,
+    "height": 1024
+  }
+}

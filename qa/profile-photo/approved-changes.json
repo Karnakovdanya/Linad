@@ -1,0 +1,7 @@
+[
+  "src/account/avatar-storage.ts",
+  "src/account/Avatar.tsx",
+  "src/account/copy.ts",
+  "src/account/ProfileOverview.tsx",
+  "src/styles/account.css"
+]

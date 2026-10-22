@@ -1,0 +1,74 @@
+[
+  {
+    "file": "hero-1440-de-dark.png",
+    "size_before": [
+      1440,
+      510
+    ],
+    "size_after": [
+      1440,
+      510
+    ],
+    "max_rgb_delta": 1
+  },
+  {
+    "file": "hero-1440-de-light.png",
+    "size_before": [
+      1440,
+      510
+    ],
+    "size_after": [
+      1440,
+      510
+    ],
+    "max_rgb_delta": 1
+  },
+  {
+    "file": "hero-1440-en-dark.png",
+    "size_before": [
+      1440,
+      510
+    ],
+    "size_after": [
+      1440,
+      510
+    ],
+    "max_rgb_delta": 1
+  },
+  {
+    "file": "hero-1440-en-light.png",
+    "size_before": [
+      1440,
+      510
+    ],
+    "size_after": [
+      1440,
+      510
+    ],
+    "max_rgb_delta": 1
+  },
+  {
+    "file": "hero-1440-ru-dark.png",
+    "size_before": [
+      1440,
+      510
+    ],
+    "size_after": [
+      1440,
+      510
+    ],
+    "max_rgb_delta": 1
+  },
+  {
+    "file": "hero-1440-ru-light.png",
+    "size_before": [
+      1440,
+      510
+    ],
+    "size_after": [
+      1440,
+      510
+    ],
+    "max_rgb_delta": 2
+  }
+]
