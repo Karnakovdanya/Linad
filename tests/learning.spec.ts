@@ -150,7 +150,8 @@ test('mobile Learning taps and blocked storage remain functional', async ({ brow
     await page.goto('http://127.0.0.1:4173/#/learn');
     await page.getByRole('link', { name: messages.ru.learningSituationsCta, exact: true }).tap();
     await expect(page).toHaveURL(/#\/learn\/de\/situations$/);
-    await expect(page.locator('.situations-language strong')).toHaveText(messages.ru.learnGerman);
+    await expect(page.locator('.situations-grid')).toBeVisible();
+    await expect(page.locator('.situations-language')).toHaveCount(0);
     await page.getByRole('link', { name: messages.ru.learningBack, exact: true }).tap();
     await expect(page.locator('.learning-language-panel')).toHaveCount(0);
     await expect(page.locator('.learning-path-cta').first()).toHaveCSS('transform', 'none');
