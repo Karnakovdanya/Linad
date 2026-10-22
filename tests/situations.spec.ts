@@ -43,14 +43,12 @@ for (const uiLanguage of ['ru', 'de', 'en'] as const) for (const theme of ['ligh
     await page.goto('/#/learn');
     const footer = await page.locator('.site-footer').evaluate(node => node.outerHTML);
     for (const language of ['de', 'en'] as const) {
-      const languageName = language === 'de' ? t.learnGerman : t.learnEnglish;
       await page.goto(`/#/learn/${language}/situations`);
       await expect(page).toHaveURL(new RegExp(`#/learn/${language}/situations$`));
       await expect(page.locator('h1')).toHaveText(t.learningEverydayTitle);
       await expect(page.locator('h1')).toBeFocused();
       await expect(page.locator('.situations-intro-row p')).toHaveText(t.situationsIntro);
-      await expect(page.locator('.situations-language')).toHaveAttribute('data-learning-language', language);
-      await expect(page.locator('.situations-language strong')).toHaveText(languageName);
+      await expect(page.locator('.situations-language')).toHaveCount(0);
       await expect(page.locator('.situations-card')).toHaveCount(10);
       await expect(page.locator('.situations-grid img')).toHaveCount(10);
       for (const [id, key] of categories) {
@@ -99,7 +97,7 @@ for (const uiLanguage of ['ru', 'de', 'en'] as const) for (const theme of ['ligh
         await expect(page.locator('.situations-card')).toHaveCount(10);
       }
       await page.reload();
-      await expect(page.locator('.situations-language strong')).toHaveText(languageName);
+      await expect(page.locator('.situations-language')).toHaveCount(0);
       await expect(page.locator('html')).toHaveAttribute('lang', uiLanguage);
       await expect(page.locator('html')).toHaveAttribute('data-theme', theme);
       expect(await page.locator('.site-footer').evaluate(node => node.outerHTML)).toBe(footer);
@@ -117,7 +115,7 @@ test('catalog interface changes, keyboard focus and reduced motion', async ({ pa
   for (const uiLanguage of ['de', 'en', 'ru'] as const) {
     await page.locator('.language-select select').selectOption(uiLanguage);
     await expect(page.locator('.situations-intro-row p')).toHaveText(messages[uiLanguage].situationsIntro);
-    await expect(page.locator('.situations-language strong')).toHaveText(messages[uiLanguage].learnEnglish);
+    await expect(page.locator('.situations-language')).toHaveCount(0);
     await expect(page).toHaveURL(/#\/learn\/en\/situations$/);
   }
   await page.setViewportSize({ width: 1440, height: 1000 });

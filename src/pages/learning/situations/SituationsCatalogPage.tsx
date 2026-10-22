@@ -3,7 +3,6 @@ import { usePreferences } from '../../../app/preferences-context';
 import { Icon } from '../../../components/Icon';
 import type { LearningLanguage } from '../../../domain/types';
 import { situationCategories, situationCategoryPath } from './categories';
-import { SelectedLearningLanguage } from './SelectedLearningLanguage';
 import { useLearningRouteLanguage } from './useLearningRouteLanguage';
 import '../../../styles/situations.css';
 
@@ -15,7 +14,6 @@ export function SituationsCatalogPage({ language }: { language: LearningLanguage
       <Link className="text-link situations-back" to="/learn" onClick={() => setLearningLanguage(language)}><Icon name="arrow" />{t.learningBack}</Link>
       <div className="situations-intro-row">
         <div><h1 id="page-heading" tabIndex={-1}>{t.learningEverydayTitle}</h1><p>{t.situationsIntro}</p></div>
-        <SelectedLearningLanguage language={language} />
       </div>
     </header>
     <section aria-label={t.situationsCategoriesLabel}>

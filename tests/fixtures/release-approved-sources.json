@@ -700,9 +700,9 @@
     "crlf": "82db781f770cc8b7c854a3a02fdd42b3e5d3fafc48d3e37c04eb06dd11787da9"
   },
   "src/pages/learning/situations/SituationsCatalogPage.tsx": {
-    "sha256": "8ea9dc3cbc0ea65f0a2c49c02dba4b9b4b7bc9fe836e32514e57407682678138",
-    "lf": "8ea9dc3cbc0ea65f0a2c49c02dba4b9b4b7bc9fe836e32514e57407682678138",
-    "crlf": "7da30a348f9b72b7b9096510c3a2b7ab1da40c36f9ce3b1a6b5790212cf7e9ea"
+    "sha256": "1cf1d528e957a9cca85570e3b69ac30f24e6959d1f8f72c8ba1127d8401c2dd9",
+    "lf": "1cf1d528e957a9cca85570e3b69ac30f24e6959d1f8f72c8ba1127d8401c2dd9",
+    "crlf": "aa3d0d3963ae1ebabc4a99f052eb27135b22259ece52fa09a5788985a1f5655e"
   },
   "src/pages/learning/situations/categories.ts": {
     "sha256": "db12fdbacb86d27228b311d3fb00d1162c84d6cb5a4aed0d5ed8a2893b8c6529",
